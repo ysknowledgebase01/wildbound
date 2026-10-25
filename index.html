@@ -76,8 +76,13 @@ tr:last-child td { border-bottom: 0; }
 .meter { height: 4px; background: var(--bar); border-radius: 2px; margin-top: 4px; width: 110px; }
 .meter i { display: block; height: 100%; border-radius: 2px; background: currentColor; }
 .recipes { display: flex; flex-direction: column; gap: 2px; }
-.recipe { font-size: 0.82rem; }
+.recipe { font-size: 0.82rem; display: flex; flex-wrap: wrap; align-items: center; gap: 4px 6px; padding: 2px 0; }
 .recipe .lv { font-family: var(--font-data); font-size: 0.72rem; color: var(--muted); }
+.ing { display: inline-flex; align-items: center; gap: 6px; }
+.minis { display: inline-flex; gap: 2px; }
+.mini { position: relative; display: inline-block; width: 24px; height: 24px; flex: none; }
+.mini img { width: 24px; height: 24px; box-sizing: border-box; padding: 2px; image-rendering: pixelated; background: var(--bar); border-radius: 4px; display: block; }
+.mini b { position: absolute; right: -5px; bottom: -5px; font: 600 0.6rem/1 var(--font-data); padding: 1px 2px; border-radius: 3px; background: var(--panel); color: var(--fg); border: 1px solid var(--line); }
 .src { display: flex; flex-wrap: wrap; gap: 4px; margin-bottom: 4px; }
 .tag { font-size: 0.72rem; padding: 1px 6px; border-radius: 4px; background: var(--bar); color: var(--fg); white-space: nowrap; }
 .used { font-size: 0.8rem; color: var(--muted); max-width: 32ch; }
@@ -215,7 +220,12 @@ function row(m) {
   if (m.sources.includes("wild")) tags.push(m.special ? "" : "Wild");
   if (m.wildFrom) tags.push(`Wild (3% of ${go(m.wildFrom[1], m.wildFrom[0])} spawns)`);
   if (m.sources.includes("raid")) tags.push("Raid boss");
-  const recipes = m.makes.map((r) => `<div class="recipe">${r.n ? `${r.n} × ${go(r.ai, r.a)}` : `${go(r.ai, r.a)} + ${go(r.bi, r.b)}`} <span class="lv">${r.n ? "all " : ""}Lv.${r.lv}+</span></div>`).join("");
+  // A parent's face with its minimum level on the corner; "4 × X" shows X's face four times.
+  const mini = (id, lv) => `<span class="mini"${lv ? ` role="img" aria-label="Lv.${lv} or higher" title="Lv.${lv}+"` : ""}>${FACES[id] ? `<img src="${FACES[id]}" alt="">` : ""}${lv ? `<b>${lv}+</b>` : ""}</span>`;
+  const ing = (id, name, lv) => `<span class="ing">${mini(id, lv)}${go(id, name)}</span>`;
+  const recipes = m.makes.map((r) => `<div class="recipe">${r.n
+    ? `<span class="ing"><span class="minis">${Array.from({ length: r.n }, (_, i) => mini(r.ai, i === r.n - 1 ? r.lv : 0)).join("")}</span>${r.n} × ${go(r.ai, r.a)}</span>`
+    : `${ing(r.ai, r.a, r.lv)} + ${ing(r.bi, r.b, r.lv)}`}</div>`).join("");
   const how = `<div class="src">${tags.filter(Boolean).map((t) => `<span class="tag">${t}</span>`).join("")}${!tags.filter(Boolean).length && !recipes ? '<span class="tag">-</span>' : ""}</div><div class="recipes">${recipes}</div>`;
   const used = m.used.length ? m.used.map(([name, id]) => go(id, name)).join(", ") : "-";
   const tc = `t-${m.tier}`;
