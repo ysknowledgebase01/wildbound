@@ -430,19 +430,19 @@ const ITEMS = [
   },
   {
     id: "guide_monolith", name: "Player Guide Monolith", cat: "land", icon: null, glyph: "book", kind: "Block",
-    does: "Tap it to read the short Player Guide, including the Mix Book of recipes found so far. Anyone can use it.",
+    does: "Tap it to read the short Player Guide, including the Mix Book of mixing rules. Every recipe is listed in-game under Walkie Talkie → Recipe Index. Anyone can use it.",
     get: ["Placed by an admin, usually near spawn."],
     notes: ["It can't be mined."],
-    links: [],
+    links: ["walkie_talkie"],
     aka: "guide help mix book recipes",
   },
   {
     id: "walkie_talkie", name: "Walkie Talkie", cat: "travel", icon: "friend_wing", kind: "Item",
-    does: "Your travel and utility menu, usable anywhere. Teleport to any land you own or are trusted on, or to a friend who added you. Add or remove friends, turn it off to go dark, check Quests, and Get Utility items.",
+    does: "Your travel and utility menu, usable anywhere. Teleport to any land you own or are trusted on, or to a friend who added you. Add or remove friends, turn it off to go dark, check Quests, Get Utility items, and open the Recipe Index: every mob mix and the level it needs.",
     get: ["One when you first join.", "Craft: Dirt, Dirt, Oak Plank in a row.", "Chat: /scriptevent claim:getwalkie"],
     notes: ["Adding a friend lets them teleport to you, not the other way round.", "Turned off, nobody can teleport to you and you can't go to a friend (land teleporting still works). It turns back on when you next log in.", "Locked during a Game Mode round."],
     links: ["mob_chest", "diving_mask", "forever_pickaxe", "demolition_block", "fill_block"],
-    aka: "teleport tp friend wing quests utility",
+    aka: "teleport tp friend wing quests utility recipe index mix",
   },
   {
     id: "diving_mask", name: "Underwater Mask", cat: "travel", icon: "diving_mask", kind: "Helmet",
