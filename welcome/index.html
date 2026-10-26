@@ -1,0 +1,407 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="robots" content="noindex">
+<title>Wildbound</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@500;700&family=Lexend:wght@400;500;700&display=swap">
+<style>
+:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+
+/* Layout: a sky-to-ground scroll. A hero over a pixel landscape, then one big picture card per thing you can do, then safety, then how to join. */
+:root {
+  --sky: #cfe9fb;
+  --bg: #eef6ec;
+  --card: #ffffff;
+  --fg: #1f2a1c;
+  --muted: #55634f;
+  --line: #cfdcc9;
+  --grass: #4fa83a;
+  --dirt: #8b5a2b;
+  --sun: #f7c948;
+  --berry: #8a4fd0;
+  --note: #fff7d6;
+  --note-line: #d9b84a;
+  --cloud: #ffffff;
+  --font-display: "Pixelify Sans", "Courier New", monospace;
+  --font-body: "Lexend", "Segoe UI", system-ui, sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --sky: #142238; --bg: #11180f; --card: #1a2417; --fg: #eaf3e6; --muted: #a8b8a1; --line: #2c3a27;
+    --grass: #6cc755; --dirt: #b07a45; --sun: #f7d468; --berry: #b98af7; --note: #2a2612; --note-line: #8a7530; --cloud: #dfe6f2;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --sky: #142238; --bg: #11180f; --card: #1a2417; --fg: #eaf3e6; --muted: #a8b8a1; --line: #2c3a27;
+  --grass: #6cc755; --dirt: #b07a45; --sun: #f7d468; --berry: #b98af7; --note: #2a2612; --note-line: #8a7530; --cloud: #dfe6f2;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0; background: var(--bg); color: var(--fg);
+  font-family: var(--font-body); font-size: 20px; line-height: 1.55;
+}
+.band { padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+.inner { max-width: 1040px; margin: 0 auto; }
+h1, h2, h3 { font-family: var(--font-display); font-weight: 700; text-wrap: balance; margin: 0; line-height: 1.1; }
+p { margin: 0; }
+canvas.px { image-rendering: pixelated; image-rendering: crisp-edges; display: block; max-width: 100%; height: auto; }
+
+/* Hero */
+.hero { background: var(--sky); padding-block: 48px 0; overflow: hidden; }
+.hero .inner { display: grid; gap: 18px; text-align: left; }
+.hero h1 { font-size: clamp(3rem, 9vw, 5.5rem); color: var(--fg); }
+.hero .big { font-size: clamp(1.35rem, 3vw, 1.75rem); max-width: 30ch; font-weight: 500; }
+.hero .why { max-width: 48ch; color: var(--muted); }
+.hero canvas { width: 100%; margin-top: 18px; }
+/* Pixel clouds: a notched body (four same-colour box-shadows) with two blocky puffs on top from ::before/::after.
+   Clouds stay light in both themes, so their text uses fixed dark colours. */
+.hero .inner { grid-template-columns: minmax(0, 1fr) minmax(0, 320px); gap: 18px 48px; align-items: center; }
+.intro { display: grid; gap: 18px; min-width: 0; }
+.bubbles { display: flex; flex-direction: column; gap: 52px; padding-top: 30px; }
+.bubble { --c: var(--cloud); position: relative; background: var(--c); color: #24303f; font-family: var(--font-display); font-weight: 700; font-size: 1.2rem; line-height: 1.2; padding: 8px 14px; margin: 0 8px;
+  box-shadow: 0 -8px 0 0 var(--c), 0 8px 0 0 var(--c), -8px 0 0 0 var(--c), 8px 0 0 0 var(--c); }
+.bubble:nth-child(2) { margin-left: 40px; }
+.bubble small { display: block; font-family: var(--font-body); font-weight: 500; font-size: 0.7em; color: #4d5a6b; margin-top: 4px; }
+.bubble::before, .bubble::after { content: ""; position: absolute; background: var(--c); box-shadow: 0 -8px 0 0 var(--c), -8px 0 0 0 var(--c), 8px 0 0 0 var(--c); }
+.bubble::before { top: -28px; left: 16%; width: 30%; height: 28px; }
+.bubble::after { top: -16px; left: 54%; width: 24%; height: 16px; }
+.bubble:nth-child(1) { --pop: #6b3fb0; }
+.bubble:nth-child(2) { --pop: #2f7d22; }
+.bubble:nth-child(3) { --pop: #2a5fa8; }
+.bubble strong { color: var(--pop); }
+.bubble .huge { font-family: var(--font-body); font-weight: 700; font-size: 1.5em; line-height: 1; color: var(--pop); }
+@media (max-width: 760px) {
+  .hero .inner { grid-template-columns: 1fr; }
+  .bubbles { flex-direction: row; flex-wrap: wrap; gap: 52px 24px; }
+  .bubble { flex: 1 1 220px; }
+  .bubble:nth-child(2) { margin-left: 8px; }
+}
+.chips { display: flex; flex-wrap: wrap; gap: 10px; }
+.chip { font-family: var(--font-display); font-size: 1.05rem; background: var(--card); border: 2px solid var(--line); padding: 6px 14px; border-radius: 4px; }
+
+/* Feature cards */
+.features { padding-block: 40px; }
+.features .inner { display: grid; gap: 28px; }
+.feature { background: var(--card); border: 2px solid var(--line); border-radius: 10px; padding: 24px; display: grid; grid-template-columns: 220px 1fr; gap: 28px; align-items: center; }
+.feature:nth-child(even) { grid-template-columns: 1fr 220px; }
+.feature:nth-child(even) .pic { order: 2; }
+.pic { background: var(--tint, var(--sky)); border-radius: 8px; padding: 22px; display: grid; place-items: center; aspect-ratio: 1; max-width: 100%; }
+.pic canvas { width: 100%; }
+.text { display: grid; gap: 12px; min-width: 0; }
+.kicker { font-family: var(--font-display); font-size: 1rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--tintText, var(--berry)); }
+.feature h2 { font-size: clamp(2rem, 5vw, 2.8rem); }
+.steps { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 10px; }
+.steps li { background: var(--bg); border-radius: 6px; padding: 10px 12px; font-size: 1.05rem; display: flex; gap: 10px; align-items: baseline; }
+.steps b { font-family: var(--font-display); font-size: 1.5rem; color: var(--berry); }
+.games { display: flex; flex-wrap: wrap; gap: 8px; }
+.games span { background: var(--bg); border-radius: 4px; padding: 4px 12px; font-size: 1rem; }
+.grown { font-size: 0.95rem; color: var(--muted); border-top: 2px dotted var(--line); padding-top: 10px; }
+.grown strong { color: var(--fg); }
+
+/* Join */
+.join { background: var(--dirt); color: #fff8ee; padding-block: 44px; }
+.join .inner { display: grid; gap: 14px; }
+.join h2 { font-size: clamp(2rem, 5vw, 3rem); }
+.join p { max-width: 50ch; font-size: 1.15rem; }
+.links { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 6px; }
+.btn { font-family: var(--font-display); font-size: 1.25rem; text-decoration: none; background: var(--sun); color: #2b1d08; padding: 12px 22px; border-radius: 4px; border-bottom: 5px solid #b8901f; }
+.btn:focus-visible { outline: 3px solid #fff; outline-offset: 3px; }
+.foot { padding-block: 22px 40px; color: var(--muted); font-size: 0.9rem; }
+
+@media (max-width: 680px) {
+  body { font-size: 18px; }
+  .feature, .feature:nth-child(even) { grid-template-columns: 1fr; }
+  .feature:nth-child(even) .pic { order: 0; }
+  .pic { max-width: 240px; justify-self: center; width: 100%; }
+}
+</style>
+
+</head><body>
+<header class="band hero">
+  <div class="inner">
+    <div class="intro">
+    <div class="chips"><span class="chip">Minecraft server</span><span class="chip">Invite only</span><span class="chip">Survival</span></div>
+    <h1>Wildbound</h1>
+    <p class="big">Build, explore, catch, and play games together.</p>
+    <p class="why">No more "come to my world!" arguments. No more "who broke my house?" Everyone has a home here. It is still real survival, with extra tools that make playing together easier and kinder.</p>
+    </div>
+    <div class="bubbles">
+      <p class="bubble">More than <span class="huge">151</span> mobs to catch!<small>Catch them, mix them, team up!</small></p>
+      <p class="bubble"><strong>Protect your land</strong> and build a secret base!</p>
+      <p class="bubble"><strong>Lost?</strong> Your Walkie Talkie takes you back to your friends!</p>
+    </div>
+  </div>
+  <canvas class="px" id="hero" role="img" aria-label="A pixel landscape with green hills and two small houses"></canvas>
+</header>
+
+<main class="band features">
+  <div class="inner">
+
+    <article class="feature" style="--tint: #d9f0cf">
+      <div class="pic"><canvas class="px" data-sprite="land" role="img" aria-label="A purple claim marker in two corners with a yellow border around a house"></canvas></div>
+      <div class="text">
+        <div class="kicker">Your own land</div>
+        <h2>Claim a piece of the world</h2>
+        <p>Put down two Claim Markers. Everything in the box between them is yours. Nobody can break your blocks or open your chests unless you say yes.</p>
+        <ol class="steps">
+          <li><b>1</b> Place the first marker</li>
+          <li><b>2</b> Place the second marker</li>
+          <li><b>3</b> They glow green. It's yours!</li>
+        </ol>
+        <p class="grown"><strong>For grown-ups:</strong> no more broken bases or fights over chest items. Owners choose who can build or open chests, and can send someone off their land.</p>
+      </div>
+    </article>
+
+    <article class="feature" style="--tint: #d6e8fb">
+      <div class="pic"><canvas class="px" data-sprite="walkie" role="img" aria-label="A blue walkie talkie"></canvas></div>
+      <div class="text">
+        <div class="kicker">Never get lost</div>
+        <h2>Walkie Talkie teleport</h2>
+        <p>Use your Walkie Talkie to jump straight to a friend, or back to your own land or a friend's land.</p>
+        <p>Friends add each other first, so only people you choose can come to you.</p>
+        <p class="grown"><strong>For grown-ups:</strong> nobody can teleport to a player without their permission.</p>
+      </div>
+    </article>
+
+    <article class="feature" style="--tint: #f3e3cf">
+      <div class="pic"><canvas class="px" data-sprite="build" role="img" aria-label="A stack of wood, stone and brick blocks"></canvas></div>
+      <div class="text">
+        <div class="kicker">Build faster</div>
+        <h2>Easy builder blocks</h2>
+        <p>Place two Fill Blocks to fill a whole area with one block in one go. Place two Demolition Blocks to flatten a hill down to the ground.</p>
+        <p>Your land can also hand out free stacks of building blocks.</p>
+        <p class="grown"><strong>For grown-ups:</strong> kids get a real base built within their screen time, still in survival mode. The tools never work on someone else's land.</p>
+      </div>
+    </article>
+
+    <article class="feature" style="--tint: #ece0fb">
+      <div class="pic"><canvas class="px" data-sprite="ball" role="img" aria-label="A purple and white Mob Ball with a gold star"></canvas></div>
+      <div class="text">
+        <div class="kicker">Catch &amp; team up</div>
+        <h2>Catch mobs with a Mob Ball</h2>
+        <p>Throw a Mob Ball to catch a mob. It follows you, fights on your side and levels up.</p>
+        <p>Mix two caught mobs to make a brand new one. There are over 90 new mobs to find, and a few rare ones show up in the wild if you're lucky.</p>
+        <p class="grown"><strong>For grown-ups:</strong> a full list of every mob and mixing recipe is on the <a href="../">Mob Index</a> page.</p>
+      </div>
+    </article>
+
+    <article class="feature" style="--tint: #fbdcd8">
+      <div class="pic"><canvas class="px" data-sprite="balloon" role="img" aria-label="A red balloon"></canvas></div>
+      <div class="text">
+        <div class="kicker">Play together</div>
+        <h2>Minigames on your land</h2>
+        <p>Any land can host a game. Friends walk in during the countdown to join. Nobody gets hurt and nobody loses their stuff.</p>
+        <div class="games"><span>Tag</span><span>King's Ransom</span><span>Reaper Hunt</span><span>Battle Arena</span><span>Bow &amp; Arrow</span><span>Mob Battle</span><span>Spot Rush</span><span>Musical Chairs</span><span>Balloon Pop</span></div>
+        <p class="grown"><strong>For grown-ups:</strong> during a game, chests and building on that land are locked for everyone, so the owner gets no advantage.</p>
+      </div>
+    </article>
+
+    <article class="feature" style="--tint: #d6e8fb">
+      <div class="pic"><canvas class="px" data-sprite="shield" role="img" aria-label="A blue shield with a red heart"></canvas></div>
+      <div class="text">
+        <div class="kicker">Be kind</div>
+        <h2>Bully protection</h2>
+        <p>Players can't hurt each other anywhere on the server. Punching someone over and over sends you to the spawn point for a 5 minute time-out.</p>
+        <p>No fall damage, no burning, and TNT can't blow anything up.</p>
+        <p class="grown"><strong>For grown-ups:</strong> two friends who share a land can switch on friendly fire for that land only, if they both want to play-fight.</p>
+      </div>
+    </article>
+
+    <article class="feature" style="--tint: #e3eadf">
+      <div class="pic"><canvas class="px" data-sprite="home" role="img" aria-label="A small house with a lock on the door"></canvas></div>
+      <div class="text">
+        <div class="kicker">Safe &amp; private</div>
+        <h2>Invite only, always on</h2>
+        <p>The server runs on our own private computer, not on a rented game server. Only invited players can join, so there are no strangers.</p>
+        <p>Parents and other family members can play too!</p>
+        <p class="grown"><strong>For grown-ups:</strong> an adult checks in on the server most days. If something unkind happens, tell us in the parents' WhatsApp group. Parents and family members are welcome to join and help us look out for the younger players. We try to keep the server on as much as we can and keep it updated.</p>
+      </div>
+    </article>
+
+    <article class="feature" style="--tint: #fbefc9">
+      <div class="pic"><canvas class="px" data-sprite="star" role="img" aria-label="A gold star"></canvas></div>
+      <div class="text">
+        <div class="kicker">Coming up</div>
+        <h2>Event days</h2>
+        <p>We're planning special days now and then: bonus XP, and minigame parties where everyone plays together.</p>
+      </div>
+    </article>
+
+  </div>
+</main>
+
+<section class="band join">
+  <div class="inner">
+    <h2>Want to join?</h2>
+    <p>Ask your grown-up to contact us. We share the server address privately with friends and their families. Grown-ups and family members who want to play are welcome too.</p>
+    <div class="links"><a class="btn" href="../">See every mob</a></div>
+  </div>
+</section>
+
+<footer class="band foot">
+  <div class="inner">A fan-made server for a group of friends. Not an official Minecraft product. Not approved by or associated with Mojang or Microsoft.</div>
+</footer>
+
+<script>
+const PAL = {
+  G:'#5dbb3f', g:'#3c8c2a', D:'#8b5a2b', d:'#6b4420', S:'#a3a3a3', s:'#6e6e6e', W:'#ffffff', K:'#222222',
+  Y:'#f7c948', R:'#e0473c', B:'#3d8be0', b:'#2a5fa8', P:'#8a4fd0', p:'#b98af7', L:'#9ed8f5', w:'#c08a4a', k:'#f49ac1'
+};
+const SPRITES = {
+  land: [
+    'GGGGGGGGGGGG',
+    'GPYYYYYYYYYG',
+    'GYGGGGGGGGYG',
+    'GYGGGRRGGGYG',
+    'GYGGRRRRGGYG',
+    'GYGRRRRRRGYG',
+    'GYGGwwwwGGYG',
+    'GYGGwwKwGGYG',
+    'GYGGwwKwGGYG',
+    'GYGgGGGGgGYG',
+    'GYYYYYYYYYPG',
+    'GGGGGGGGGGGG'],
+  walkie: [
+    '........K...',
+    '........K...',
+    '...bbbbbbb..',
+    '...bLLLLLb..',
+    '...bLLLLLb..',
+    '...bbbbbbb..',
+    '...bWbWbWb..',
+    '...bbbbbbb..',
+    '...bWbWbWb..',
+    '...bbbbbbb..',
+    '...bRbbbYb..',
+    '...bbbbbbb..'],
+  build: [
+    '....Y.......',
+    '...YYY......',
+    '....Y.......',
+    '......SSSS..',
+    '......SssS..',
+    '......SSSS..',
+    '..wwwwSSSS..',
+    '..wddwSssS..',
+    '..wwwwSSSS..',
+    '..wwwwRRRR..',
+    '..wddwRkRk..',
+    '..wwwwRRRR..'],
+  ball: [
+    '....KKKK....',
+    '..KKPPPPKK..',
+    '.KPPPPPPpPK.',
+    '.KPPPPPPPPK.',
+    'KPPPPYYPPPPK',
+    'KKKKYYYYKKKK',
+    'KWWWWYYWWWWK',
+    '.KWWWWWWWWK.',
+    '.KWWWWWWWWK.',
+    '..KKWWWWKK..',
+    '....KKKK....',
+    '............'],
+  balloon: [
+    '....RRRR....',
+    '...RRRRWR...',
+    '..RRRRRRWR..',
+    '..RRRRRRRR..',
+    '..RRRRRRRR..',
+    '...RRRRRR...',
+    '....RRRR....',
+    '.....RR.....',
+    '......K.....',
+    '.....K......',
+    '......K.....',
+    '.....K......'],
+  shield: [
+    '..KKKKKKKK..',
+    '.KBBBBBBBBK.',
+    '.KBRRBBRRBK.',
+    '.KRRRRRRRRK.',
+    '.KRRRRRRRRK.',
+    '.KBRRRRRRBK.',
+    '.KBBRRRRBBK.',
+    '..KBBRRBBK..',
+    '..KBBBBBBK..',
+    '...KBBBBK...',
+    '....KBBK....',
+    '.....KK.....'],
+  home: [
+    '.....KK.....',
+    '....KwwK....',
+    '...KwwwwK...',
+    '..KwwwwwwK..',
+    '.KwwwwwwwwK.',
+    'KKKKKKKKKKKK',
+    '.KSSSSSSSSK.',
+    '.KSLLSSYYSK.',
+    '.KSLLSYKYSK.',
+    '.KSSSSYYYSK.',
+    '.KSSSSYYYSK.',
+    '.KKKKKKKKKK.'],
+  star: [
+    '.....YY.....',
+    '.....YY.....',
+    '....YYYY....',
+    'YYYYYYYYYYYY',
+    '.YYYYYYYYYY.',
+    '..YYYYYYYY..',
+    '...YYYYYY...',
+    '...YYYYYY...',
+    '..YYY..YYY..',
+    '..YY....YY..',
+    '.YY......YY.',
+    '............']
+};
+
+function drawSprite(canvas, rows) {
+  const scale = 8, h = rows.length, w = rows[0].length;
+  canvas.width = w * scale; canvas.height = h * scale;
+  const ctx = canvas.getContext('2d');
+  rows.forEach((row, y) => [...row].forEach((c, x) => {
+    if (c === '.') return;
+    ctx.fillStyle = PAL[c];
+    ctx.fillRect(x * scale, y * scale, scale, scale);
+  }));
+}
+document.querySelectorAll('canvas[data-sprite]').forEach(c => drawSprite(c, SPRITES[c.dataset.sprite]));
+
+// Hero landscape: rolling grass-on-dirt columns with two little houses
+(function () {
+  const c = document.getElementById('hero');
+  const W = 96, H = 18, s = 6;
+  c.width = W * s; c.height = H * s;
+  const ctx = c.getContext('2d');
+  const put = (x, y, col) => { ctx.fillStyle = col; ctx.fillRect(x * s, y * s, s, s); };
+  const ground = [];
+  for (let x = 0; x < W; x++) {
+    const top = Math.round(11 + 2.2 * Math.sin(x / 9) + 1.2 * Math.sin(x / 4.3 + 1));
+    ground.push(top);
+    for (let y = top; y < H; y++) put(x, y, y === top ? PAL.G : (y === top + 1 && x % 3 === 0) ? PAL.g : (y > top + 3 ? PAL.d : PAL.D));
+  }
+  // sun
+  for (let y = 1; y < 5; y++) for (let x = 84; x < 88; x++) put(x, y, PAL.Y);
+  // houses sit on the local ground height
+  const house = (x0, roof) => {
+    const base = Math.min(...ground.slice(x0, x0 + 7)) ;
+    for (let y = base - 4; y < base; y++) for (let x = x0; x < x0 + 7; x++) put(x, y, PAL.w);
+    for (let i = 0; i < 4; i++) for (let x = x0 - 1 + i; x < x0 + 8 - i; x++) put(x, base - 5 - i, roof);
+    put(x0 + 3, base - 1, PAL.K); put(x0 + 3, base - 2, PAL.K);
+    put(x0 + 1, base - 3, PAL.L); put(x0 + 5, base - 3, PAL.L);
+    for (let x = x0; x < x0 + 7; x++) ground[x] = base;
+  };
+  house(20, PAL.R);
+  house(58, PAL.B);
+  // a claim marker by each house
+  [[17, PAL.P], [29, PAL.P], [55, PAL.P], [67, PAL.P]].forEach(([x, col]) => { put(x, ground[x] - 1, col); put(x, ground[x] - 2, col); });
+  // trees
+  [[42], [78], [8]].forEach(([x]) => {
+    const g = ground[x];
+    for (let y = g - 3; y < g; y++) put(x, y, PAL.d);
+    for (let y = g - 6; y < g - 3; y++) for (let dx = -1; dx <= 1; dx++) put(x + dx, y, PAL.g);
+  });
+})();
+</script>
+</body></html>
