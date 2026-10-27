@@ -5,7 +5,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@500;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
 <style>
-/* Layout: a field guide - one summary band of tier bands, then a filter bar and one sortable table of every mob. */
+/* Layout: a field guide with a filter bar and one sortable table of every mob. */
 :root {
   --bg: #f6f5f9;
   --panel: #ffffff;
@@ -46,12 +46,6 @@ h1 { font-family: var(--font-display); font-weight: 700; font-size: 2rem; margin
 .home { display: inline-block; margin-bottom: 6px; color: var(--accent); font-weight: 600; text-decoration: none; }
 .home:hover { text-decoration: underline; }
 .home:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 2px; }
-.bands { display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap: 12px; }
-.band { background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 12px 14px; display: flex; flex-direction: column; gap: 4px; min-width: 0; }
-.band .name { font-family: var(--font-display); font-size: 1.1rem; display: flex; align-items: center; gap: 8px; }
-.band .stat { font-family: var(--font-data); font-variant-numeric: tabular-nums; font-size: 0.85rem; }
-.band .who { color: var(--muted); font-size: 0.82rem; }
-.swatch { width: 10px; height: 10px; border-radius: 2px; display: inline-block; }
 .filters { display: flex; flex-wrap: wrap; gap: 10px 16px; align-items: center; }
 .filters input[type="search"] {
   font: inherit; padding: 8px 10px; border-radius: 6px; border: 1px solid var(--line); background: var(--panel); color: var(--fg); min-width: 0; width: 240px; max-width: 100%;
@@ -141,16 +135,6 @@ mark { background: color-mix(in srgb, var(--accent) 28%, transparent); color: in
     <button type="button" class="tab" role="tab" id="tab-items" aria-selected="false" aria-controls="view-items">Items<span class="n" id="n-items"></span></button>
   </div>
   <section class="view" id="view-mobs" role="tabpanel" aria-labelledby="tab-mobs">
-
-  <section class="bands" aria-label="Tiers at Lv.20">
-    <div class="band"><span class="name t-legend"><span class="swatch" style="background:var(--legend)"></span>Legend</span><span class="stat">~802-963 health / 84-103 attack</span><span class="who">Elder Dragon (the hardest - it takes Ender Dragons), Arch Warden, Ender King, Grand Llama, the three path legends - Dark Knight, Dragon Knight and Dark Mage, each three mixes from ordinary mobs - the Ender Golem, the hardest hitter of all (a Chrome Golem + an Endseeker at Lv.30), and the Kraken, the first sea Legend (four Lv.20 Abyss Squids, or an Abyss Squid + an Elder Guardian at Lv.30): each way to make one takes about as much levelling as four Lv.20 Wardens. Then the Ender Dragon (Lv.25 pairs). At Lv.20 each Legend also gets a Legend trait of its own, never passed on by mixing.</span></div>
-    <div class="band"><span class="name t-overlord"><span class="swatch" style="background:var(--overlord)"></span>Overlord</span><span class="stat">~657-798 / 86-97</span><span class="who">Above the Kings: two of the same King, both at Lv.20. Royal purple and gold, crowned, with the enchanted shimmer.</span></div>
-    <div class="band"><span class="name t-boss"><span class="swatch" style="background:var(--boss)"></span>Boss</span><span class="stat">~520-685 / 56-88</span><span class="who">Kings, Golem variants, Fire Dragon, Void Drake, caught Warden and Wither, the Endseeker (two Lv.20 Endermen), the Chrome Golem, the toughest wall (two Lv.20 Gold Golems), the King Chrome Slime (two Lv.20 Chrome Slimes - tiny health, but it shrugs off most damage, is fast and dodges most hits), and the Siege Ravager (a Ravager + an Iron Golem). Mix recipes need Lv.12+. A King takes four Lv.20 of one kind in one crafting grid.</span></div>
-    <div class="band"><span class="name t-elite"><span class="swatch" style="background:var(--elite)"></span>Elite</span><span class="stat">~390-470 / 66-73</span><span class="who">The special mobs (Lv.5 parents), plus Iron Golem, Ravager, Elder Guardian. The Shark is the commonest: about one for every four Drowned in the sea.</span></div>
-    <div class="band"><span class="name t-common"><span class="swatch" style="background:var(--common)"></span>Common</span><span class="stat">~200-330 / 60-90</span><span class="who">Ordinary mobs. Weak ones gain extra hits as they level, so they still hit hard at Lv.20.</span></div>
-  </section>
-
-  <p class="note">Numbers are at Lv.20 with no perks spent; mixed mobs at +1 (each + adds 5 percent, Kings double). Parents both Lv.15+ give +2, both Lv.20 give +3. A mix also keeps a share of its parents' health and attack, averaged over the parents and not counted in the table: about 5 percent of a Lv.10 parent's, 20 percent at Lv.15, 50 percent at Lv.20, 65 at Lv.30 and 80 at Lv.40. Catch chances are at full health and nearly beaten, before the XP-level bonus; bosses use the boss curve and get no bonus.</p>
 
   <div class="filters" role="search">
     <input type="search" id="q" placeholder="Search a mob or ingredient" aria-label="Search a mob or ingredient">
