@@ -1,4 +1,5 @@
 <!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+
 <title>EZ Mob Index</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@500;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
@@ -41,6 +42,9 @@ body {
 .wrap { max-width: 1240px; margin: 0 auto; display: flex; flex-direction: column; gap: 20px; }
 h1 { font-family: var(--font-display); font-weight: 700; font-size: 2rem; margin: 0; letter-spacing: 0.5px; text-wrap: balance; }
 .lede { color: var(--muted); max-width: 70ch; margin: 4px 0 0; }
+.home { display: inline-block; margin-bottom: 6px; color: var(--accent); font-weight: 600; text-decoration: none; }
+.home:hover { text-decoration: underline; }
+.home:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 2px; }
 .bands { display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap: 12px; }
 .band { background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 12px 14px; display: flex; flex-direction: column; gap: 4px; min-width: 0; }
 .band .name { font-family: var(--font-display); font-size: 1.1rem; display: flex; align-items: center; gap: 8px; }
@@ -127,6 +131,7 @@ mark { background: color-mix(in srgb, var(--accent) 28%, transparent); color: in
 
 <div class="wrap">
   <header>
+    <a class="home" href="https://ysknowledgebase01.github.io/wildbound/welcome/">&larr; Wildbound home</a>
     <h1>Mob Index</h1>
     <p class="lede" id="lede">Every catchable mob on the server: its tier, how strong it gets, how to catch or mix it, and what it mixes into.</p>
   </header>
