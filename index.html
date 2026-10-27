@@ -387,9 +387,9 @@ const ITEMS = [
   },
   {
     id: "tower_map", name: "Tower Map", cat: "raid", icon: "paper", kind: "Item (paper)",
-    does: "Points the way to the next Mob Tower or Base. Hold it and the bar above your hotbar shows an arrow and how many blocks to go. Its X and Z are written on it too.",
+    does: "Points to the next closest guarded Mob Tower or Base. Hold it to see an arrow, the distance, and a gold star on the locator bar. The star stays visible through terrain and settles over the Stronghold Core.",
     get: ["One in every Mob Tower and Base treasure chest."],
-    notes: ["The next one is 260–400 blocks further out from spawn. It's built when you get within 64 blocks of the spot.", "A refilled chest keeps pointing to the same place until that one is built."],
+    notes: ["If no other guarded stronghold exists, it plans one 260–400 blocks further out from spawn. It's built when you get within 64 blocks of the spot.", "If the planned ground does not work, the map follows the nearby replacement."],
     links: ["raid_shard"],
     aka: "map compass coordinates tower base dungeon",
   },
