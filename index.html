@@ -149,6 +149,8 @@ table.price { min-width: 0; margin-top: 6px; font-size: 0.85rem; }
 table.price th, table.price td { padding: 4px 8px 4px 0; position: static; }
 table.price td:not(:first-child) { font-family: var(--font-data); font-variant-numeric: tabular-nums; font-size: 0.8rem; }
 table.price tr:last-child td { border-bottom: 0; }
+table.price .pi { display: inline-block; width: 16px; height: 16px; margin-right: 6px; vertical-align: -3px; }
+table.price .pi img { width: 16px; height: 16px; image-rendering: pixelated; display: block; }
 </style>
 
 <div class="wrap">
@@ -583,7 +585,7 @@ const PLACES = [
   "name": "Shop",
   "keeper": "Shopkeeper",
   "group": "shop",
-  "icon": "mob_ball",
+  "icon": "textures/items/emerald",
   "does": "The main shop. Sell what you find for coins, and buy gear, food, potions and Mob Balls.",
   "tables": [
    {
@@ -613,6 +615,13 @@ const PLACES = [
       "Night Feather",
       "3 coins each"
      ]
+    ],
+    "icons": [
+     "textures/items/monster_fang",
+     "textures/items/bone_charm",
+     "textures/items/silk_bundle",
+     "textures/items/spark_powder",
+     "textures/items/night_feather"
     ]
    },
    {
@@ -694,6 +703,26 @@ const PLACES = [
       "Nether Star",
       "50 coins each"
      ]
+    ],
+    "icons": [
+     "textures/items/ender_pearl",
+     "textures/items/ender_eye",
+     "textures/items/blaze_rod",
+     "textures/items/ghast_tear",
+     "textures/items/raid_shard",
+     "textures/items/magma_cream",
+     "textures/items/phantom_membrane",
+     "textures/items/rabbit_foot",
+     "textures/items/turtle_shell_piece",
+     "textures/items/nautilus",
+     "textures/items/echo_shard",
+     "textures/items/shulker_shell",
+     "textures/items/totem",
+     null,
+     "textures/items/heartofthesea_closed",
+     "textures/items/apple_golden",
+     "textures/items/apple_golden",
+     "textures/items/nether_star"
     ]
    },
    {
@@ -751,6 +780,20 @@ const PLACES = [
       "Redstone Dust",
       "1 coin for 16"
      ]
+    ],
+    "icons": [
+     "textures/items/diamond",
+     "textures/items/emerald",
+     "textures/items/netherite_scrap",
+     "textures/items/netherite_ingot",
+     "textures/items/gold_ingot",
+     "textures/items/iron_ingot",
+     "textures/items/amethyst_shard",
+     "textures/items/copper_ingot",
+     "textures/items/dye_powder_blue",
+     "textures/items/quartz",
+     "textures/items/coal",
+     "textures/items/redstone_dust"
     ]
    },
    {
@@ -800,6 +843,18 @@ const PLACES = [
       "Rotten Flesh",
       "1 coin for 16"
      ]
+    ],
+    "icons": [
+     "textures/items/slimeball",
+     "textures/items/gunpowder",
+     "textures/items/spider_eye",
+     "textures/items/prismarine_shard",
+     "textures/items/dye_powder_black",
+     "textures/items/leather",
+     "textures/items/string",
+     "textures/items/bone",
+     "textures/items/feather",
+     "textures/items/rotten_flesh"
     ]
    },
    {
@@ -837,6 +892,15 @@ const PLACES = [
       "Melon Slice",
       "1 coin for 32"
      ]
+    ],
+    "icons": [
+     "textures/blocks/pumpkin_face_off",
+     "textures/items/egg",
+     "textures/items/wheat",
+     "textures/items/carrot",
+     "textures/items/potato",
+     "textures/items/reeds",
+     "textures/items/melon"
     ]
    },
    {
@@ -894,6 +958,20 @@ const PLACES = [
       "Diamond Boots",
       "50 coins"
      ]
+    ],
+    "icons": [
+     "textures/items/stone_sword",
+     null,
+     "textures/items/iron_sword",
+     "textures/items/iron_helmet",
+     "textures/items/iron_chestplate",
+     "textures/items/iron_leggings",
+     "textures/items/iron_boots",
+     "textures/items/diamond_sword",
+     "textures/items/diamond_helmet",
+     "textures/items/diamond_chestplate",
+     "textures/items/diamond_leggings",
+     "textures/items/diamond_boots"
     ]
    },
    {
@@ -919,6 +997,12 @@ const PLACES = [
       "Golden Apple",
       "25 coins"
      ]
+    ],
+    "icons": [
+     "textures/items/bread",
+     "textures/items/beef_cooked",
+     "textures/items/carrot_golden",
+     "textures/items/apple_golden"
     ]
    },
    {
@@ -952,6 +1036,14 @@ const PLACES = [
       "Regeneration Potion",
       "10 coins"
      ]
+    ],
+    "icons": [
+     "textures/items/potion_bottle_moveSpeed",
+     "textures/items/potion_bottle_nightVision",
+     "textures/items/potion_bottle_waterBreathing",
+     "textures/items/potion_bottle_heal",
+     "textures/items/potion_bottle_fireResistance",
+     "textures/items/potion_bottle_regeneration"
     ]
    },
    {
@@ -965,6 +1057,9 @@ const PLACES = [
       "Mob Ball ×30",
       "5 coins"
      ]
+    ],
+    "icons": [
+     "textures/items/mob_ball"
     ]
    }
   ],
@@ -980,7 +1075,7 @@ const PLACES = [
   "name": "Boutique",
   "keeper": "Jeweler",
   "group": "shop",
-  "icon": "ember_ball",
+  "icon": "textures/items/diamond",
   "does": "Rare and precious things: gems, wings, a trident, Ember and Nether Balls, a beacon. It's for saving up.",
   "tables": [
    {
@@ -1014,6 +1109,14 @@ const PLACES = [
       "Bottles o' Enchanting ×16",
       "30 coins"
      ]
+    ],
+    "icons": [
+     "textures/items/diamond",
+     "textures/items/emerald",
+     "textures/items/netherite_ingot",
+     "textures/items/apple_golden",
+     "textures/items/totem",
+     "textures/items/experience_bottle"
     ]
    },
    {
@@ -1039,6 +1142,12 @@ const PLACES = [
       "Master Pickaxe (Efficiency III, Unbreaking III)",
       "100 coins"
      ]
+    ],
+    "icons": [
+     "textures/items/elytra",
+     "textures/items/fireworks",
+     "textures/items/trident",
+     "textures/items/diamond_pickaxe"
     ]
    },
    {
@@ -1056,6 +1165,10 @@ const PLACES = [
       "Nether Ball ×5",
       "60 coins"
      ]
+    ],
+    "icons": [
+     "textures/items/ember_ball",
+     "textures/items/nether_ball"
     ]
    },
    {
@@ -1073,6 +1186,10 @@ const PLACES = [
       "Ender Chest",
       "60 coins"
      ]
+    ],
+    "icons": [
+     "textures/blocks/beacon",
+     "textures/blocks/ender_chest_front"
     ]
    }
   ],
@@ -1086,7 +1203,7 @@ const PLACES = [
   "name": "Builder's Depot",
   "keeper": "Builder",
   "group": "shop",
-  "icon": null,
+  "icon": "textures/blocks/crafting_table_front",
   "does": "Building blocks, mostly by the stack.",
   "tables": [
    {
@@ -1136,6 +1253,18 @@ const PLACES = [
       "Quartz Block ×32",
       "5 coins"
      ]
+    ],
+    "icons": [
+     "textures/blocks/planks_oak",
+     "textures/blocks/planks_spruce",
+     "textures/blocks/planks_birch",
+     "textures/blocks/log_oak",
+     "textures/blocks/cobblestone",
+     "textures/blocks/stone",
+     "textures/blocks/stonebrick",
+     "textures/blocks/brick",
+     "textures/blocks/sandstone_normal",
+     "textures/blocks/quartz_block_side"
     ]
    },
    {
@@ -1165,6 +1294,13 @@ const PLACES = [
       "Oak Saplings ×8",
       "1 coin"
      ]
+    ],
+    "icons": [
+     "textures/blocks/dirt",
+     "textures/blocks/grass_side_carried",
+     "textures/blocks/sand",
+     "textures/blocks/gravel",
+     "textures/blocks/sapling_oak"
     ]
    },
    {
@@ -1210,6 +1346,17 @@ const PLACES = [
       "Lime Wool ×32",
       "2 coins"
      ]
+    ],
+    "icons": [
+     "textures/blocks/glass",
+     "textures/blocks/torch_on",
+     "textures/items/lantern",
+     "textures/blocks/ladder",
+     "textures/blocks/wool_colored_white",
+     "textures/blocks/wool_colored_red",
+     "textures/blocks/wool_colored_blue",
+     "textures/blocks/wool_colored_yellow",
+     "textures/blocks/wool_colored_lime"
     ]
    }
   ]
@@ -1219,7 +1366,7 @@ const PLACES = [
   "name": "Furniture Shop",
   "keeper": "Furniture Maker",
   "group": "shop",
-  "icon": null,
+  "icon": "textures/items/bed_red",
   "does": "Furniture, home and garden blocks, and lights.",
   "tables": [
    {
@@ -1273,6 +1420,19 @@ const PLACES = [
       "Ender Chest",
       "30 coins"
      ]
+    ],
+    "icons": [
+     "textures/blocks/crafting_table_front",
+     "textures/blocks/furnace_front_off",
+     "textures/blocks/barrel_side",
+     "textures/blocks/barrel_side",
+     "textures/items/bed_red",
+     "textures/blocks/bookshelf",
+     "textures/blocks/smoker_front_off",
+     "textures/blocks/loom_front",
+     "textures/blocks/anvil_top_damaged_0",
+     "textures/blocks/jukebox_top",
+     "textures/blocks/ender_chest_front"
     ]
    },
    {
@@ -1334,6 +1494,21 @@ const PLACES = [
       "Bell",
       "10 coins"
      ]
+    ],
+    "icons": [
+     "textures/items/door_wood",
+     "textures/blocks/trapdoor",
+     "textures/blocks/planks_oak",
+     "textures/blocks/planks_oak",
+     "textures/blocks/glass",
+     "textures/items/sign",
+     "textures/blocks/wool_colored_white",
+     "textures/blocks/wool_colored_red",
+     "textures/items/painting",
+     "textures/items/item_frame",
+     "textures/items/flower_pot",
+     "textures/items/armor_stand",
+     "textures/items/villagebell"
     ]
    },
    {
@@ -1387,6 +1562,19 @@ const PLACES = [
       "Redstone Lamps ×4",
       "3 coins"
      ]
+    ],
+    "icons": [
+     "textures/blocks/torch_on",
+     "textures/items/lantern",
+     "textures/items/soul_lantern",
+     null,
+     "textures/items/campfire",
+     "textures/blocks/pumpkin_face_on",
+     "textures/blocks/glowstone",
+     "textures/blocks/sea_lantern",
+     "textures/blocks/shroomlight",
+     "textures/blocks/end_rod",
+     "textures/blocks/redstone_lamp_on"
     ]
    }
   ]
@@ -1396,7 +1584,7 @@ const PLACES = [
   "name": "Fisherman's Hut",
   "keeper": "Fisherman",
   "group": "shop",
-  "icon": null,
+  "icon": "textures/items/fishing_rod_uncast",
   "does": "Rods and cooked fish to buy. Raw fish and Nautilus Shells to sell.",
   "tables": [
    {
@@ -1422,6 +1610,12 @@ const PLACES = [
       "Cooked Salmon ×4",
       "3 coins"
      ]
+    ],
+    "icons": [
+     "textures/items/fishing_rod_uncast",
+     "textures/items/fishing_rod_uncast",
+     "textures/items/fish_cooked",
+     "textures/items/fish_salmon_cooked"
     ]
    },
    {
@@ -1451,6 +1645,13 @@ const PLACES = [
       "Nautilus Shell",
       "5 coins each"
      ]
+    ],
+    "icons": [
+     "textures/items/fish_raw",
+     "textures/items/fish_salmon_raw",
+     "textures/items/fish_clownfish_raw",
+     "textures/items/fish_pufferfish_raw",
+     "textures/items/nautilus"
     ]
    }
   ],
@@ -1463,7 +1664,7 @@ const PLACES = [
   "name": "Cook",
   "keeper": "Cook",
   "group": "service",
-  "icon": "hunters_stew",
+  "icon": "textures/items/bread",
   "does": "Bring the ingredients and a small fee, and the Cook makes a meal. Eating it gives a gentle buff that lasts longer than a potion's.",
   "tables": [
    {
@@ -1511,6 +1712,14 @@ const PLACES = [
       "5 coins",
       "Regeneration I for 1 min + extra hearts for 2 min"
      ]
+    ],
+    "icons": [
+     "textures/items/hunters_stew",
+     "textures/items/miners_pie",
+     "textures/items/explorers_wrap",
+     "textures/items/sea_soup",
+     "textures/items/night_owl_snack",
+     "textures/items/golden_feast"
     ]
    }
   ],
@@ -1523,7 +1732,7 @@ const PLACES = [
   "name": "Blacksmith",
   "keeper": "Blacksmith",
   "group": "service",
-  "icon": null,
+  "icon": "textures/items/iron_ingot",
   "does": "Upgrades the tool or weapon in your hand, or the armour you wear, one step at a time. It keeps its enchantments and name.",
   "tables": [
    {
@@ -1570,7 +1779,7 @@ const PLACES = [
   "name": "Enchantress",
   "keeper": "Enchantress",
   "group": "service",
-  "icon": "ember_shard",
+  "icon": "textures/items/book_enchanted",
   "does": "Any enchantment an enchanting table can give, picked exactly (no luck), on the item in your hand or the armour you wear. Coins and a little Lapis take the place of XP levels.",
   "tables": [
    {
@@ -1626,7 +1835,7 @@ const PLACES = [
   "name": "Mob Trainer",
   "keeper": "Mob Trainer",
   "group": "service",
-  "icon": "caught_zombie",
+  "icon": "textures/items/mob_ball",
   "does": "Leave up to 3 caught mobs here to train while you're busy. The boxes along the sides are Mob Chests (pages 1-6).",
   "tables": [
    {
@@ -1664,7 +1873,7 @@ const PLACES = [
   "name": "Tavern",
   "keeper": "Tavern Keeper",
   "group": "service",
-  "icon": null,
+  "icon": "textures/items/iron_sword",
   "does": "Hire a mercenary to fight beside you: a Swordsman (takes hits for you), an Archer (good against flying mobs) or a Mage (heals you 2 hearts every 20 seconds). It comes in at your level.",
   "tables": [
    {
@@ -1690,6 +1899,11 @@ const PLACES = [
       "60 coins",
       "60 min of play"
      ]
+    ],
+    "icons": [
+     "textures/items/iron_chestplate",
+     "textures/items/diamond_helmet",
+     "textures/items/diamond_chestplate"
     ]
    }
   ],
@@ -1704,7 +1918,7 @@ const PLACES = [
   "name": "Quest Master",
   "keeper": "Quest Master",
   "group": "service",
-  "icon": null,
+  "icon": "textures/items/book_writable",
   "does": "Five requests, \"bring N of something\": two easy, two medium and one hard. They change every 6 hours, and everyone sees the same ones.",
   "tables": [
    {
@@ -1771,6 +1985,19 @@ const PLACES = [
      [
       "6 Bone Charms"
      ]
+    ],
+    "icons": [
+     "textures/blocks/log_oak",
+     "textures/items/wheat",
+     "textures/blocks/wool_colored_white",
+     "textures/blocks/cobblestone",
+     "textures/items/carrot",
+     "textures/items/potato",
+     "textures/items/reeds",
+     "textures/blocks/sand",
+     "textures/items/apple",
+     "textures/items/monster_fang",
+     "textures/items/bone_charm"
     ]
    },
    {
@@ -1809,6 +2036,18 @@ const PLACES = [
      [
       "8 Gold Ingots"
      ]
+    ],
+    "icons": [
+     "textures/blocks/log_oak",
+     "textures/items/iron_ingot",
+     "textures/items/copper_ingot",
+     "textures/items/leather",
+     "textures/blocks/pumpkin_face_off",
+     "textures/items/melon",
+     "textures/items/string",
+     "textures/items/silk_bundle",
+     "textures/items/spark_powder",
+     "textures/items/gold_ingot"
     ]
    },
    {
@@ -1838,6 +2077,15 @@ const PLACES = [
      [
       "2 Raid Shards"
      ]
+    ],
+    "icons": [
+     "textures/items/diamond",
+     "textures/items/emerald",
+     "textures/blocks/obsidian",
+     "textures/items/ender_pearl",
+     "textures/items/blaze_rod",
+     "textures/items/night_feather",
+     "textures/items/raid_shard"
     ]
    }
   ],
@@ -1851,7 +2099,7 @@ const PLACES = [
   "name": "Bounty Board",
   "keeper": null,
   "group": "town",
-  "icon": "bounty_poster",
+  "icon": "textures/items/paper",
   "does": "Four posters, one boss each out to the north, east, south and west, 300-700 blocks from spawn. Each is a different difficulty. Tap a poster to follow its boss with a gold star on the locator bar.",
   "tables": [
    {
@@ -1902,7 +2150,7 @@ const PLACES = [
   "name": "Storage",
   "keeper": "Storekeeper",
   "group": "town",
-  "icon": "mob_chest",
+  "icon": "textures/blocks/barrel_side",
   "does": "Three lockers of 27 spaces each, just for you: the three boxes on the counter. They're the same lockers at every Storage building.",
   "tables": []
  },
@@ -1911,7 +2159,7 @@ const PLACES = [
   "name": "Windmill",
   "keeper": null,
   "group": "town",
-  "icon": "waypoint_stone",
+  "icon": "textures/blocks/wool_colored_white",
   "does": "Tap the glowing Waypoint Stone inside and press Save as waypoint. Then you can travel to any windmill you've saved, from a windmill or your Walkie Talkie. Free.",
   "tables": []
  },
@@ -1920,7 +2168,7 @@ const PLACES = [
   "name": "Town Farm",
   "keeper": "Farmer",
   "group": "town",
-  "icon": null,
+  "icon": "textures/items/wheat",
   "does": "Tap grown crops for free food: Bread, Carrots, Baked Potatoes and Beetroots. Crops grow back in about 7 minutes.",
   "tables": [
    {
@@ -1942,6 +2190,11 @@ const PLACES = [
       "Enchanted Golden Apple",
       "0.2%"
      ]
+    ],
+    "icons": [
+     "textures/items/carrot_golden",
+     "textures/items/apple_golden",
+     "textures/items/apple_golden"
     ]
    }
   ],
@@ -1954,7 +2207,7 @@ const PLACES = [
   "name": "Wishing Well",
   "keeper": null,
   "group": "town",
-  "icon": null,
+  "icon": "textures/blocks/cobblestone",
   "does": "Drop things you don't want next to it and the well swallows them for good. Now and then it gives something back.",
   "tables": [
    {
@@ -1996,6 +2249,16 @@ const PLACES = [
       "An Enchanted Golden Apple",
       "1%"
      ]
+    ],
+    "icons": [
+     null,
+     "textures/items/mob_ball",
+     "textures/items/carrot_golden",
+     "textures/items/emerald",
+     "textures/items/diamond",
+     "textures/items/ender_pearl",
+     "textures/items/apple_golden",
+     "textures/items/apple_golden"
     ]
    }
   ],
@@ -2010,21 +2273,23 @@ const PLACES = [
   "name": "Guard Station",
   "keeper": "Guards",
   "group": "town",
-  "icon": null,
+  "icon": "textures/items/iron_sword",
   "does": "Three Guards stand by inside during the day and walk the town at night, fighting monsters.",
   "tables": []
  }
 ];
+// Each icon as the game draws it (texture path -> PNG).
+const SHOP_ICONS = {"textures/items/emerald":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAACASURBVDjLY2AYvCCY4T8KJlXz7f+v/zt+bgFj8btJJBgC1bz+71m4AQyrdCCG6BIyBEkzugHEGQI0AKQRpBCEYQaBDZiqCaFJNaDp21qIxmqJATAApBnZAJLDAKQZHIgg24FhQHRMwAMNpBGqGewSXRLSArIhxNmMDkAakPGgBQCgLczLsU+XmwAAAABJRU5ErkJggg==","textures/items/monster_fang":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAZUlEQVR4nGNgGGjAiC5gY6TxH5+GI+duoOhhRNe8fstSvDYG+kSjGMLEQCFgQnceyAZibaeKC7ACUFi8fnYWBeMKXCYGWgEbJFfgi1ommrkABEA2E0pYLPgko958A9NH8Cka+gAAeWg0A6UZP6QAAAAASUVORK5CYII=","textures/items/bone_charm":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAX0lEQVR4nGNgoBAw4pK4tErjPzJfL+wGTrUENeMSAwEmhkHpBWRDcDkdqxeePbz+H4RxKcYmz4QsiY1NSJ4RlyJ8QEpeE66PEZ9zcWlCBoxUc8EzAjYS5aJnZMTCMAAAN6xR9W12oL0AAAAASUVORK5CYII=","textures/items/silk_bundle":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAaklEQVR4nGNgGGjAiEuiIq/nPzK/Y1IJTrVYNX/9+gsFoxtIkuavxBpSgaT5xInrWNnohjDhMkxXVxkrGx0wYRO8fPkuUWI4DdDFYiMuVzDhchqyjbhsp34skJMOGLEJwgxB5pOUEocWAAD+25hPpAOGqgAAAABJRU5ErkJggg==","textures/items/spark_powder":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAaklEQVR4nGNgoCX4cELjP0Wa///a8p9iQxjoDjTy8NuK11UaeRr/o064/cdlCFHhokGiCxiJNejGpBtY1bLg0mwUJYcu/B+bIUz4NE9jeAQXB4lh8x4TAx6QxYDhCgzAiE0QV0DiCochDgByRTwtg1bGbwAAAABJRU5ErkJggg==","textures/items/night_feather":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAaklEQVR4nGNgoCeQ04j6D8LIYiykaNZwS4Fx/z+6sYwRxGAiQzMKYCJV841dcxhgthM0QI6AZrwGyBGhGacBckRqxmqAHAma8XqBGM0YBsgh2U6MZhBgRDcAxiZGMwo4ceISShKln+YBBwDQfETnhyYtdwAAAABJRU5ErkJggg==","textures/items/ender_pearl":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAACpSURBVDjLY2AY1IDH3OA/DJOl0WRmBxirtpQQbxC6RoG4QDAGsUGYWU3hP0HNIIU9Xx791zm78T+3rxMYIxuE0xCYATDNbJaGcIxsEFYDkG2HaQYphGGChoAEQAaAJEGKcBkACxesBsAk8RkAswSrN2CGwJyKHgYgr4EMwBmI6K5AxiDNoMDFaTuyIdLV2XBDQAbC0gVBzciGgDAs7mEaidKMzSCSNZICAN040JuazpKOAAAAAElFTkSuQmCC","textures/items/ender_eye":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAACySURBVDjLY2AY1MAwOeW/nIcpGJOsEYT9mtvgmGiDYBpTZ9diYJiLcGoGScI0n/5z9//WJ1H/Ow5H/S9c40mcISAJZM3TL2aDFYdPdEYxREDH8D9WzSDTQQqQNUtrC2AYAlKHYQjMAJAiEAY5nSwDQApACkEakA2AhQUIYzUAPRCRXQHyDogPk8OqGdkVyIbAnA4Sw2s7DIAk0RMRzECCmpENgRkEwzAxkpI0TBPJGkkBACXQ/VemzcX1AAAAAElFTkSuQmCC","textures/items/blaze_rod":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAABvSURBVDjLY2CgN9icLfl/dhj7f7I0r8iV/v//s+7/nZNl/k81ZvhPss3/f9SBNa+zIVEz2Gag5hvr1P7vjyLHZqizSdaM7GfyNEP9TJGzSQ4wsOaDDBSE9oDYvDFagPzQhtlOViKBAVC6JtnZ1AIAbgx59tgDAwoAAAAASUVORK5CYII=","textures/items/ghast_tear":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAABNSURBVDjLY2AYBXiBRUTEf3Mvr/9ka956+/b/+YcPk2cIyIDzHz+CDSHZAJjtIANAmGRXwGwHAbINALkABMgOB5AGigIRZgjZmkcQAAAtCVvnkBs0tQAAAABJRU5ErkJggg==","textures/items/raid_shard":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAgUlEQVR4nGNgoAfQ4LL5T5HmaW53/uMyhImQ5jybBWA2iMZmCBPZTiNkwP////8vbTqMIobNFUzYNIMUnetlYJCLJ8MFGlw2cJsfLSTDAHxg0pEEhhvfjjDiNeDGtyOM0XW2eA3CawCpgIluBkzC4n+cBpASDhgmwgC2ZIvNBRQDAJcsMSQxVCSNAAAAAElFTkSuQmCC","textures/items/magma_cream":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAC9SURBVDjLY2AYtCCoVPM/MiZZY/cqx/9Ljnn9P3YnHEyDxBIlpP4TpfnLSz8wBmmGYZCBBA0BKQAp/vfvHxijG/TstD5uA2DOBmlANuDVcnWw5qutCv/3Okj83yJhhd0QkAEwPyPbDNIIYoNsBxlwNFYCtwHIfoYZBHIBsu0gGq8ByLaDNINsBhkAwiDbcXoBZghIAyzAkG0HacZpOwyAJEGGgDSCMEgDus0E0wJMEUgDSCNJmrEZRLJGugMArEAOhRzbSn4AAAAASUVORK5CYII=","textures/items/phantom_membrane":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAADMSURBVDhPzVIxCgJBDLwv+gVrRbBTQUEL4RA7K20sfYKd4CsE/7LexJswyek1Ni4MbLKZmSR3VfUXp5TSi/V4WojlcBHePgqw+HLc2v1+PZfn42ZQsQZdARKATN6v5h7jPhmM3i1kMgmnemOFTSeB3CugBSQBjNs9GIIA3dVNHZFnfNjNjIyFBoHsqqMomQK+RJ1dnRh/az8IcG4QFLkjdQ8C2j6d81fJAr4DJJQMYiZzdm3f/0QoIZmL2kKHkjsCFBGiFWlO80Hgl/MCwFABESupg9oAAAAASUVORK5CYII=","textures/items/rabbit_foot":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAACASURBVDjLY2AYMqApwfE/CJOteUt3NBin+ln+J8uA4/PS/9/Y1AjGJBsCMgCmGWQQ0QbA/A3SBHMBQW/ANMFsBWkEaYIZgtcAdL8iOxtmCF7NIEXImmA0zACCtoMkkV1AtGYQAEnCDEAOOJhGokIepAikAeYdojVicwlZKW5AAACVgMt1lw6q4AAAAABJRU5ErkJggg==","textures/items/turtle_shell_piece":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAjklEQVQ4jWNgGAUUA0Zsgpq1nv+xiV9v3o6hHkNAs9bzP7/ARwZ2cQ4GDmkOBgYGBoYfT38w/Hz5g+HFXU6GB9P2MuI0AJtmGMBlCBOMoZDljFMzAwMDA4c0BwO7OAeDhPJ3BoUs5/8YBqDbhkvs4wd+3GEAM1lC+TvOMGBgYEDxAtZYQHYiMkAPwFEAAQCwYj0gvPq4BgAAAABJRU5ErkJggg==","textures/items/nautilus":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAByUlEQVQ4ja2Sv2sTYRjHP6kRtD/gSI9EQmtKcTD0Au0QSCkkww1SaLtEKHTrVBDyF9RBQQc3oVLo1C2SwaWt4HIUXRp0aEyuHBSXM8fhG6/FIdoucg5nXnPxnOy73fve5/t9vs/zwH+eWNRl9ckDf/Bu7eF25L/xKFDNaij1PYZHCrCkB2/gRwnF+mE1q5HO5MIWB4YUce0WnmWGRIZCcKsTYl27RTPeofnmJa7dQqnvcePdh1BEGSGdyUEmcPzxvc63wgqeZaJmNQA8y4TCCqMFOKzWpMnQX11Z0hle3ZTwfrVGwzBQs1ogAszPzVApl3wp4LgiyNpXuuMKAJbXVmkLD88ycVxBd2c35CcjuLkkSu0pAN2PZ0wU8zQMg7bwmJ+bkcDoxjrNF88gMQXANYC7t5OPLjoCpbhIYuE+4/o9fl6HW9PTjP+2cFzBrB5M4+aYgvPlK+8t+7EcR6Vc8idTKhPplGxcw/gTa1bX6e7sclnMc3R8wtartzEY2MRKueSb4lx+bz3flnvQ24FT4zVniSkpEP8XrKUSAMFI7aRsYj8cqqAXoS08ACZTKnc+feaymAfg6PgkqKoPjozQ63gPkHEGwCs7vwAEK8MjJULZlAAAAABJRU5ErkJggg==","textures/items/echo_shard":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAEeSURBVDhPrZJNSwJRFIZPhihSmW0mEII2Qi0UBBdtFNy5aNsvCfxp7oLauHBlSzdBIOTG0RRJRI3n5L1cnKsO5AMzZ+Z+vPc9L1eORvK+vObZ/MbmhBcbV8GNpLKXkuq86kTY/9C5QyQ2VTdD2HyWeaUmufxtLDdWYD4eyaxekbvHJ61xRdQmC6fZnJyNQ3WQeemoYGLw+Te2p52IAPBNJnBIxA76RJKFojqBTLctk+EgImIz4IT0V197BxyQhQl3VnqQ86sgkklEkUU/13l18l0oyUWvq5VWEN124u3LFQHaccGpEbEtuDDJIk4GhEyo5OLiFQBEsGsyoRU2k8uy2rB57BQARE7fWno3cLPovds7YvBmsI0vfTfIfyDyC9FfkAIQ36m/AAAAAElFTkSuQmCC","textures/items/shulker_shell":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAACVSURBVDjLY2CgNQgySfgPw2RpWt2yCo4JGoJN0/TM6XCc45GN2xBkjcia0DHIEGe1gP9YDWgJ6iRoAE5DYAbgMwSkEYaxGgBShM0QZI14DQBpRDYEJIasqT+5H4xxGgDCIAmYITADYBpBcjAxrAbABEFsmAZY1CHL4YwJXAYgK8ZrADZF6IpBbLyaCRlAUn4gyjZKAQCY4iEtDVeM3QAAAABJRU5ErkJggg==","textures/items/totem":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAACpSURBVDjLY2CgBVgQrfwfGyZa86vbLVgxUYa0OvCDFf/9/Q6Mf7xbCsYgMZAcUQZcXB4LxjCNMD7RBoBsdnxWD9cI4xNtAEgxw243uBdgfKINONruhOEFkBhOA9CjC2YILPRhmnFGKyzqYAGFbCvMNTBDYHwM14AEYLaAnA7zP8wVIE0w1+ENC2TXIGO8YYDuElxJmSgDkBMTLAyIth2XAUSnQmyBSijQAHTEQIJs7ZefAAAAAElFTkSuQmCC","textures/items/heartofthesea_closed":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABK0lEQVQ4ja2SMUvDQBiGn5yRCsFQaluKYMiYoT9AHJ1c3Nz9BZ38HU7+Anc3FydxEhc3h4yhQpGYhlAJKE0Th/bSS3IVQd/luO/ueb/3uwT+KGPTwcHoslD3r1cX2ruNogTNvS55vw2ACBOyaaQ1MuqwCtYlwoTo6Z6Pu+uSEzo4H7rkQ1dr0j08ZvfkvGgY/FbZNCKfxeXe1EUXL4E2fgk5HhYU6eOtITZdUmv1ut0bVBPEzw+YjofdGywLP8QHmL2/sZi01gYA2dgnHvsIu4No9ytdJJQnIXM/BWBr/wsC5TNaR6eFsDuVB5KS3QC2PYu5n/IZ3BiVBOXMqwSqTGe55km4arA2rPxIMgXQMJHwYtIquzcMAHbcs0JGVceRY6iw1qBuJFUH/03fvkh8g3bd2HIAAAAASUVORK5CYII=","textures/items/apple_golden":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAACsSURBVDjLY2CgByjVYPpPtuZNKYL/Q1Q4/9PXdpCtIAzSDLIdRBNlEEjT7UXC///9fwamQZpBYm9Ou4L5eA2CaX71Lvz/tx+TwIbAMIgPEsdrCLIB2DDIFciG4DQAphCZhmEYP0QIS6yATAUZADME5m8YH+Y6ogxAxsgGwbyA1QBsrsBmEE7NMANgYYHNO+BUKUQgVYIUwAyBJSiiNSMbAotvcGoE8onWTCoAAEURFpJw2lnYAAAAAElFTkSuQmCC","textures/items/nether_star":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAACNSURBVDjLY2AY9CBlwoT/FGnuWLLkf2h29n+yNd969Ig8Q0AG7Dx58v/f/yvANNEGgDTCbD997RrYABANcwVeg2AaQTaCNCEbAMIgcZzeQfYzSBMMX7rE8P/Bo3I4nyhDYC4A0SDNIBqmkWCAwvyJHAbIthIdmCCFsFggKxqRXUF2YoIZQpZmZENomtkAXLXqR9i3QcgAAAAASUVORK5CYII=","textures/items/diamond":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAACqSURBVDjLY2AYtECwqOo/MiZZMzK4+v8b8YbANHu9vQnGC3+/ABugcHTrf5G44P9EawZphGkG0SAxgoYgGwBzOoyGuQinAeiakb0AwlKrloNdAKKxGoJsAMxGmGYQlpk4izgDQACkEFkzyDCQASDNeA1A9itMMQyDDAVhkEE4wwEkAdMM0wDDMDG8sQCS1HlwA6cBIO8QTAsgBSBnoscCUQkJ2RBsmCaZDgCWOEz08yei+wAAAABJRU5ErkJggg==","textures/items/netherite_scrap":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAAGFBMVEUAAABlR0AkEQtdNCxBHhVKKB1+YFmVhn6aJrESAAAAAXRSTlMAQObYZgAAAF1JREFUCNdjQAEsDlDavQRKF5o5gGi3RGHDFCDDMVFQUFBUgYHJWNBYUFQJKKJiaAymGZiURZVCFYAM5yClYOEgoCZjY6AakIijsKFgENg8IK0ANlkZRIO1gWgEAABpdguNVlGxaQAAAABJRU5ErkJggg==","textures/items/netherite_ingot":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAApUlEQVQ4y9WTywrCMBBF+wvZ61p0Z3eSbooIFexayF9I/p/InXLDZEiwuEvgkNecO+miw9DNOB2OCfwlgdd8F67nS9otLY9FWJ+r0AxpSeEdChiE+xwCCZdMZycW25D4iUIO4ffh0HZiGCUt+ptPzrktYBpHQYdYCfcQAdZFADakJRFdW7yAhxAxW5E1mCGKzKELas/VUiHqYbtg/1OqhWixj5/sC49L5JbBXWloAAAAAElFTkSuQmCC","textures/items/gold_ingot":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAACSSURBVDjLY2AYMmBTiuB/ECZLEwj/uuYFxgQNQdb092s8VoxhCLpNuDTCMEhNqQbTf7jm/38fENQEwyC1MPVgQ2C24jMEpgmm5s40YYQrkJ2NbAi6ppcbRcEaYRirAWCXgAAOTSAMEoPFCNwAkCDMAGI1wgMRFpAwBegGgNggDNOEohE9KmGGEK0JVyIiSdOAAwCj73xdtNI1LgAAAABJRU5ErkJggg==","textures/items/iron_ingot":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAACESURBVDjL1ZLBCcAgEARtyl58WYQlWI0l2Y1hDzY55VTMJ2Rh8SDOGGKc+01ijA19BaGlFGlKqR1BtdaupmQHLSWAkB3EMphFwlNXEh2CYLz3j2CUjFDOWUAUsymgxIJYvfcW0MgPuALxDKDA+hYosV5XQx04XiUlWEMIe2j2Ex1Bn+cCrO596/pNaZwAAAAASUVORK5CYII=","textures/items/amethyst_shard":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAjklEQVQ4y2NgGBIg33/1f3RMkuZ/p5+h4BDLrv9Ea97c9xmu8f/fq//PL/hMnAEwm0EGgDBMc2/WGcIGgDSDFMMMALFBYiDNBA2AORtmAMxWmAFEaYYZAHI2TCOIJqgZ5kQQhjmfKJtBAKQAphikEUYTtBnZABhGNojoOEfWDKKJcjYuQ2CBRlG6p1tGAwDsrfXVRK6M0wAAAABJRU5ErkJggg==","textures/items/copper_ingot":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAoUlEQVQ4y2NgGDJgjqvmfxAmSxMIH4wyA+MuRwKGIGt6XhMG1jTHzxCMQWyQGIYh6DaBFOHSDBOHGwLS9GdmE4oCfJpBakEY7hKYU2GCMM0wjKwJZhHM4FwTRYQBIAlkQ5A1IRsK0giyGcMAmFN/H96GYRO6ZhAG8TEMAGFCmmE2gzUjxwJMEcgAbJphmlA0YkQlUCGydwhqwpWISNI04AAAmCE4XOgEMxoAAAAASUVORK5CYII=","textures/items/dye_powder_blue":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAACRSURBVDjLY2AY1EDKtv8/MmZVSf5PkmaZ4BX/o5oegbFJ3GEwnyhDQJpBGkAaS6a/gmsWcugmbAiyZhiNrBkkRtAAkK0wjci2wwwkaADM3yCDkDUTNADmfFjggdgka0Z2PrKzQXy8AQgyAKQB2WZYGBAVhSBJmEZkm4mOf5ACmI0wJ4PEYJio1IesgaRkO6AAAMe03BvUO7bUAAAAAElFTkSuQmCC","textures/items/quartz":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAADTSURBVDjLrZE9CgIxEIVzTsEzbGHpCWyEvYGFNxAsPICF9WKnVttYCmIZ+RaePDJGVzAwZCbzfpJJSiPWZtVmRfp1Qbr25yGqAjUHJz/ut7yYz/JXF4FK8qnbjxOQE2fkRH855u6w+yxQgjkjJ3Dfrpcv4bezoCkCYEAQ3Z0ck+owAckdsgTkTo86PEXXouHuCs6a6WQQYK8OUSLsgCGzS0DiYQ6QeJu+EaAESrLmFAQguAi1uzsmfKnep1AN2W/ggmEOTiIXyQWqZBdxgNdl72/rCXzT2A5mhBLBAAAAAElFTkSuQmCC","textures/items/coal":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAACmSURBVDjLzZIxCsMwDEVzhCwlS0gI1B09eDBkyZj730jlGX4Q1KYOXWr4WLL1n+SQYfjLNc+Led02xxgtpVRE3A2hMIRgOWfbj7MAyFEXhCLMGNRdexeEgtfyLPKTsGuaJkTjq5uHIJ0DGseHNT+efzu55KFNQM0kket56AMigKRuMhKv03btVQAXKvbdJN1XASwOufQgxTI2zTWIN3h9/aFuG35Zb3iLrxRklgc8AAAAAElFTkSuQmCC","textures/items/redstone_dust":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAACASURBVDjLY2AY3iCGneE/CJOtuYiB4f8qfkbSDQFpAGn8DzXAkZXhvy4DkYagawa5AsQmyhCYZhhGdgFIDq8hMD8j2wzSAOLD2CBxEzZW7IbAbIcFHLpBBF2hi2QLumaYN0AYpwvQDYFphtlKUDOyISAMUoyukeioRDaIZI10BwBKs37Fj8zsWAAAAABJRU5ErkJggg==","textures/items/slimeball":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAACfSURBVDjLY2AYtMC9yuk/MiZZY+Ga5P9l+3LBGMQGiZkE6/8nqBmmsed6ExjD2CDxgAZP/IaADABpAIGT/87BDYEZBDIEpwEw20GKQZpBGN0lIIzTFcgGIGtAZoPkwyf64zcA2VZkp8Nsx2sASBKmGDkWQBgkh9cAbIYgOxukmWAsgCRhtiBrgmG8tiMbAsIwQ2AYJk50ioRpIFkj3QEAt7MHqJ7SDxYAAAAASUVORK5CYII=","textures/items/gunpowder":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAB/SURBVDjL3ZFLDsAgCES9kFdw746FJ/EYXJpmmkxCiK2fRRclISL6BtCU/m0iYvBjuLVmvfd9EQAAVfVea62Wc7YjGF0gXhIhTPcd4OxVhDP7ygCwZ4x8KWUswup8uCg07QJJVokwx4A/dhBFCLPqFPYicFyO4PJXeqFt8HO7ACF7rZsktOF4AAAAAElFTkSuQmCC","textures/items/spider_eye":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAABmSURBVDjLY2AYBbQD1bzq/0E4lEkJjEnWPFdO9/+Dk2fANIivxSBAvCEgGx+s2/L/SHw22IBUNm3SDQBphNlOlgEwjSAM4pNkAAiANCBjsgxBdxFZBsDCg+RwQPYK2ZqRDaFZigUAJKJIQ5zXWy0AAAAASUVORK5CYII=","textures/items/prismarine_shard":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAACSSURBVDjLY2AYVCB4RtN/EKbIgImH1vwnyyDnhjywpiUXD8Fx6KwuMCbaEL2EYLhmkEtgbKJdBDKgZvMSFM0gPkgziCbKRSBDQAbAMLK3YAaDDDHOjP5P0BXoroG5yCAl7D/RXoFh5PAgygBYlCK7BETjdDohV8ACkyQDYKEPi0aCTkcHINvI1gwDII1kayYGAAA7tue7QGNgFgAAAABJRU5ErkJggg==","textures/items/dye_powder_black":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAABxSURBVDjLY2AYOcDUJPA/DJOleWJG/P+9PY1gmiJDvBy8SDcApAGk0crKBYyJMgDZz8nJxf8rUwvhhkhIG/0nqBGmCYbDwlLABhDUDNKISzNRBoCcCNIAwjDDiNKMbAhIIbJBID5RmpEBTBPJGoceAAAG5XX3bThBqAAAAABJRU5ErkJggg==","textures/items/leather":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAClSURBVDjLY2CgFQhRF/uPjInWAGPP89T6fz3b+f+xGNP/ndaqKHJYDYRpAtEgTSDNMAwSB4nB1NjKCPzH6QqQQhCGuQCGYWI4NaM7HdkAmAtAXsFrAMwQkCaQYphXiLId3RUwr5BlAHo4wPi0NwCkGeR3mBeQaRAmGIjItmPDRBsAsxFmK7JL8CYimGKQIhAG8WG2gjBeb4AMgCmEieHiExUbxAIA7iv7H0JuHE8AAAAASUVORK5CYII=","textures/items/string":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAB6SURBVDjLvZNBCsAwCATzI18h/v/sQzzak7DYWCUtDYScnB1NstZfS1X9uNjMnFjczPxVOrGcASJ91EalSSx9G6rqnSax7E1iUAgL7Zy6NUFqwHBn0M0CqTtNBJWzwqQoqNosbyQr4xnFeV6PINzTmyof0Si5s/n8l14TL8+p/qKzOwAAAABJRU5ErkJggg==","textures/items/bone":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAABvSURBVDjLY2CgJzh9bOn/F08v/QfRZGv+8/vt/+q6bDAm2QCQ5v///4JpkGEkGQIzAKYZxCfaAGTNMOeTrZksf9NXM0gjWZpBIQvCoGiCRRVJmmFxDMMkOxsWtyDNJCcSmCEgTSQnEnRAVjqnBAAAZJjgXLibntkAAAAASUVORK5CYII=","textures/items/feather":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAABhSURBVDjL1ZPBCQBBCAO3/wIsxyYsaI88BvJUDw4usD8nicie8ztV1X1tsDYRGBFXWsESBuMWpGfmDCZZoAzaMIPUBW7V98ExTKont/cm0Xd2tUwAx7WBvPLq3rTQ++RzPc9b3nbIAV8fAAAAAElFTkSuQmCC","textures/items/rotten_flesh":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAC5SURBVDjLY2CgFwjSEfivIcL1nyyNINxtIkG6ASCNW1wU/je7SMBpog2B2Xo01fF/vq80WHMSUAxGgwzCaxjIgKONUWCbYQaBaGTDcBqArDkrFqIZxAZpBvEJa4ZqANkI8z/MFXjDAaQZZAtMA4gGYZBGmItw2o5uM4gNc/7RqVlw8SRsUYrsZ5ATYWyQa0BsmFeScKUH5PjGFvIgjTCM1/+wuIdFF7ImgvGOnHhALiBaEzogSxMlAABct9lilbvAUQAAAABJRU5ErkJggg==","textures/blocks/pumpkin_face_off":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAADcSURBVDjLnZOxDcJADEVPokSiAFpGYAQ6OjagZQdKZmAECsQkbMIgIf+4d/rxJSBRWLG/7RffOUnP87rDbsd5F+P7aTnQFFOnZ3pdNx1GgpiiqTgDcsPjkE3CNs2yoQOVNnhJyaVK7AWNp8L9Kn0aAhRw7ulz8pOPRDPGG12XT89fAJn3fAUwbtSBNwCdywv8vA1AF98ACoRmLqrqJVefY0dgZBrxWSX5BuCr8lVO+aOAeM5fVgE+Lhfkm4ibcb8BMJp/B65ddovhvyABiHz/EzGPY30FxGTU8GP8BsyT+r+mMY1OAAAAAElFTkSuQmCC","textures/items/egg":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAABuSURBVDjLY2AYvqAkO/A/MiZZ8+altf/vn5sNxiA20YbANH94dgxuAAj3NUUTZwhIEUgzugEgQ0P9rP+TZTvMAJAr8BoCMgBdI7IBBF1BMwNgmokyADn60DUTDAMQACkAKUTWSLRmZEOw4cGZZwD3pfdrV1I8pQAAAABJRU5ErkJggg==","textures/items/wheat":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAACpSURBVDjLY2AgEvSW2/5nIAeEBVr8r88y/r9savB/kgwCaQTRMM0gjSA20a6C2QxSdHZjJJgGGYRsIF4XYNOMTBP0Akzhnd2pKAbBaBCGeROnASDFIANghhGtGeZPmGZk20F8WFjgNATZdnRDYBpxaoYpQNZMlEZkzTAa2akgjC0toMQ5zI8wDeg2YhOD2wzTDKIJOhVbRoE5F2/o4jMAZitZBqD7kxS9AJx5CQ16zsxtAAAAAElFTkSuQmCC","textures/items/carrot":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAACiSURBVDjLY2CgJTDeZ/AfhOVnyfwn2xCQZpAhzOnM/2GGEjQQWRMuNlE2gxSiaybaO6UaTP//93H+v5zFCzYAZghDAANhF6yxZABr/r/cHoxBhoAMhGmGuQ6/ASDNB8shNNQlyIbgdAlIM0gxWDMIQzWDxEEGwLxD2HYkm5FtB6nBaQDcdiTNMJuJCnlY4CHbSpZmkmxFdz5JtqInHLI0UgoAM8C+leL/wFAAAAAASUVORK5CYII=","textures/items/potato":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAACPSURBVDjLY2AYBQTBrFCG/8iYZE1zy/X+31wV+P/EdKv/61tcCBsC0wRSDNII04zMxmkISAKk6OWuJDiGaYRpBuFcc8b/WDWDJEGaflxoA2NsBrRl2uE2AGY7zAB0zSCvgTBWA0CCsIBCthnEJ6gZZgAs8GCBBvMzTCNOzciGgPwIMgSEidaIbggyHvxJHQB7UNU/Es8vYwAAAABJRU5ErkJggg==","textures/items/reeds":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAATRJREFUOI3VkjFPwkAYhh+ME6aBToSUdiMBwmjrxGBCQmKYiO6s/gcGQlydWdltiIP/wMmTkSjRSWjTEU2FweWc7kS0KHHy3S73Pd/3vt8d/Av1F3XZGbmy0jTkryEFdEau7C/qifBOEhyMY2zPxCpnuDx/oNUt6bv+oi43NgjGMdF0iXuUAyDvpBl2J3RGrrTKGcL7F5Sj1KYIVjnDzUXA4/Uzh6c26iz8kLurOJXYoD0oyYOTgoaLtSzRdMlMzAE0/G2D9qCk86nJAMPuBDO3R7GWpVA1ONu/TQHsquJGz9FgNF3y+vRGsZbVO7E9k7yTRvghwv8YqB1Umoa0PROAmZjjHVsUqgbBOEb4oQZW7X+J0Og5cibmeprKvQ6t6tMzqiWpGD/BiWr0nO2+7br+BG+rd3E7kY2uQHFEAAAAAElFTkSuQmCC","textures/items/melon":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAACoSURBVDjLY2AYMqClU+F/ZJrUf7I07zdU/n9sUsX/xbPJMASkGYZJNgSkab0Y9/8qCT6wAde2zSbeAJCGgza6/2GGgDDIAKLCAtnZkRL8cENgBrj48/0n6GwYRjaMoAEwzeg2g/Cpwlj8BsBsAQUYss0wNiwAsWoGmQqKImTnwjDMZljoYzUAJAhSADIEpBgdw0Ieb+DBDIFhkCZkjXg1IxuCDdM0kwEAPYnh50s7LZQAAAAASUVORK5CYII=","textures/items/stone_sword":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAACLSURBVDjLY2AgA3h6ev6HYbI0T53Y+3/zxvX/FRUV/5OtGUSTZMAQ0IwtVEH8ivJy4mwGKY6KioIbgqwZRBPlbJgmkGIQDbKVaM3IBoAwyDUkacbmFdI1m4n+z/CTA2uEBSrxzgdq7kxX/68hxw3WANIIM4hg6IMwyGaYZmQAM4ign0n2L7oN5BoAADmep0QxRpWvAAAAAElFTkSuQmCC","textures/items/iron_sword":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAACLSURBVDjLY2AgA7i4uPyHYbI0w4CEhMR/sjTv27ePdAOopvnGjRs00owtVEF8kCaibAYpzs7OhhtCkmZkQ6ZNmwZWDNIEYpPkZ5gBIAxyDckBhu4VkjV7mon+z/CTA2uEBSrRhoA0d6ar/9eQ4wZrAGmEGUQw9EEYZDNMMzKAGUTQzyT7F90Gcg0AAD6TuZ57IzT4AAAAAElFTkSuQmCC","textures/items/iron_helmet":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAABkSURBVDjL7ZDRCcAwCERdwyGczH0cyRmyjeU+Dto0EGn/Sg+OQPA9SUS+GTOrVdtwRFRmXuruparVgscYheCkAPdbCQQYBjjDbEuAnt8OCNvbAkJzXwtaf8AtjwSUrIYokT+3HK8qoP/tMenqAAAAAElFTkSuQmCC","textures/items/iron_chestplate":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAACOSURBVDhPzZHRCcAgEENdwyGczH0cyRncxvI+Imq9coV+NBBQ7yWIhvALpZT67lcMG9Ra67VWs8Bk2GiASykLwJqzmbkVaIABVaLwPD8W5JwHqKvKcxAGdimIMXbMwArKMOJHwVz0FMbHoMQQyCrg+q4Cy66C04sr7CrQb5ysB9xzi6wSV1jSN+3euU90AR6gYrV/vkWqAAAAAElFTkSuQmCC","textures/items/iron_leggings":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAABzSURBVDjLzZKBCQAhCEVboyGcrH0cqRncxsODDxJ6dgcHCR/k83uV1dpxRUSaqfeu5WIRUZT1pjnnrTHGMwQAv8iLmfcACEOfARY22dG3AdjNB61/BViDmf8PAINbrxD5KWB9bwDKf4CJR4DIDwFelX9GXVFQ5+tlirbMAAAAAElFTkSuQmCC","textures/items/iron_boots":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAABuSURBVDjL3ZDBDcAgCEVdgyGYjH0YiRnchuYfSKhFq8f2Jx78Pp4Jrf0vzOxxVt10GOm9OxH5W18KAFUCdGa2JxhB9Oi2BBV4LFDVc0GGKgG66q0cFpGHAN1UEj/k4QzEfWRugoBWS8rMcpnfygVA+r/XisE2BgAAAABJRU5ErkJggg==","textures/items/diamond_sword":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAAJFBMVEUAAAAOPzYIJSAz68uk/fArx6weincVY1VoTh5JNhUoHguJZycazUdMAAAAAXRSTlMAQObYZgAAAFBJREFUCNdjgABGQShDxAkq4ApliIQoQAWMoALBIAFBBkZTsIC4gDBQAKQgycwIojKtGCgAlhOC0JxNghCR2QuUwEKCXQwMSmAVEHEgD8oAAEjBCO3D+cc1AAAAAElFTkSuQmCC","textures/items/diamond_helmet":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAAGFBMVEUAAAAIJSAOPzZK7dkgxbUaqqeh++j////FmGLLAAAAAXRSTlMAQObYZgAAADtJREFUCNdjwAuYlJQUwAwVY+NAsIBbmbGrAIhhlmziAmYYKymGgBlGgoIiMIYomOEIZTAoMjAIMhAFAP+FBjiRVKs2AAAAAElFTkSuQmCC","textures/items/diamond_chestplate":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAAGFBMVEUAAABK7dkOPzYIJSAgxbWh++gaqqf///9z4YboAAAAAXRSTlMAQObYZgAAAGBJREFUCNdlyEEKgCAUhOFBTzBRtBUJ2gaB++Ll3oUn0Ct0/55Cbfo38zH4Z7wHvHcw9wCsSZFGZy4qOJ0LG+qcE6ODDbosG2AzyQ2KiRw7+OIgpaOKxAYEkYKW3Xc9vh5X0Qx1GqC3UQAAAABJRU5ErkJggg==","textures/items/diamond_leggings":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAAGFBMVEUAAAAIJSBK7dkOPzYgxbUaqqeh++j///83NLHyAAAAAXRSTlMAQObYZgAAAEdJREFUCNdjwAaMjY0NQTRzelmSqgCIkaakpAJmJKk4QRmOohCGkgAjhKEiwIzGcBFgdAEzXAUYXUEMxlABIAIxBAWACIvVAMBGCMG5l1hVAAAAAElFTkSuQmCC","textures/items/diamond_boots":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAAGFBMVEUAAAAIJSAOPzZK7dkgxbWh++gaqqf///+Sb4flAAAAAXRSTlMAQObYZgAAAEVJREFUCNdjwAuUFJiUQDRTqQAQgRihAkzBIAaQZDIGM4xhDBMoQxnIcHYEybgJMKWYCDAwuSQKMIq4ARmCQHlGIIEbAAAUFweJqVPr9gAAAABJRU5ErkJggg==","textures/items/bread":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAACUSURBVDjLY2CgB0j1Fv+PjEnW2JMm939RpQoYg9hEGQLTuKdTHQXDDLHX4/uPVzOyYnSD8BoA04zNVoIuwKYZ2RCY7SB1GAYgBxY2Z8M0g7CPhSB2A3A5G1kzXtvxORunZpgBMMW4nI1TM7IB6IYQpRkEwh1FMFIb0ZphBsDCgWTNMACKGuQMgzWqiDEEpAmGidEDAKtjGt3kvsPeAAAAAElFTkSuQmCC","textures/items/beef_cooked":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAACgSURBVDjLY2AYGcBPXfI/MiZZc6G97v8aD1Mw3RdkQ7whIIVB+vL/Z8Q4gzWmm2uADQHRBA0BKQBpAmGQISAXwNggQ7TEeP/j9S/IFmTbYYaANIPYWA2AORlmG7ohMOfbK4rhNgBmA0wTzHYQnyjNINtBitFtBvFBmvEaANKAbgiMj9d2dENgTkfWSFAzCIAUgDCyc2EaCWrGZhDJGskBAOP5tWAJPmeEAAAAAElFTkSuQmCC","textures/items/carrot_golden":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAACiSURBVDjLY2CgJSgM4PgPwuG2bP/JNgSkGWRIsCbEEKIMRNaEi02UzSCF6JqJ9k6IEOf/N6dd/99eJAw2AGaIgRgDYRdsShEEa371LhyMQYaADIRphrkOrwEgjf/+PwPTMJcgG4LTJSDNIMUgzSAM0wwSBxkA8w5B25FtRrYdpAanATDbkTXDbCYq5GGBh2wrWZpJshXd+STZip5wyNJIKQAA9e/FQJRIJGsAAAAASUVORK5CYII=","textures/items/potion_bottle_moveSpeed":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAStJREFUOI1jYBhowIhP8kqu538GBgaGq7fuMITvvI1VLU4Drjz9/v/HqXVw/nMFdwZfQxEM9Sy4DLj/6ivDtxkNDAwMDAzvPnxkkJlxDZ9jsYPN59/8Z2BgYIjtP/Qflxom0o0lElx5+h3FVlyuwBqIV55+/x/HzMrQ+PwDQ/beNQwMDAwM386dYvA0TWBYXGiHogfDC1eefv/vUJrN0Pj8A0O9pAADp7o2A6e6NgOXkRnD9tMLMFyCNRa4jMzg7N8vnjKwSkgzcKprY/Uqhgvuv/rKwMDAwFDy5DrD19PHGX6/ecXAwMDAkPKLl4GZm4ewAasOXGP4du4Uw/ebVyFOFBCCsz8f3odhANZAjO0/9H/76QVwr+QqWjB0rp2ENRBxJmVs0YaumSoAAKcvacCSul41AAAAAElFTkSuQmCC","textures/items/potion_bottle_nightVision":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAATFJREFUOI3Fkj1IA0EQhT9FQfEHojEptLg6R0CblLZiYWGVKo2QUsFGsBDEJmUKm4ClnYWNWNj4k0Y8EIvbXKFCtDgkx8Uo8Ty7tRAOzt0LCoKvmmXevHkzs/Df6OuVFKuLEqBxe0/x5E7LTRQQbig/rMPo/WQssDSXVvgDSQJNL+C9tg3A88srMzWnl1k9jm58CVCq1mUSp//3sj+EcMNY1yQX2iUKN5R+do2uXeHiahkAx/KYzO+xvz4fq1FGEG4oN7Zm6doVxvKbGGYKw0yRK2Ro22XFifYKuUImin03ID09gmGmAGiFca7ioOkFADy+rSAuW3S8r4rQ22F4dFBppggcnDs4lsdDowPA+MRQFF+fuoqAdomlal227XI0SnZql7PjonaJiV9Zd7bvxX+CT0HRbaULjnAjAAAAAElFTkSuQmCC","textures/items/potion_bottle_waterBreathing":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAS9JREFUOI3FkjFIw0AYhT9FUBS0g60ELKSYpQhBZ9FVHJwcnLK6ibiJk5vdunZ3qDjo0MlNC0VxsBBiI9oSQUKxaolKTcDh3AJtLkVB8E3/ce9/997/H/w3BvpdWpsrAuDmrs766b2UGytgub4Iro7Dc1NdZnV+MsIfihNwWh0+C3sAtL03pgu1fmblKFVfBICRL4s4zuDvZX8Iy/W7Xo1zIR2i5fqi/H5BOtA5LO0D4Jg2Mws7HGwvdfVEIliuLza21kgHOo8jJoqmomgqGT1Lo5KLOJFuIaNnw9prPZNIJVE0VRo1IuC0OgCc20UAPl49EqkkU8OLtEef+OrhRyIcndVwTJtm/QGAsYnxsL69vI44kA7RyJdFo5ILo8zNGpwUd6VDjP3KsrX1Nv8JvgH+0GpLW57jmgAAAABJRU5ErkJggg==","textures/items/potion_bottle_heal":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAARhJREFUOI3Fk7FLw0AYxX8GqaIkIJgpDkK7OImDq6sIOjuV/AUO/gfuDgXp0N1N0CU4OBRKJ3EwDrGCCp2qUIPoEC8Ww+cWqLkL1cU33X337n3fPd7Bf2Oq7DDa2xKA2/tHdi8etFyjQDRQkl6d5fvn5U121hYL/GmTQH+Y8NE6AOD17Z2lVq9sWD2CMBaAeqMrJo71e9kJEQ3UWNeyKbSXk1pVgjCWputK03XFd2yZSCQaKPEdW4IwlqRWlbbnSdvzjCJaD9ZnZvP1U/YFwEqlMlY3CvSHCQBz26tcqpSXLAPg+uiceasYm0IOTjo9rM8077pgWdyNRgB0lNK/+yfqja74jp0beHh6YzTRGGUd+Xh/o/Tv/AnfkwR1nHyUX20AAAAASUVORK5CYII=","textures/items/potion_bottle_fireResistance":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAR5JREFUOI1jYBhowIhP8kqu538GBgaGq7fuMITvvI1VLU4Drjz9/v/HqXVw/nMFdwZfQxEM9Sy4DLj/6ivDtxkNDAwMDAzvPnxkkJlxDZ9jsYPN59/8Z2BgYIjtP/Qflxom0o0lElx5+h3FVlyuwBqIV55+/6+xiZNhu8Ubhqc9IgwMDAwMpx4wMPwOOcSwuNAORQ+GF648/f6/Lwyi2fOECIO2FAODthQDg5kCAwPrGjsMl2ANAzMFBPvpBwgNMwQdYBhw/9VXBgYGBgaBZSIMx+8xMLz6DBE/YXGBgYcd0wCMdLDqwDUG1gcIW4W4GBiuPoPw991kYGDQRVWPNRBj+w/9Z11jB3fy56ALDNf7DLAGIs6kjC3a0DVTBQAAkltfgTOkzsEAAAAASUVORK5CYII=","textures/items/potion_bottle_regeneration":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAATFJREFUOI3FkjFLw1AUhT+liIq0KBUcDEjp1sk/0KWDiHR26qyIDkqJoEt+gNClYHc3BwedHAQpgqCDFJIONdhBgrENrSnUdHsOQqB9L0VB8Ez3cc8999x7H/w3JsYlzb11AWA1bDavn5XcSAHTCcTg4SJ8v62skV9NSvxYlECz1eezYgDQ+fBZrtTHmVXj6skTAIVSVURxJn8v+0OYTjDUNcqFcommE4hAv8Qt5rjfPgLA8mziuwZn+9mhGmkE0wnEcXYDt5hj6eSGVEIjldDIJNP0yobkRHmFTDIdxu2gw+LMAqmEBsDrCFdy0Gz1AXg/PKXWbtAd+AB0t/LMxqalZpLA+W0dy7N58b97xafmwvjRNSUB5RILparolY1wlHl9hzv9QLnEyK+sOtto8Z/gCz17a24zZLyYAAAAAElFTkSuQmCC","textures/items/mob_ball":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAwUlEQVR42mNgGAWjgEQgIiHzHx+mueUp1wPxYpo4AtmHxDiAqqEBMkh/rS9ZmGJHwHxCiQPIdgRIo7qmHhgTG/zo0YCsn2oOsLRxxoup4gBk36IHK8yiusZ2FAwTR1dPVu4YdcCAOgCkcOGSVWCMzIZhQokQXT26eRQ7AIZhKRyGcakj2QHoWZBamOQ0MOAO2Hp5AV6MbgEh9cPPAaTioeUA9EYIJZZS3Dih1AFUb5LRxdeUhAZdWsYD1iwfBcMSAADtS9d8Rf98BQAAAABJRU5ErkJggg==","textures/items/experience_bottle":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAC3SURBVDjLY2CgJfj6v///jSdRYEyW5kAb5v+6ikxgmiRDYJphGGQICBNtCEghRQbADAFpugA1jORwgHljBzkGIGsu2mD2fxUphiBrPvl/4v/IDeFgQ4hyCUgzyN9bgYpOA9kgzZYTfOCGHCBkCLLtR4BskGb1UmswDTJgJzRgcRoAiz6Y35ENOPB/6v/tpBqA7IUTQBftImQANkNAGBSYO4jRjC0lwlIhCIPCiKSUCMIgTTCMTR0AmzQUq8d7N9wAAAAASUVORK5CYII=","textures/items/elytra":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAACbSURBVDjLzZHLCcAgEERtyiqsxEsIWIANGLymjxSYMMKE1fVzTAIDYd/sE9GY333OuZux1pbI2XIxhHDHeFZLCGZgXZFczPkqwcmScy5FlQAgpVQyEpCjK3kpSNgWeIA8RAl4BWTfDiXAjBxdJSBARgLy7hW89+/ySEAJn1i9BCQsyQL+KUdHLbNEQVuasa6kV5ixqjQrrPg33wOsIQTSQXgYBgAAAABJRU5ErkJggg==","textures/items/fireworks":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAABuSURBVDjLY2AY9GCnpuZ/sjXPBGq+pqX1P1dc/D9ZmkG2g2iQASQbshPJABBukZYm3RWbzlz8D8JkaQaBL1++wF1BdgyAMMgVZBsAcgXZBoA0gzDZXqBJGOiKcP4HYaINACmGGUC0RnRAkq2kAgCIrGED0gGJ5gAAAABJRU5ErkJggg==","textures/items/trident":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAvUlEQVQ4jdXSMQqCcBTH8a/RCRyEcA2EBgm3TuDqEjR5gb9nafNPSwepC9QkTvKgDqBd4jXZUEmmEPTWx+f3eI8HvyhrraqqjsIiogAi0j+sC1tr+wcMxgDGGA3TRJ9x7zXCNNHNfqthmrxgY4wCTD6F1NcLrj9jdz4iIhoEAVmWkee5A+B0QS9e6SJaUhUlAOt59Oi1uDMgTBN1/RlVUXI7nDqHvK12by9eff84/4mdUQcDpnXTUDfNIAxwByy8puZy9gfsAAAAAElFTkSuQmCC","textures/items/diamond_pickaxe":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAAHlBMVEUAAAAIJSAoHgtJNhUnspoOPzYrx6yJZydoTh4z68uk6/rmAAAAAXRSTlMAQObYZgAAAERJREFUCNdjwApCQwPANOs0l1QLMCtQ0KUIKmnmCKGZm9wEwAxzBREBiAADkAEWYBATgAgwSApABBgYoQJQLVCGEprNALayCIZkrQOtAAAAAElFTkSuQmCC","textures/items/ember_ball":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABPElEQVR4nGNgGAUjHTCSqkFEQuY/Pvk3L56QZCYLqZZfzVPCq0Z7EsN/UhzBQqzFxBqIrJ4YhzASY9gm918M5AC/nWwEHcFEyHKybCbBDEZ8GoUFhcDst+/fgWlC8Q8D2pPugWlk/bhCgoWBRBCwjRWv/Aav3ySZx0gotd+9eQNFrviuLph2dXVBEd+9ew+Y7lW+jCKurK4BDxVsocDEMMCAacQ7gBFb/Pf29IHZxSVFDDA2DMyYMRNvoGVkpKPwkc0AsdHTAQupUQCzoK21BUW8qrqGgRzASKgMoBbAVRYwMQwwYMElcao9GK9Gs8q1JKlXzpiNVZyJYYABC7kaCfmYWMDEMMCAkZhq9O6MVLIMR453kmvDN1ANlLYJCDVIGIkxhJTQIMbXJCfCNySGBimNUkaGAW6Wj4JRAAA3RHxFuPOynQAAAABJRU5ErkJggg==","textures/items/nether_ball":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABPklEQVR4nGNgGAUjHTCSqkFEQuY/Pvk3L56QZCYjqZYfNT6AV431WQeSHMFCrMXEGoisnhiHMBJj2ELuOQzkgPivKQQdwUTIcrJsJsEMRnwahQWFwOy379+BaULxj5wOQABZP66QYGEgESR8TMcrv4B/JknmsRBK7Xdu3GFg4GZAsCUhbFdXFxQ9u3fvgauBp5lfDAwqGipgpvVZh//YQoGJYYAB04h3ACO2+O/t6QOzi0uKGGBsGJgxA38iy8hATaTIZoDY6OmAhdQogFnQ1tqCIl5VXcNADmAkVAZQC+AqC5gYBhiw4JLYn7gLr0bH+W4kqdfrM8EqzsQwwICFXI2EfEwsYGIYYMBITDV6qegMWYYjxzvJteEbqAZK2wSEGiSMxBhCSmgQ42uSE+EbEkODlEYpI8MAN8tHwSgAAIefgd9sv9GiAAAAAElFTkSuQmCC","textures/blocks/beacon":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAACaSURBVDjLY/hPIWAAEdo7N2Di0wewYyQ1Z958QDMATbHn1TNgjMsQVAPQNIFw/uM7KHwUw1AMwKEZGWMzBKcBIA1zPr39f+T/PzAGsZENwTQA6gV0zdegGN0QrAYg2w7T/A4oB8IwQ5C9g+EFZH/jMwDuDVyBSJ4XKA5EcqKRmISELTFhT0g40j7OpIzVAEKZCYsasAEgghIMAF18KQhQumWxAAAAAElFTkSuQmCC","textures/blocks/ender_chest_front":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAB2UlEQVQoz5VRTWsTURQ98zLJTGfG+bJN21BcWLEQvyq6Ci50IXSj++LCfyAI4q9wIYJrFdtV0Y0bN4KguBCkChFxIcESE2viOJ1M3pu8mbzn4sUixEW9q3vvudxz7rna0TPnWZriwFEyHdc+7N+6fWO7+bFimUG1urbe+Nnj0LWr1y/ttPpBtWr73tp6Y6fVZ4OBLuQ4Z+zth1ecUgCcUje/kGVDTqmbB5xSzjIAL54OVaJLISHFoBcTQgBwxh4+2Hz95DKAm3e2CSGcMQBMQ5ExKaT+T6HDvXcAgIVpSNOcYLr7crMG4OK1zjSky2JsBWE2nBjl+uE+5oVzAJI4UqVpO7Tb1mC6VhDy0chxDing5JVG78tnAHPLK81nb1QziSOil4uoR1RdMQyVZE750b27p5ePxbvfjq9amVPeXz+RNJkbpmJpHsBizXr+fmPr/mMA4ZK2WLO6HQqA/OKiyAEQAHw0Mv4wAGj9+DR9q+//xSCKfMb3RZoD6HZo1JbzZ48AiNqy26FmmgOAXTFthyYxwX9GCbox43rnVk993+0D0LkoeQuCc9NxM+5Fza9qbizzohB5mkwY9licxJGyvD7rghlgRn3WVYYmcXSivqJ+pcF0kdGDS/oNIRPTAR1Tmz8AAAAASUVORK5CYII=","textures/blocks/crafting_table_front":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABJklEQVQ4T22TvUpDQRCFUwpqQJCgCKKkCWivlqlFsLEW0vgAWlulTyN2IY9gdcHap7hvs/INfJfZzV04d39m5uyc2bmT89Oj8rN5Kb9fr+VvuwrcX8/K+8NVebw5C7DmTDvAn9gJHzaQgO+PZdmtnyJAAtba8QX4VARCJ2YCAc6gJRkIPld3AW4HrN+eb8vF7DjgfjmfDuBsIEATN2SNQAnuF5eHkQHzqASYTdU6ZP0EikqCQd4gJPCCrusGVBmgD00QjNVAO6Pv+8BeDbJGMFaDTFBJIECDxvYZrYs+e0VEFwaG794WEZhFlYEa2z44mR4EtNkvEGCvXgHG3OegrYG9wmCuamBQbtv2GfVTTpWBQTrkGuSzjCCw19Wd64FD/heyj33yD3r7MEBmPp1+AAAAAElFTkSuQmCC","textures/blocks/planks_oak":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAADTSURBVDjLfVMxDgIxDPOD2JnvAUgszEi38AFmJnYWxIZ4wq3MfKzIlVwZExh8aZOoiZ0cntd9Wy67Rvu6z1/4578dpwYe9AhB5+O8GY9mXHfmEKgSZZUk5CO9A35O87qDZ90P21WHYjq7nxbiyArJM31OhTHePygoIOt6JFXlw/l5BQlaCem6ILmmBhnPHPicvUo1+9Sjd+Cjy3ZzhG6lESp1q9lnfHTgHKs98JjvhADNO7VQhWovPBe/djzbzTUX4In5H/geVPoMDZKb6+GaVPvxBn7ucsZoL/oUAAAAAElFTkSuQmCC","textures/blocks/planks_spruce":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAADTSURBVDjLfVIxDsJADPNPWJg7ISQ6s7EhIaFuHbozIkYmfl3kk1y5JmXI5S6xLrETvMd+fg2Hmf4znX7sX3y8dDN40Sc0Bh/Xbvk083oTQ0MFpH/ejwtIlp+0DngM530z3vW+9btmyunucXqIIyskz4w5Feb4XlFQQt71SKrCw/l5BQlaCem6ILmmBplPDHzOXqWaferROvDRZbs5QvfSCJW61ewzv3TgHKs98JzvhAyad2qhCtVeOBZbO57tulZOCQ50gETaEnW1B8nN9XBNqv34Assl92AQMLujAAAAAElFTkSuQmCC","textures/blocks/planks_birch":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAADUSURBVDjLfVMxDgIxDPNXmXgBDOxMiI0ZJiQm1mNlQ+IB95yDRLi4vsDgS9tYbezkMN6302PYTBHH536OP+fX03pCEj6XBOLwdll9L7U898EJoCIykkT4JVlBfM6HZSLW3B93iwRzXOt5RFBjvOA6Z2ciJXPvfSeBCUb1w6WSD9WnL9DQykj1Ba7VPfC8c9D1WdtV9d78yAq6QbJyvYUa6REqd6vee75VoBqrOdCczgSB1m/zgi+UcyFc/JpxL9fHnIAS/T/QOaj8aR64NvVDPanm4wXNQ+ggxwG4rAAAAABJRU5ErkJggg==","textures/blocks/log_oak":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAADOSURBVDjLdZMxDgIxDATzDF5Acz2ioaED8QIa3oBEwTfo+G3QIq01t8kVUc5OPN7Yvva6H/rttO+f57nrW+u47AZbu3y8+7guvRnwfV/+DgekTYDBBdAFGVsAB2kfAKI6QwbYJthniitABhBIJUzgOjR/kEzJBqS/ACnb0uz3RXZlCmClLZdBBudZtdGVZ4UTlnsB+F4CEkbpVlyAlJ/dyLevACxgAqiKtmOaHJwuvnFrpJmkJXHWrmw112qQsm3OmP8C7w2ArYmcDZGU/QA2+PP4flUlyQAAAABJRU5ErkJggg==","textures/blocks/cobblestone":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAADQSURBVDjLbZLRDYUwDAMzIxswAG+NxyTdgPlAqXTVYfFRUNzESVzX7zjufd/vMcY827bNGOy6rvk//+fE+m+snNhAnybp2IngkHTjF0EH/fdEFBpPkmJcgIyNQ8Y6TVb9cQJjE0MIzuGu+qIJUgePDGZNlgapsHf3SjQx3oTlZFhzb69FDndlNtTOYkitCdqVi1N5T0R3rzpFzKLsQqFF5SWWBk7wnt7dL4JLlwZOTk3SiRZ5WTk9byt/vczLynZWWver2L6ZIqZlv0jcNV/sAQPDfdDsTz2nAAAAAElFTkSuQmCC","textures/blocks/stone":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAACeSURBVDjLhVNBEgAxBPNcD3DvEzy5e2LSNLoHw5gSIrXM3GhrrR0ROyI6dvcjh2YVYAE/KnP3blZvDVEQiZGnxj0BrlCe8zhtmWFnRivPPGGNMaIyXql8Zp4TMArG4xWwOyO81usGrAFF4LRin1HxoIqV6MzdLyHxSiyw44xqtNfYvK4pgtSfYCmXt+kTTcxj7prgJaaJSPtTn+IEwT555HfDK6eqhQAAAABJRU5ErkJggg==","textures/blocks/stonebrick":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAC5SURBVDjLnVJBCoQwEJtvrtfehL2Kt54XX7DgXysRMsRQ7bKHUCfOxLFJbJ+t7d/9Z6CfmF5TC5C11pPg6QDvuAjocK9ZhddlTe6yAV/oV5XTGieQAijm95wvfBvl2ZsbcC2SOuCC2pcbgPgXp0AppQEoAK+V6yGe/MbwKCeBf7nzHQJus/eFDvjNU4A1L1L7wr1XqyigFnq4whOnzbyDXj7IBR8YJFqkAr1AsY6Rz6MsxJ2/moOnLBxZum3avyu6ywAAAABJRU5ErkJggg==","textures/blocks/brick":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAG1BMVEWplI2ihn3GaFGxYk2LbmebVkOPUD98RTZzPzGzwO+3AAAAcElEQVQY002OORLAQAjDzC5g/v/icGUSCkxjIdxres65mVIbZi50s87cYAQi3DMlnISqQDRHJlF1236mgl1ncmooSCDJ4rBAv/4cQP9PUHPOerSGsRPZF1Y9OQXG+//1ge3/9ZDx+HEQ5Hhsfn0ZjQc/9QQ1+NyJKgAAAABJRU5ErkJggg==","textures/blocks/sandstone_normal":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAADiSURBVDjLhZM7DgIxDER9Za7BAbgAPaKGFtFQgUSzlCBRIM4QNJZeNHgjKGaz8d9jJ96vU6t4Pvb9/IX7bdtCn+myTlwPqxlcx7/bxnGzaI7zbpn4JwOhUjBSNbVMyesde91D5ejiZerEWEG9TbcXMgDG7kAmnP2UXD49gEce9e/EuX4WAD6cCzngWOVJIhmcSA9KO7UVkoWX5LOmRy+37kIuEj8C7DsnXnKdiGRfHNCGz7mOFY6w6Rx4NoKNykYneX8LOPsOeCsEQgdH+RbI7jx4C75Uo92IukQ+79GdV4juA2IdPrW+KpjbAAAAAElFTkSuQmCC","textures/blocks/quartz_block_side":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAm0lEQVQ4y6VSQQ6AIAzj/1/z4lUTPXDgQCImfgBTIsrGNk08lMCghXa4Y9/yHzgMKYacwkoQ/dyhnGvg1/ESMEiFiH1GRm2ZhuywUEmcyF5JBCwL2gs/WbD2OgHJq2qtWri7IIHZEjMgAoZ/6YJHgBE1gthG0wIj6CEa/tXPRSwoRGluZtDlYGUh/cRXImtjyQADALWKWpPQngNO8Dav0r6L1TwAAAAASUVORK5CYII=","textures/blocks/dirt":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAADRSURBVDjLdZKxDUIxDES9Disg0VHRI4HECClpGAD9DdiF6UAX6aL37+cXVhLbOfvOru/78fu0S7fX9dht5rufDqu4z9JFiUzQe1mW4TMg74rJymiuwjerMYd5JbTW2nCwm6SSXQwABxXQZ3InoAqlr9xWVnKr1Ib3IWJylHhMoOKk6bMyOcfnbmb+DpBOnm45PzM23YPknrxJpXI85Gxg+0nFWtWMFytodKTAMfdNTGeC7Jm7WlGQPW/njXCmMdvQyiQqTP5ZaAOQO2CR9ubvAn/2hSirp9qLQAAAAABJRU5ErkJggg==","textures/blocks/grass_side_carried":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABX0lEQVQ4y3VSSUuDQQydXyN48OhCse4LVg+KFhcUaxXrMqJiFbwoIvKBIBQFexFcEHexrlAQix68+KOeJJCPNG0PmWSyvJdkxqXfYtj46MPaaw9mrxpZlp86MXlaC//Qhq2vIY4v3LUgdR3F/G0zps7r0Z+pwtJjO9z6ey8n7ufHsJMbwO7LIEaj1Zi7aULyooGBjn6mkSkkmISKKZ/AFu9b4Q4+J7jg5M9j5jLCDHRfyXWxpg63C3EcfieR/U2xbzhbg8RZHduODu89X0hWn7tDm4Q6IE3tkt6MR8IY2e7Yx9ggnd8b54D4dLIQSW4IIEnk1GC6UIOJTUKEjg7tDIKgKEHi2tZEzibrTnQ35fwMYJ1aS8u2WMecXYrdshU7itOMdmYBFr8eRXblys2lGejp9Aj6mfkjWacFqSTSVdEIJOmRjpLFyRiyF/1azibpDev5LVEJgP0DsqRK7y8E/2kQKqQTbHIJAAAAAElFTkSuQmCC","textures/blocks/sand":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAADQSURBVDjLfZMxDgJRCEQ5vwfwAl7AWls7C2Nho6WbWBjPoIHkbWZH/hY/8Fn+MANsvKbj937Z1Xk+9mVvp+3sj2LcIx0A8NOScD1syqfQ532uWPoZC1BJ1GQ/XiD9gBK0lC5WfQUqAC5JbaQf64+rB12Qo9+UocZDNaMt2bheGue9+GOwNhXuWjCUosqgqjbU96IkKJqPjBj0vVezBBK6xvmWwmqeglYagVBNcxdT6JaHWErMqWhswaBbGpe0tlDhCVQbPU5wBWoZdL+y9wj7Awy6TKgoXzpLAAAAAElFTkSuQmCC","textures/blocks/gravel":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAADhSURBVDjLdZOxDsIwDET9n11ZEBsfQNWRpSPd+wEVfGHQRXrVcS1DlNjxnX12UpdhaM/p0V7z3O63a1/LsrRpHPsuW2d2/PgKI4NE6mAlws8SthxMNTp7kJNS1YFADt9dSsohRqtgk/FZ159eEJQyRAamcCpAYNlnEt7b1s/Zs0KzgCLgEgBSyEqCXYJfennZvJRFXCUgR+kVAlR1xFVmoPSchHfeG18+GpeTWRMon+4rNUGkSgA58PCUk9kXpP4+fJT9Jf5rlOv28WZvipL9KefYRJCJ9r9AkJfp2c7+iO9fL5mBBa8iorMAAAAASUVORK5CYII=","textures/blocks/sapling_oak":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAADDSURBVDjLvZK9DcJQDIQzQoo0NGEDkOiowgBUUESio6BnA0ZgEmZ0dIgvMk+OozSx5CbP9+NzqmrNOr33tgjQf7oRsH1sTD0Lqi+1oeYJ9P11P9rzujNmwtKAWmoi0bAH37r226FdVAXWMMqQCqg37ywk0bAUUYKgFEqzAHQ+NCPYC6UEsol1FFknvYQsl7uWuehNrsKfhFszSBasAZgL/YFpnEjV5+CV/Wx6DdxEqacEALDug1xU5CCi2btPEUym/qsBBFbQDBEqhOsAAAAASUVORK5CYII=","textures/blocks/glass":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAABaSURBVDjLY7jw6uV/cvGKCzf/M4AYDQ0NDORgrAaQYmD1uu2oBpDqGhQDQM4h1QsYLiAVdx88S5kBA++C4WIAOfEPs5QsFyCrJ9sFKJkJRIAwyDQYTQyG6QMAiP/54kqEtt0AAAAASUVORK5CYII=","textures/blocks/torch_on":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAABRSURBVDjLY2AYBYMc/L/B8P9/P8N/8g34P/0/CJBtwPz6gP+54WbkGzC11O1/qKseZS5wMlWizACKXECxF0ABaGsgS5kXrPWkKXOBuZY4XgMAqjQsoZEQvesAAAAASUVORK5CYII=","textures/items/lantern":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAcElEQVQ4y2NgoDWwcwn+T5Fmz4BU8g0AaabYBRQ7n2xXdAcZ/G90UAZjEJts28lyBcjWw8lK/z9M9ARjEBskRpLzQRp/nkwDYxCbJG+AFIM0/v9/9f/fv91gNlkGgDSDDCHZAJB/0b1AUhhQHAt0BQC1x4L/5kOeogAAAABJRU5ErkJggg==","textures/blocks/ladder":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAABmSURBVDjLY2CAgmkljv8DbVX+MxAAWNXVJZn/39ob8B9EgxSA2DAaGcPEYOrhBqQH6IAFQTTIdBCNDYPkYOpAGMUVIEkrfTmCXsCpjqIwgPkROQzQ/Q2iR2oY4EoHIDzcw2Do5AUA7z8qvqHVPJkAAAAASUVORK5CYII=","textures/blocks/wool_colored_white":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAACMElEQVR42iSSW3eaQBSFGS7DHUXNRdum7Uv//59p12rSlZiIGqsGUZABQfpZfWCNM2efs8/eWzy+TKVllqrSdb0XBmEQLFZ/DV0f9HuGbkznc8s0h3Ff07RtumvbVqw2G2lJSrmqT/ya7HDouu6oVNM0ruMA2O520rI817EsS6iq0gWwrWEYd6MhPfZFUZaqH0W2tFRd08h3XSFEcSyb64RSqZvBgE7AzuezbctBr/e6WLq2fTscAEj3e2oeJpNT04g02x9VeSxVFPiB72td9zxLgIW+Hwb+IS+g8PXzJ2CzxfIC+PX0h0HwexiP6XosS3gjw6lpObMbq2d57jkO1Y5tC5qBruqaw6EoOLfnMysyge8+z/PiOLm75Z4dqlMtpknCH/hdr9pzS7NO06bJRVBk4ItiXaf5not6Apad1iXLd8Z9ur9jufVHKk2TOZRCg+pR3G+alvkXwPPbjNE80+z38wv2xVHkuS7aj+L46s/7ehP4XuB5nAXs0biq/uvtuZhV1acLMddlq/X2w3Fs0zCrutrtD3EvMl9mCZYN+xfz3xYLoYnRcABJ7plGRgLDny2XvPbCkEyI12TOc3bIef7x/ZtpGBCDOgzJFcraUl7JUDNfrQTCXW2CGHV1fVJ1pVT1kWXYD3VHynWaXibHfdM0BeFhd1YkdgQBj2CMcdhHFkkuvaMwQJh0lxEt8fPxSUr5MBmjGgGm3/j2hq3eNxuiSwRB4gmEv4zviek/AQYA43du3CmDxecAAAAASUVORK5CYII=","textures/blocks/wool_colored_red":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAACEElEQVR42iSS3W6bQBCFZ3aHX4ONEze5SRW1F037wH25KjepVclO7dhpgMXA7vSAJYQWZnf2O+cM//z6RQz1QQ1xLpSLOV4CEy0jNsz7zgtTGRki+hiCVxJsigw/Fovpl+vGoLEhVTr3OmpIDOMAWuCdWM6YpIgsM23PjWG6SQXrOPDF601iUOl9QKNNHmVxfGqcV5V68H2gVWzE8MGNqOOGdWpfnceiSiwOnLvhtR0eq0XtOgFPUH27hMzSMjZKtHP+3I+ZZZT+Oj+o3qc2J3p+q0dowNa5K5fx1BUwWIsl6EMpF3DzbroNsJxbkm+3BS7950CjuASNA9oYOGbKLD3WLcCf5j3QMASVl3ODD/DhrY0DXgKblfbOH7pmnZgKRtctUDMxgJRlBG79daxx6Sa1QAKYZbo+p0tARMgEhKceEkje+4COqeV1YrfNCNJCGPZ/jIrFpoBa+vPeQMzDaqIQdMWm3is0/NgUddcNXgF2n1mIQT6xZUSGm+HSQlh2boQBJZIkuuqprua2Ho0wEgA7XKb48tnoKQd84BfKD7lYw9tmQL5VPBnVeUX9++zSoW6nGSkjxuTczeEjSAzTKjIgxCwFDZlwbA004MAqsU9FLplYncM/ugGDAE/AUMbmc5VhFg+dZ/JQDGOOnd+3jfyuB1DdpbYdw771KNym1pqpK1yEoYk1yATAn2Z7/gswAIavLSizChvlAAAAAElFTkSuQmCC","textures/blocks/wool_colored_blue":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAACF0lEQVR42ixSiY7TMBB17PGRpGmbrZB2QYtYfgBpv5UPZMUCLVKaxrkbH7xESJXreDxv3uHk2+t3zoX3LkkSKbVUZuwt9kpnCed9W3POsWeM3echxkBKGi6EPp1w5GwbvBeCIovT1MXgiSTaxsECVJDEStKkwOvOv3nCTXHAPjhyfkmzvSDyywKg7PDAU3OvbyvEMo0om3QHiMHWLEagpPm+tzUwTV6gYW6tu1XF0yfXdoR7PAbwhgBtcpQ7e52mXpJC59DeIC8vSmK6eX8LIdA4tJAihFRpBlRMAzC4xhDGsQUKSdW1VxKSba7Q8fnLKrexkIsafhGsuJDa0L6Yq6tb5vL5ZXWpvgW3UPvnFz7AD2usMQzGqchYb6+8a0xWGLW2oUjacCJaecd4+/kDTNLi6O93EIP3MA2GTkMLklpnG8MON2keu9VdUjCkrf8ylihlBCnEpGDDls9wOSPQ/PEJ+xUV3sNvaCg/f/Vt550DXn54wIp84AfScu4+vr8plVLfVEnyP3zoSRjT6Q6GdDjHH2qSD32DqtzeBG0PgY0DjpKi/IAjW11CDMbkoOGWO1oweY2vqobBErDhY348IXwE6eYZNni/zFO/SpRaSNlfzuvkbFeeXoiMQQPCD00N3d4tcIhkvnv8iLc4dg2bQEbDF+y9vZKtzriQ7Us3jXgUggu1OyREQA3BY75QCplAT7bZ80+AAQBxITpi1hK+3AAAAABJRU5ErkJggg==","textures/blocks/wool_colored_yellow":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAACRklEQVR42iSSS3PTMBSF9biSn3k0CU0LpdMdDAM79vxu/gIzsGHFgsKUtGncxk2aOpFkS+K49Xg8I0v36jv3HGq+nnGSwbZccFlmVJa2uudcqPGASWGuK+yqcckYazdP0QeiMuNK0dkr/Ir2KXROJIpF5tab0HmZJlxJu3rgimSqhZJEgyETwi6vuBR6Nhd4EheM08cTodNgD2iUzF8zQb6pY+ep2z16bE/GXGm7WsYQhFZ6NjM3S1ylp7Mepq5wJj27iK7h7tuHYAzWVGSyKFiMh8VtDJGKVBapfzLBtembOcrMsupvsHcPzAeRahqN0dUfHFghNHpvqw0UogwtZKI576fCw68vqA5mx4Lvmob1iwCJVAx4UvrH+26/T07O8RsagnNkFn+xAB++Mob+tiwHmLlecin17AgyUBZjlHkpVMLbH5/67du1TFQyPw7m4B62QGIh9mAtyBx8AKFvLE5SW28xacoTPZ02l1ewj4a5zNJ2s6O8pFHvj6sWVBYvYNz//My4CK6ftywmsd0HZ57BCqhydY3hckmg73Z7NSzosLiBZX0QMDjo4UxPjkBsFtdMICKC55m9XWOXBs+ZeAmCWa4Bk1+85aT3l38QCj0dIlf+sEe74t17FHTbO1vVvP3+EfpkOYb5MDK0Nli8bbtt9GQg80wkWVuvGefqaMJVTjIfAgDmh67DBHEaxGqUJafnyKJd3TH+CL+EUraqouuo+X0pNKWnJ12zM9CjKTkecand6l9oPbSJNIMn0JOezBHT/wIMAE7uRnOjjMQ8AAAAAElFTkSuQmCC","textures/blocks/wool_colored_lime":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAACHElEQVR42iRSi26bQBDce/A0xjZ2EqupqjRq2i/r9/WHWqlKo9i1g8GHH+Fguc7RE4K7W3Z2dmbF9x9rpajrSEhKY0oTcaidEDSdkJRiVzpEscdqzjQMpJOEAk3LeY6r0+XU9y4IyDmqG2J2UUhIONSkFYUhaU06SwEkXrZGSSrmoRTc9dxaKmYiDGTbMYBuijAK49o0PDh9ugzW0mwqAi33BwtsFCxmaldyEPAiV0iojMX69CE/X88aYTCrji6OOc8EEv6+uWPDceQz9wcUpNulQHu/ng0z6aqmwVEYUD7xqCCDPXiPKJTEhExA4BJK4Ki/POSjAqeuHxDDg3y0mCYyS7NDba4tPY3/oIeud/r51eAAfng71wyDiyPlCKhcVmaei0UukYabJNZB4LTnTe7nbwM1V4VqWwYxUIJoeONP2zF84IHqY480fWwc1I0iWszky4ZBdJIS5D+dPeP//mx2Jk3o/s7vNVCFENYyLPv2mF+uZ9sNIHa70vjAH7QLy9rWqwQsvd0zqmej+egHFeAJSm/3vRReGRVTWXnv03EmdDgOAq4Qu18rrdSfjYXes6mfq/fWSUlfP3syZW38jADbDXS38ubDyOt7l2dkOzo2AIKbFAXqdWcEAUI9PUx0GocIwHxmi0Gw3Tieofi4nmIWy2ogYpCBMGXN2zcDHyyY3SzV5Yozj5OrsIDa936wo0jBE/SzKvyY/hNgAEnrK21uf9qVAAAAAElFTkSuQmCC","textures/items/bed_red":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAoElEQVQ4y2NgoAcoKir6D8MkacyW0PoPwvv27fv/+vVrMCbKEJjGS/Z6YEy0ITCNazSV4BibISAawxBkjSAN+AzBMACmGaYQWTMy7lVUBRsC0hzipI7dAHwaQThSVBWsGcUAkCC639E1wjSDcF2SOaoBM2o8/iMbgksjzGYMA2ACMENwaYSpx/ACsgBME1a/EgtAXiJLI7qXyDaAbKeTAwBv6vkPRAIbrQAAAABJRU5ErkJggg==","textures/blocks/furnace_front_off":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAADtSURBVDjLjZPBEYMwDARpgRKoI6mByT+TPx1QAQVQAH+eNEFdyawz6wjHk/A4JEvyWdaZ5tb3z4jr5fK1FnFtvuEzDEPCOI4J+r9ij/v9TQAbC4LzPCc7TVMuxCeujSSHDigAEHZdVwU5aiTJBJ5EQdu2P0GNV8BvDMAYC8vTY46rZAI7iARx8hElQR6iA1zXNWHbtirMO8zDFeJwVEW/lFDZ8xD3fU8nYM+CTjKBrdk+VllFzGGXZfkMkYV3o+Vy6qpCzlmxJ3dAEOD/eweqdiBQhbPvgM0emFRQltrGGpEdZBmRpPxta4g17nkBeO4RWPpINW0AAAAASUVORK5CYII=","textures/blocks/barrel_side":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAADJSURBVDjLxZKxCgIxEET3QwTB6gQLsbBQQRtLKxGsLLWwsrO09wv82sgoL2zWHMdVFsPe7CRzyWTtdduk52WVVEEfbiLnXZOFvvxjcFgMc+Nxmv9wv8Hr+rbtepmmk3FSrUEaiGv1bc1okDxYHPttMI6kej9+0cV1JXgOkYAwhOuuXhfHMId43c9aU1aVjjm8MGADTW+oHhzdn7B4Rt2pZuCfrdWAUGIGtR/4TCy+c5yBOAux95858NyYdQKLz9ilFycATBqIuudvkQvuagT0TMYAAAAASUVORK5CYII=","textures/blocks/bookshelf":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAFkSURBVDhPlZI7SwNREIW3ER9osYgpLCxslGDhIli6aJdCUdBKsEgaJVaCBESsbBYkYCeksBDEXrbzJ/ifrnwHzvXumsbiJLPzOHfmzGSfTyfh9fFQmIwOhPv+XrSB42ke/9Rm/GytL0fsdleEab6NtTwU5+PQPbqTPxIQ3C9Whec8F/wNPiYLoXqYk10M3kRAjQhoh4LR9qzw1ek0CG7HeajrOlRVJb8J8vFQo2Tf79cqahOQSJsQuIM2AbUawQSDzZlok0jxxc2SCLDtRwcIogYwU2wNSOQVipmV102AH4LF4bE2IQ3UxUtfoC2Db2JpPPVJAxvpvrmD9C7aN+BbaazRewbYtH92OR9vwn7nNe7AyhO0yhYwXalJsRt34D0jzDQCHvBK8bEBchkj3gGJKUGv1wtlWTZuwwR+8M8dmIA1mYBW3UW7A42Ast791elO3DOJAB8xcqwBxeT9iviPG0j94Ad2Ig7w4PS4dAAAAABJRU5ErkJggg==","textures/blocks/smoker_front_off":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACAUlEQVQ4jZWSsW7TYBSFv6QhMk5kG7u1AwK1JYnEkKgIhCIGhkhBqEwwAluExEIneIA+BRNvgcTCE3RBKg4saRKGqI2d+McxdbBS1DAEG6WESpzp6uqc/97/npN687o+2z8Y8nmo8j94ejcLQGYgJrhexOlxQHVTAcDScwA4IsT1IqplAwC77WEaEnYv4MNeFtOQSBd0GdOQAHC9KBHabQ+7FyRCR4SYhpRw4joDsFVaI5AqqJqWrGgVwFqyerGUR+r3seTe/Av7B0MsPYfv+7zc2QGg2WwSBMFfYkVRqNfrqJpGIS9T0GUy8UqatpkQl4nj/sb6BiNvRDw4HR8oxuHR4VJxvEEM14twRPjnBu9aPgAtu7VAPIuRN2LVWOX77yOmHt8rzQBqD58vEIrlIp12h2K5uPBAp90BYO/9WwBSLx5VZq4X8ak7BkDXVK7q0Bcg/MVezAF49aTCQExIW3qO+7VrADx7cJ1bZYm+gO2aga6p6JrKds3ANCR0TaVxZ27uQExwRMjKjfVLu5DCHUd0j45Jnc5QLoL9dcwVbYUfJ9OFfteZkJcvEIZTcnKG9FZpDUeEADRuX8Y0JJxgmtRn+3Hcq2VjbiPMs3/yM5tk/7za9SIsJZsMTZIo/DEf2/MDnVeDivDHNAwJu+3NbXSCKeb6zX96vwypb19wgim/AIXA/GuXhpcmAAAAAElFTkSuQmCC","textures/blocks/loom_front":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACHRwTkdHTEQzAAAAAEqAKR8AAAAEZ0FNQQAAsY8L/GEFAAAABmJLR0QA/wD/AP+gvaeTAAAA1klEQVR4nGM4tazw/9Ylc//jo1dM7UGhYeIgzHTr1nWGzx/fM+CjQQBE8/ILooiDMBNIEiRBDABpRAdMMAl+Hk6wAKk02IAPb14xkEPDDaAEwA2Yv/UaWTTYgDfv3jGIC/OQTIPBkgYPeJweW5AOxjA+sjiyPIwP0ssCMuTPr28MfZMOMUgL8BHl76cfPjFkJBoiXLC5JxCM90yOgtPYMLIaEAbpBRtgpC5BFgbphceCghQ/SRgjGkGhqqckQBSGxwByGOCKCfRYAYUBSAweBg3J5v8pwQBJ916/PkINnQAAAABJRU5ErkJggg==","textures/blocks/anvil_top_damaged_0":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAACQSURBVDjLnVNBCsAgDPNZXrx47NH//2UjQkYpttkmBIYjaRPb1tyZc16AmT1Ya23gm/9bdkgmyZOJUmCMcawexVKB3vuuEAneWtkBBKrKIKPL0gLgg4wZSIEsSEIKRDJb573MIPP/ag7QgSdkItICK8U8fof4+RWqkS4F1C7IQTpto88DwEvJXfCgLU5pFLgBfRgnb5si+MMAAAAASUVORK5CYII=","textures/blocks/jukebox_top":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAACRSURBVDjLY9DUUPgPwqb62mCMzkfGMHGYGhBmABFRJkBso/m/OsASjEFsdIwhZ4JsAFTBlFhHOEZWjEsO5BoGEAHiwCSQbYI5E9kFMMOINkBCVASrASAabADMBmwGgDTT3gAQgSxIrAEoYTDwBpAbBuCERMgAXOmAKAPwJSSUWKAoKRPKTOiuwpqZ8GVhQtkZAJVzzJLUrKhhAAAAAElFTkSuQmCC","textures/items/door_wood":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGOfPtRkwAAAFFJREFUOMtjYBhUIDPE+P/8Fl+CmKAByGKE+CggO7+KMgMG3gtUCwNsuKF76n9sYYTVBXVJ5nCMjU+UAdNKHMEYG592sQDz4xD2AsgAYjCyHgBL1Alkv1WQQAAAAABJRU5ErkJggg==","textures/blocks/trapdoor":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAACoSURBVDjLY/CyUfhPCWZICtD8313o+H9OpReYhrFhGJscjAbpZQCZUhxrCDYNJADDIDGYIdjkQIbAXQA3DQls7gmE24ZNDi4O8wLdDUAJA5i/YBIwGmYATA6GYYaihAG+0EcWR8ZwL6BrRI9OdMNg8ihhgCsa8cmhuABXQOGTgwciPFEgAWTnoxuA7DLKoxHmBZi/YFGFHo3IclgTEnoUEYpGuAGUZmcAF1HMvxMypj8AAAAASUVORK5CYII=","textures/items/sign":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAkUlEQVQ4y2NgGDTg0Nyk/yC8Y0o8GK/vD4VjmBhMHiQ2rcTxP4oBIInMEGMUjTBcl2QOl4PRGAbAFIIwuiaYOIiPLI/hBWy248LzW3wxvYDsRBCN7CWyvIDsbGRx2ngB5CRSMYoBiV5q/0nFBBNXSZTZfx9btf8W2hL/yUqdEwud/sd7aVNmAMgVA2cATDM+AwC9USwpSFnGbwAAAABJRU5ErkJggg==","textures/items/painting":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAACSSURBVDjLY2CgNUhOTv5PkWZTU1MwJlkzskY1NTXChmycn/F/cpEXGFe48KOwseFkG1FUA0GKp3VV/J83rZsgBqnDagBMweZ18/+fOLoXA4PEYWowDAA5C59mdENwGoBPMwxTxQCQlynyAkg9VgOIDUSsLiAlGjEMAAUKDMMSC7aEBcKgRIfhBTUZzv+kYqrkVgBfDHuxv11bHwAAAABJRU5ErkJggg==","textures/items/item_frame":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAA3klEQVQ4y2NgGNRATU3tPwgTVPj8yuz/Vw+2/AfRyBhZDMYG0SC8ZUESwmCQwORaJ6IxSDOIRnEBSKDYQROOmz0gGJ0NwnO7Av+XpxhhNwCkcIqP5v8loYZwPLez7j8IwAzBcAHMC9g0z+6oBWue31kPlgOpwekCkCRMo4YcN1wziIYZDFIDcgGKATAXgJyHbAAITG+rRjGYKC+AFIEMgGGY7Ti9cGprOUoggjSB2CAN6JqxxgKyAfiiEDkWUAwACYBMBdHIbBCNLI4sj2IAyHaQADINY8MwOh/FAEoAANiCi0UkcpbjAAAAAElFTkSuQmCC","textures/items/flower_pot":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAACiSURBVDjLY2AYtMBYTOC/qbggGFtJCP4nWqOVlMh/C0mh/0WW2v8rHQz+V7mZgtkWEkBxCYH/BDXDNGYZKqNgmEEgNTgNCFEU+++nLoehGYZBcsEK4vgNmJUWClaIDXcFOhM2oMrREGzI0vw4MA3CII0gDJLDawAIgBSAFGLDBDXDDADZRpbtMBCmLI7iDYJ+x+cKkm2HGyIvCtYEwwzDFwAAB5KWe8mltAAAAAAASUVORK5CYII=","textures/items/armor_stand":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAACMSURBVDjLY2DAA+I9Nf4zkAtAmhc1Bf63NZD7T7YBWyZEkW4ASCMM95e7/kfmE+1sEAbZDqNBBhHtGpAiEAZpQqZJ8gpyAJIVkLAApCggQTaTFZWw0Adh5EAk2RCY08n2AsxWsgMRFgYkuwCW6mCxAHMJ0SlxxYoVYDx37lwwvWHDBjhNUkrEhrGpBwBnGbfrBJ+VxgAAAABJRU5ErkJggg==","textures/items/villagebell":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABLUlEQVQ4jcWSP0vDUBTFf08KTbIUpGRNQVFoHIzgKnEXXNwcdLA4+jn8Ai7q6CJdhLoXv0AE/0BFkIdLCVlCB2NBnkPis/lTqjh4psu59553ePfAHyG+ir31BbW4tMzz0wAAGcUAOM2GHpZRjNNsIKOY/kskAGqTTRggo5hRMibPpxgl41JfO5hEr9NWjmfkOBkkbJ0+luZrRaLXaavNww9Mq46wbQBUGAJwtm2rg6swJzJXFHA8A9OaT5etjdSmbeP69SqzZQGNbHkWpgv8ECUBGSS/Eih9ouMZiNYOylwFvs8kWgDHswVSBxe4fhcAlfEP/fdKB7mT3J2sqZX9Xf26Hnq71fX10XkuDzkHMkhw/S7CvtG3ByDLw/3lK8Mwmu4A0rBUes1QDNL/4xNcB2B6W9JTCwAAAABJRU5ErkJggg==","textures/items/soul_lantern":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAMFJREFUOI3Fkq0OwjAURg8ExRbEgp/rKkmWKRIUQczyUAg8b4AEScKCwi4kMyRjDzG12oHiR7R3GMKV7XdPT28u/Lpm8+Vduu93NXt+ID4gAjw/wDS1CBCrSx+gJzU/9U1Tcz7trNmBC/CpL83BSrUNz2XhNMgWCVGcAHC75Ez3R2vOCvD8gChOSLV6n2X59wCAVCvWoyFFC2jF1ZET96BoYSImHAamqTmUFWjFFjiUFWPHQjm/EK42L+0QMLLIH+sBJDs2hx8u+WkAAAAASUVORK5CYII=","textures/items/campfire":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAxUlEQVQ4y2NgoDXYaM/wnyLNMEyWASdzmP+DMMkGwDTcXyT9nyxDQIpBmkAGwAwh2gBkze/PhoExSYaga/75ejWKIXg1+9iq/Ud2AUjzv3+/wQbAXABSg1PzoblJ/3dMiQfTIA0gzSAMYiPLmWlL/8fQDDNgfosvWCHINpBmkCtAbGQ5kAEohoA0x3tpgyVBeFqJI5hfEmUGxhMLnTDkMAwAKQRJwFwD0wjC2OQwDJhR4QnGyLbCNMIwshyKATA/kYqpklsBXe4TkRzn5JoAAAAASUVORK5CYII=","textures/blocks/pumpkin_face_on":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAD0SURBVDjLfZOxDQIxDEWvR6JAtMxBxQT0FLQwAyUz3AggIQrGQIzAAog9CPeNf/hxAoXv4u/43dlOuttumminzSSpf1iPKg0+dMa7Zz9LNG5SHwm/fANYwnlphnW6bs2oEwiNEAMMMQPgQSEDHqtPQoAWEI99Af4VS3bj5kLn33msCXilo5kCqCGuffoLYNMi4H6ZtwGoK37duj7oCrby0PgK4JDYqKx7LL9bJfCt4+P50HgF0FGx5tY6j7gJ8FGx1pbFMXc81wqxtYMQ00QrxSeRz0HRKP81jkp7BG2/GJd3AQIhWOtNpKkf92dADEaN6+i/ASdvowry1G2GAAAAAElFTkSuQmCC","textures/blocks/glowstone":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAD6SURBVDjLbZOxDUIxEENvFgokRmAAWkTBEHQUsAKI4ZjgT0FPEfCJF1kWkfJ//sW5s3359V6u43k/jtthM867VU99E9dUTPs9XsvEP07bUQoAFvCyX/cUgJiAWgub+EqgvmFDMsX1VswPNwM9vEpK0kENxUkCvhMAaoo/jeikosdghJTCIAdqrYk8Z8VhWJXTAuw6XQoegWsTtXCT3FRi2ocRSSg428gmSbwi3lBVey35Owpz0Oh9zv57+2BV3rI0LOPpR3vgfQVAdlUF6L4gV+siW15nb5VTd8+awaxml8hZIMeNcz/Kjfp3jVNi7hdasppT5acimRv5Achkgl/nEOAdAAAAAElFTkSuQmCC","textures/blocks/sea_lantern":"data:image/png;base64,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","textures/blocks/shroomlight":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAhRJREFUOI1tkzGLGkEUx39jNkruIuTMLcKEQAyIaTzwjCHYXOCKO0iag5AmXQhEuKuCaQ4CqS5F8gGMhZ1N8AOcpY2FohYSLovgWsQFkdjYieekGHfcg2z1Znbee//3+8+Iq5Nt5Q5XJB6HiCYWzN0wqWdpALxph7kbxh2uADj+/B4y+wDw8wdOq8+tlxHry97hksjONQCRnWu8X3/ZffGK6MOn7N5ZshUfsyUs7ONDuHsPel1EOs395RxxdbKt/I4kcwAIGQNAeTMAnGqF4Jngf8uXKu2sPpDZR+kIsT4UTSxMcQZtFJs45M9NMqeT47aWOBmhGnWcagWZLyBkTHdO5mDQNoysuRvWHfyul3Utr1HHafVJvX2HkDFWe+vx4lPTHSAEIO0sTrWCUzy72el/X697YylWX58rb9pBnpY1sOKZUSTtLE6rz5NPRVT8kUn2miVkvgCDtoYo8wVdbTLStN982KyBce2CB6/PQcZQjbpmlteOhPyKYjIytgGouI3yZoiDI8Pk97fvhovPQfz5eFtJO2usNAnrYmLdNcjEa5ZMbBn/AXFwxLh2AaAlrwt50w4EOMlMGXpdnGolcJFOyzAZGR7j2oWBCGEjW8VtxGUdr1kimgBLUz6HAAOvWTIKUskcTrViLBRr/wHmbhgrmlhsZhy0tVwfpDfb3LrA3H6yO1xpiP6G778fB59y8LkDZv8fS4gGhHiNQH8AAAAASUVORK5CYII=","textures/blocks/end_rod":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAZklEQVQ4y2P49ujsf2TMQCr49gqo8RUlBnx6BjagODX1f1dzLRiD2EQb8P/bs/8gDNK4ad1KMAaxSTMACMg3AAoG3gBQwCFjEsLgG9gABnIBLBYG2IBPVykw4B0kKQ+cAWRnImoBAA6JwB3udrQFAAAAAElFTkSuQmCC","textures/blocks/redstone_lamp_on":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAADBSURBVDjLpZOxEQIxDARVBOS0QERATkAn5JRCQh+kNPIFUAABqRl5Zn/u7fPAQKC3X76710vn2G/W5Z+IfBx2q/pyOW3L43qskXtALg8nWtBrupXn/Vz3gHKfuTxrxecKIDuQinO+qCABjgzRiYAJLVHJ5MiriOZCD5TMl7QnDjs3USdBw1RARcAuBAjGhYiSc7U+oKTWD47MxIZNdKZqyV0TRzPWMTqvdFNwIp+MNrSy9uQrK7Pqv7fiKtpdpl/jDWyhMHXRIwnpAAAAAElFTkSuQmCC","textures/items/fishing_rod_uncast":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAB/SURBVDjLY2AYCJCSkvLfxcXlP9maPc1E/2vIcZNuAMhWkOYMPznSDYBp7kxXB2smyQvommFiZGuGhQXZmokygFCAlZSU/KcotPG6gCqat2zeDMampqb/sbkQp2ZYKps2bRpWA4jSDOKDNCJr/g8EyDQGAGnElzxBLsKpmRIAAOzsfqwiBDgAAAAAAElFTkSuQmCC","textures/items/fish_cooked":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1MAAA6mAAADqYAAAXb5JfxUYAAAFSSURBVHjapJO/SwJhGMc/b+gibQ1qOBgR3FI4GMENjecQ/QMujtkY/g1ttuRfYIM0JQUN6SYhSA6RiyByh8uVEQS+BAfB25B3ddyplM/yvMPz/fXwvEIpxTIVcR9CCBaR1ctFBbCxvSUyuRIAK39V1HQDszdQj3dn/yMASMRjmL2B8kVYZNut9+E9zy8fjEc2cwlcYDZfQFrfw/12wweeGaFeLqpsvoCmG3RrVVbTSVbTSdwF7h3sC0D4CCrHhx5Y0w1PUdMNpGUjLdunHOrAVQbo1qpk8wVP2ZmY3lwmV+Lo/Do8grTsgLIzMenctgDEtAcdRCNCjUc2rcsqiXjMp+yCw/blc1Cs3LCzu8nTw5C3XjsU7FoPnDJA++IEgGQqyi+rM8EBgld7BECj2Se1viakdAA4vepMHfpTKKV+CJT4FI3m0Ls6KR0POK/Est/5awAS+J33Ce4JzAAAAABJRU5ErkJggg==","textures/items/fish_salmon_cooked":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABv0lEQVQ4ja2SzWoTURiGnzONE+uY1KiRjAyEDpZYF6WgUnEhFFFxkZJFyC1k403kHrwAwU1AiAt3RenOIrooaUOxQszPYIx1Kor5mWQ6x1UHpjNKwX7r73m/9z3nhf8ccdLFJw9zABLANHTRtHo8Xf+IclJYT18CoFzK07R6MqElAIj95RIAh+Mph+MpFyYTevu2LJfyABRWTCq1lgSEchw2Df3Iqrx6XgWQ34auXJt1eV99Qb/doFJr+UwoQtPqyXIpT2HFpPt9IO8kFYq6ysLSMg1HUKm1uJbRhHomJkIC3sQFoN9u4NX3KOoqhhZjYWmZT/UtqraKVD3RsR3ebG0H3+De2n1+KiO0L128+p4vegRbAxeYoTNV6OxsR0foerNytPqI59dXsQZuAG440T/uC8TPnQWgvfsZgM1CkY3NDwA0HEHVVsmo4d74EZzhWGYX532RLPNs3HzAlbev/eV9d4bOzm60A4D1Z6/40bdJXkwG3FRtlWw8urWBIt1+fJe53wci9eurrB8YAdiahq+HBNLeSNzKxMgtmvCuyUtLkkhowhqMI+HjEYQR98ilVAlwOZ0SN+YUMfwHfCrzB5sMt2sAS6SeAAAAAElFTkSuQmCC","textures/items/fish_raw":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABiElEQVQ4ja2SsUorQRSGv4mbQoyiNyZmQVLcqGU6EUTwCXwBC3sLCx/C2sLCWgux0cZOK2UVJHC5JJiIOpqsCxsJaGzMriuMRe4srhtEuJ5mZuB8//nPmQP/GeK7iX8O1vGebNVybYyBvLi9uGFl8wDjO3D1dI+3zjPDv+YYLsDJ7pZKDRoCiAtUT/fwHm0Abst/cZ1Hrs6PmZqZVwBtaWGOJ3GdQAHC+AwD3FctBZBIDIikIVTzrk52tI+W2xV2nSBkYg6urR01ObcIdK0WpwsxsFKTvQUeGvXw3pYWGs6YeVquTaUmMcdGRS6TxvP9qMDG8gLPzQZNJwBrJ4T0qat3Oh5r++e9HTTv6qo4XQCg5droVsDCdSS9IqEvqaF+AMqlbqKG29KiXJJUapJseiS2N6ED/8ULq5dLkuI/Fx8n/hoEEfsRBwCzS+sAmONJIDr1XCbdc2sjAmfbqwBkzHzYioY9349Vj7RQqclIZf3XX8ERgYnfOXF4dKn0O5seEa9BwFfwj8Q7AEvEw7TXEiEAAAAASUVORK5CYII=","textures/items/fish_salmon_raw":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABuUlEQVQ4ja2STWsaYRSFn9eOH+2MEh0jrVKsy2Ynkk0JobaEUgoR7KZ/wFV/UFeFLlzUbbuRYksIoasGSj7IxiBOMmJJEzU6o6nVt4uSgXEUAu1dn+fccy4X/nHETYWvHq8BSIBMKikaZov3Wzv4bgrfi+sAlIoFGmZLRlQVAGXBJgCC4y7BcY/w6ALzJ7JULACQz2UpV2sSEL5ZOJNKXkeVicBtANmf9uVLa8j+m7fUmwblas1hPBUaZkuWigXyuSw9qy1X+iobMoEejWJoIcrVGqnluAj4FeExUH5bANSbBrHtr2zIBClNRY9GOe90qFg2UvGJs26Xz9/33TdY33zKLyYstY+JbQ8d02vYHFggwJhMMQ4O51doc0sO88/48CSLObBcsKGFZtu6DYJ3/gqaRw0ADl+/YO/kFABDC1GxbO4qiudvnApX9kimH2YckzQZdjfXML58c8RnU4lxcDQ/AcCndx/p/DgnEou40lQsm7TfP/drXY+0+vwRgd5QBDoD2by4dMGnk6lnuyeBNkasxJfJ57IkL684rp8QDqsL4VkDofuD3I8sSYBYXBcPNE3Y1mgh/F/mD4dAuAk6doAWAAAAAElFTkSuQmCC","textures/items/fish_clownfish_raw":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAByUlEQVQ4ja2SvUsbcRjHP7+YVHO5HDbQeBghiaRtQAkZXJKhNUN3/wIpdOogmeyQ4VzdOlWnQrduobi6CTFb2yEUS821AYWLhbMkZy4Hml8H8Zo0EYT22b7wfF+eF/jHEndt3F9bBpAAyfhAhLo/SL/vEbgrWdOmASgWF2idBaRzFQEgeIvTSKm6TseyZLG4AEAmbFJr6xJ+isDf5PuZxzdRZWymByAdy5L55y+Qp0ecfTqg1tZ9ztgI58df5crGJpmwid1XZCHpsLq9QzAawy2VqbV1UrNCzGmKmCgAoCbSPIjHKSQdALzddS67NoZRYTAXE+4gzLMPDWDoCvtry2jTV3S8KbmysYmaSAPgnH4ntLdFvaVSNZvMBAPi9ccL32xkiR1vShaSDuxt4QEikeUeQCILrZNJYf+MMLv4EIB6S72Olsj6TYeHJ1TNJvMRZexv/AS/zG9ydXtnJDaAWyqTfwRVo4Lt9RmOP7bEUPYJ3u66j+stlc/v3mIYFfK53MSvHRFwyikALrs2bqkMQNVsktKi4uhLY8wdhq7wMheWr5au4bG7SNVsApDSosLqXUwkjwi8earQOJfyBs9HFGF7fYBbyf+lfgNpr6RqhaOWSgAAAABJRU5ErkJggg==","textures/items/fish_pufferfish_raw":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACdklEQVQ4ja2TT0jTYRyHn1d/08QxG7ahtsqZTJ1DIR3JEESiLCq9CAnlsUsQ3qJLmv2DMA8jsqBbUnlQcGpEkgxBxNQiK4dJm5Z/Jks3mpOhm70dhjOzW32P7/s+n8/Dy/vCP47422LkuZqxaQWtRpCbEZFfllQiEJRYTVFuCkf83I26YyT8CdvP65iYTcZqisr+cUW6/Rr6xxVpNUXl64k96Oa6ACRAY8fAtsFWK8DYtEpW2VTklfoBiHoU2vpSACgqSMKZ+wSAb+s/RTxguHkvVlNUtvWlcOlMGCUnGofdfk3c8Fl6OwBDq5scTBIiAWDqQRbhSKylyqbC7dcQ9ShxOOfiLMcfquMggC08Ko4sPkI0dgywf6mLClW3fDUc4d6EFve7T3geZ+MN7Lzj8sM/GHKncSWplWZ/IynqNURjx4AESO+to8qmwhsQZGol3oCg+PR1AHzDTXgDgnAoFQCDJQ/nyxG0GkUkbCmtnO3AMxfT3IKL61sorm9hI62EcCgVgyWPE5fbMFc2EFxbZ8EXRtmnCDG0uilXA37KgEytxDOnxjfcxIurJbHGwmoMhaDRGwn6Zpif7AFAn5mOshyV5PhHRIZvlLfuJVl2rpVcvRGAoG8mDmn0RlxOO+bKBhzNg9TUVjDlmiVxpredW6ULHEhckd7lEFm6dXTGMgCSU7U7QgyWk7icdj67vgKIfHP29ktcXA4JS1GBcHQOEvTNAOBy2ncZODpj7QBFF3p3/oXuO6coOloun96/S01tBYbCagDmJ3twdA4CkGc+JADyzdm7AzwDt/nwZojNjSCu9x/l73s1tRWMjbjE4vx3rnUH+W/zCywzD2wyvIMOAAAAAElFTkSuQmCC","textures/items/hunters_stew":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAaklEQVR4nGNgGAUDDxhhjB43jf/oko/efGOQE+HCqrFk1w2wXiZsklFuEBqm2SbFCKcLmLAJLtuFyj8y5xxpBpAVBiBQEaCLEQ7YQMeGy4xYXdCBJEGMZgwDGAgYgk0OaxhgU0iM6wYGAADiORyTn0qL+QAAAABJRU5ErkJggg==","textures/items/miners_pie":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAVUlEQVR4nGNgGAUUA0ZsgndWRf3HJq4StgxDPRMuzeeO3CDKYCZcCoxsNODiyIahG8LEQARANgyvC8gBTCDi4cNn/0GYWE3I6lmQJVjNe8hzAcPIBgDg4yTybqYCOgAAAABJRU5ErkJggg==","textures/items/explorers_wrap":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAb0lEQVR4nGNgGGjASKzCh/ua/iPz5Z3qwHqZyNGMDJgo0UzQgIcENOM14CFU8/O6DRhyMP/jDMSHUM2Xdx1h0HWzwakZqwseQjVXPtpFUDOGCx7i8TM2zSgueEiGZhQDyNFM0AB5AprxGkCM5sEBAOUrK++0dG0DAAAAAElFTkSuQmCC","textures/items/sea_soup":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAX0lEQVR4nGNgGAUDDxhhjKhp+/6TonFZlhNYLxM2yWnfdqHwHz2qw2kQEzbBLC43FL6cXBNpBpAVBiBQEaBLVDh0bLjMiNUFHUgSxGjGMICBgCHY5LCGATaFxLhuYAAA+AwaV0Er9YIAAAAASUVORK5CYII=","textures/items/night_owl_snack":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAWUlEQVR4nGNgGAUUA0ZsghVuRv+xiXfsOoehngmX5oBHXHAxGBubwYzE2IzPJUz4FB559IagYUz4JG3kRIgz4OHDZ/9BmIFIgKyeESbAQAaQl5dixOuFEQIAjywkANexilQAAAAASUVORK5CYII=","textures/items/golden_feast":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAV0lEQVR4nGNgGAUUA0Zsgh/2afzHJi7gdANDPRMuzfxGeUQZzIRLwcdzk+DiyzpwG8LEQASIqsAtx8RAIWACEQ8fPvsPwsRqQlbPgizxUXkfeS5gGNkAACepJNQzaSHbAAAAAElFTkSuQmCC","textures/items/book_enchanted":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAADbSURBVDjLY2CgNTBUZPkPw2RpDNIT+J/qLQ7GRBmSIy7+H4SRNSJjnIbAbFyiow3GR4UtwRpcjAXAGKch6E4NsRP+P1faHGwAUYag+xOfIchqXFS5IIaguwCmENkQkJeQNYJwdHT0fxQvbN++HashIM2XF4mBMUjjzJkzwWpBNNgAMQFWsMZr166hGIJsI0jzlWlSYHmYZpClIDmchsCcClIMckWnogKKRpAeEIbHBrohMKeCMEgzCGPViAywGQLSBNKcKCKCWyM2Q2BeAPFBmknKBzBnEmUjpQAAQoET8UQa5t0AAAAASUVORK5CYII=","textures/items/book_writable":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAADdSURBVDjLrZE7DoJAFEVJjLGlMtpYWFvZuQhXQNzBtNasg0VQswcWQMlWnjmT3GEY+Zk4yeM3nPPehSz79+r73tq2tbqujftHvjPVKgyIQAX0uubmbmd73y/2PB1sk6AsyyABpFYldGNsJBQSRWFvVqJ8jMomAJ11VpRZCReCtakozrkQI5Vw7SUc4gliCQLFiEGqKIphAh40TTOSaHxNIbCqKv8uZy845nsPdl03kugbSCBQcIgwJ+GFOEYMUjBU+BupRB0lUccvMF5TEkAEi+CUZFPHJUkK/izZuj7rvVkvoaF0QgAAAABJRU5ErkJggg==","textures/items/apple":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAACrSURBVDjLY2CgByjVYPpPtuY6c77/ISqc/+lr+xwB8f8gDNIMsh1EE2UQSNMWYbn//6fNBdMgzSCxu+KqYD5eg+CaZbT//4/LBBsCxyA+UByvISgGYMEgVyAbgtMAmEJkGoZh/BBOvv9YQxtkAMwQmL9hfJjriDIAGSMbBPMCVgOwuQKbQTg1wwyAhQU274Dk8BoAAiAFMENgCYpozciGwOIbnBqBfKI1kwoA05Laz2t+8VcAAAAASUVORK5CYII=","textures/blocks/obsidian":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAADQSURBVDjLbZLBDcMwDAMVFOineXSAot8MUWSL7r+KA7mhfGH9EGDLokxSivvt0SKWS2Tuub6a3j7bt23vvd8z8qxcqEigPDtYd4JHzflrJqvr2TDPGVnM5qwJUlSh6OoXgWfyegOCWTzzRlEMZkBqVriR1VhgUZNJBIjl0D0Y1RQSLHdp2EwKzQ5PUpKmwF///FLC9XOEZMkplInurMLffMl+Msx1sWEDmkr6vZYFNI8+cHVpdmfiWkmZjfxtmIsLaXuO0i574C5TPyfkm6k4AAM5MV4JPYhVAAAAAElFTkSuQmCC","textures/items/paper":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAB3SURBVDjL1ZFLCsAgDES9fW7jHbxE7tB217VgmcKAVlM/i0IDQRDfmxCd+0V57xN6Gd72I6nqnISpAGM874ZoSMJUgnlDKCJpOLXVeFNJCFrJzykKyQzMXVQT4KIn4W+YO3iTMNWELQnOEEIfbEkITsG5ZAn8vC7Y+FV0TSpb1gAAAABJRU5ErkJggg=="};
 const sstate = { q: "", cats: new Set() };
 
 function placeIcon(p) {
-  return p.icon ? `<img src="${ICONS[p.icon]}" alt="" width="32" height="32">` : `<span class="glyph" aria-hidden="true">${esc(p.name[0])}</span>`;
+  return p.icon ? `<img src="${SHOP_ICONS[p.icon]}" alt="" width="32" height="32">` : `<span class="glyph" aria-hidden="true">${esc(p.name[0])}</span>`;
 }
 function priceTable(t, q, open) {
-  const rows = q ? t.rows.filter((r) => r.join(" ").toLowerCase().includes(q)) : t.rows;
+  const rows = t.rows.map((r, i) => ({ r, icon: t.icons?.[i] })).filter(({ r }) => !q || r.join(" ").toLowerCase().includes(q));
   if (!rows.length) return "";
   const head = t.cols.some(Boolean) ? `<thead><tr>${t.cols.map((c) => `<th>${esc(c)}</th>`).join("")}</tr></thead>` : "";
-  return `<details${open ? " open" : ""}><summary>${esc(t.title)}<span class="n">${rows.length}</span></summary><table class="price">${head}<tbody>${rows.map((r) => `<tr>${r.map((c) => `<td>${mark(c, q)}</td>`).join("")}</tr>`).join("")}</tbody></table></details>`;
+  return `<details${open ? " open" : ""}><summary>${esc(t.title)}<span class="n">${rows.length}</span></summary><table class="price">${head}<tbody>${rows.map(({ r, icon }) => `<tr>${r.map((c, i) => `<td>${i === 0 && t.icons ? `<span class="pi">${icon ? `<img src="${SHOP_ICONS[icon]}" alt="" width="16" height="16">` : ""}</span>` : ""}${mark(c, q)}</td>`).join("")}</tr>`).join("")}</tbody></table></details>`;
 }
 function placeCard(p, q) {
   // A search that matches the place itself shows all its lists; one that
