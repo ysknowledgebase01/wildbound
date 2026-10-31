@@ -252,6 +252,17 @@ const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&l
 const go = (id, name) => `<button type="button" class="xref" data-go="${esc(id)}">${esc(name)}</button>`;
 const tierLabel = (m) => Object.fromEntries(TIERS)[m.tier] + (m.king && m.tier !== "overlord" && m.tier !== "legend" ? " · King" : "");
 
+// Zombie- and ember-family Elites mix as a Zombie / Magma Cube in any
+// two-mob recipe (not the King's), as long as the mix wouldn't just make
+// one of the two again - add-on v1.416, companions.js STAND_INS.
+const TYPES = {
+  zombie: { name: "Zombie type", ids: ["zombie_chicken", "zombie_cow", "zombie_pig", "zombie_panda", "zombie_rabbit", "zombie_wolf", "zombie_shark", "bomber_zombie", "frost_zombie", "void_zombie"] },
+  magma_cube: { name: "Magma Cube type", ids: ["ember_bear", "ember_pig", "ember_skeleton", "magma_cow", "magma_frog", "fire_fox"] },
+};
+const TYPE_OF = Object.fromEntries(Object.entries(TYPES).flatMap(([base, t]) => t.ids.map((id) => [id, base])));
+const mobName = (id) => DATA.mobs.find((m) => m.id === id)?.name || id;
+const typeTitle = (base) => `${mobName(base)}, or any of: ${TYPES[base].ids.map(mobName).join(", ")}`;
+
 function row(m) {
   const [defence, speed, evade] = MOB_STATS[m.id] || [m.titan ? 39 : 19, 120, 12];
   const tags = [];
@@ -266,12 +277,17 @@ function row(m) {
   if (m.extra) tags.push(esc(m.extra));
   // A parent's face with its minimum level on the corner; "4 × X" shows X's face four times.
   const mini = (id, lv) => `<span class="mini"${lv ? ` role="img" aria-label="Lv.${lv} or higher" title="Lv.${lv}+"` : ""}>${FACES[id] ? `<img src="${FACES[id]}" alt="">` : ""}${lv ? `<b>${lv}+</b>` : ""}</span>`;
-  const ing = (id, name, lv) => `<span class="ing">${mini(id, lv)}${go(id, name)}</span>`;
+  const ing = (id, name, lv) => TYPES[id]
+    ? `<span class="ing" title="${esc(typeTitle(id))}">${mini(id, lv)}${go(id, TYPES[id].name)}</span>`
+    : `<span class="ing">${mini(id, lv)}${go(id, name)}</span>`;
   const recipes = m.makes.map((r) => `<div class="recipe">${r.n
     ? `<span class="ing"><span class="minis">${Array.from({ length: r.n }, (_, i) => mini(r.ai, i === r.n - 1 ? r.lv : 0)).join("")}</span>${r.n} × ${go(r.ai, r.a)}</span>`
     : `${ing(r.ai, r.a, r.lv)} + ${ing(r.bi, r.b, r.lv)}`}</div>`).join("");
   const how = `<div class="src">${tags.filter(Boolean).map((t) => `<span class="tag">${t}</span>`).join("")}${!tags.filter(Boolean).length && !recipes ? '<span class="tag">-</span>' : ""}</div><div class="recipes">${recipes}</div>`;
-  const used = m.used.length ? m.used.map(([name, id]) => go(id, name)).join(", ") : "-";
+  const base = TYPE_OF[m.id];
+  const used = base
+    ? `Mixes as ${go(base, TYPES[base].name)}: anything a ${esc(mobName(base))} mixes into${DATA.mobs.some((k) => k.id === `king_${base}`) ? `, except ${esc(mobName(`king_${base}`))}` : ""}`
+    : m.used.length ? m.used.map(([name, id]) => go(id, name)).join(", ") : "-";
   const tc = `t-${m.tier}`;
   return `<tr id="m-${m.id}">
     <td><div class="mobcell">${FACES[m.id] ? `<img class="face" src="${FACES[m.id]}" alt="" loading="lazy">` : ""}<div><div class="mob"><button type="button" class="find" data-find="${esc(m.name)}" title="Search for ${esc(m.name)}">${esc(m.name)}</button></div><div class="sub">${m.special ? "special mob" : "vanilla"}${m.titan ? " · titan class" : ""}</div></div></div></td>
@@ -291,7 +307,7 @@ function render() {
     if (state.tiers.size && !state.tiers.has(m.tier)) return false;
     if (state.srcs.size && ![...state.srcs].some((s) => m.sources.includes(s))) return false;
     if (!state.q) return true;
-    const hay = [m.name, ...m.makes.flatMap((r) => [r.a, r.b]), ...m.used.map((u) => u[0]), ...(m.wildFroms || (m.wildFrom ? [m.wildFrom] : [])).map((w) => w[0])].join(" ").toLowerCase();
+    const hay = [m.name, TYPES[TYPE_OF[m.id]]?.name, ...m.makes.flatMap((r) => [r.a, r.b, ...(r.n ? [] : [TYPES[r.ai]?.name, TYPES[r.bi]?.name])]), ...m.used.map((u) => u[0]), ...(m.wildFroms || (m.wildFrom ? [m.wildFrom] : [])).map((w) => w[0])].join(" ").toLowerCase();
     return hay.includes(state.q);
   });
   const by = {
