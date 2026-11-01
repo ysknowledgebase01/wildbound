@@ -13,7 +13,22 @@ Each day has up to three parts:
 
 ## 2026-11-01
 
-### Add-on (v1.427 to v1.451)
+### Add-on (v1.427 to v1.452)
+
+**Riding fixes and a new Grizzly (v1.452).**
+
+- A mob you ride no longer does its own thing under you. Pandas and
+  Grizzlies stop rolling, sneezing and lying down, and a hurt mount no longer
+  bolts.
+- Sea mounts (sharks, dolphins, the Kraken and the like) no longer fly when
+  ridden on land. They stay on the ground, move slowly and can hop up one
+  block. In water they swim as before. The Sea Horse walks on land like a
+  horse.
+- The Grizzly has its own model: a big brown bear with a silver-tipped
+  hump, glowing eyes and a snarling mouth. It rears up and slams down with
+  its paws when it attacks.
+- The Minotaur's recipes now use a War Piglin in place of the Piglin Brute:
+  War Piglin + Gilded Hoglin, or War Piglin + Siege Ravager, both Lv.20.
 
 **New combat (being tested).** Fights are now worked out from real stats
 before a hit lands, and a mob's level is what makes it strong:
@@ -86,6 +101,7 @@ before a hit lands, and a mob's level is what makes it strong:
   Board posters. Caught raid bosses come in at Lv.20.
 - Shop tab: the Boss Portal, with its prices and levels.
 - Mob Index: War Piglin, and the Chrome Golem's new recipe.
+- Mob Index: the Grizzly's new face, and the Minotaur's War Piglin recipes.
 - This change log.
 
 ### Server
