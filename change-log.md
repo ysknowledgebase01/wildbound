@@ -13,7 +13,16 @@ Each day has up to three parts:
 
 ## 2026-11-01
 
-### Add-on (v1.427 to v1.452)
+### Add-on (v1.427 to v1.453)
+
+**Resting and hunger (v1.453).**
+
+- Out of a fight, you slowly heal on your own: a little of your health every
+  3 seconds. It starts once you haven't hit or been hit for 10 seconds and no
+  hostile mob is close (about 12 blocks), and it doesn't work near a boss or
+  in minigames. Small hearts show while it works.
+- Hunger goes down half as fast as before.
+- Admins can change both from the Admin Wand (Combat Balancing).
 
 **Riding fixes and a new Grizzly (v1.452).**
 
