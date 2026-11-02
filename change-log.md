@@ -13,8 +13,10 @@ Each day has up to three parts:
 
 ## 2026-11-02
 
-### Add-on (v1.454)
+### Add-on (v1.454 to v1.455)
 
+- Wild sharks now hunt caught mobs in the water too, not only swimming
+  players.
 - The Minotaur and the other big boss and mythic fighters built like it
   (Brutaurus, Unixion, Kirin, Frost Elk, Everfrost, Archfiend, Dreadlord,
   Drakari, Dragonlord, Soulreaper, Endbringer, Ender Overlord, Manticore,
@@ -23,7 +25,8 @@ Each day has up to three parts:
 - Wild ones of these now come after players, instead of only fighting back
   when hit.
 - Under water, a mob's arrows swim like slow torpedoes that turn toward
-  their target, with a trail of bubbles.
+  their target, with a trail of bubbles. This also happens to an arrow
+  shot from land that goes into the water (v1.455).
 
 ---
 
