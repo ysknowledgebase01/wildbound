@@ -13,8 +13,21 @@ Each day has up to three parts:
 
 ## 2026-11-02
 
-### Add-on (v1.454 to v1.456)
+### Add-on (v1.454 to v1.459)
 
+- New **Potion Store** (v1.458). It sells potions that heal your caught
+  mobs, plus the Shop's potions for you:
+  - **Mob Tonic** (5 coins): heals a hurt mob by half. It can't wake a
+    fainted one (v1.459).
+  - **Crystal Vial** (10 coins): hold it at a town Fountain to fill it with
+    **Glimmerwater**, which wakes a fainted mob at half health. The vial is
+    then empty again, and refilling is free. Vials don't stack.
+  - **Revive Potion** (20 coins): full health, even for a fainted mob.
+  - Hold one to use it, or hold it and tap your mob that's out.
+- New **Mob Mixer** (v1.457): mix mobs with a friend, and you each get the
+  new mob. Pick each other at the Mob Mixer, each put 1 or 2 mobs in your
+  Mix Box, and one of you pays 30 to 50 coins to start it. Only real
+  recipes work there, no forging.
 - The health and level label over tall mobs (the Minotaur, Kirin, Frost
   Elk, the reapers and fiends, Kings and others) now floats over the top of
   the mob instead of covering its face (v1.456).
@@ -32,6 +45,11 @@ Each day has up to three parts:
 - Under water, a mob's arrows swim like slow torpedoes that turn toward
   their target, with a trail of bubbles. This also happens to an arrow
   shot from land that goes into the water (v1.455).
+
+### Website
+
+- The Shop tab now has the Potion Store and the Mob Mixer, and the Items
+  tab has the Crystal Vial, Glimmerwater, Revive Potion and Mob Tonic.
 
 ---
 
