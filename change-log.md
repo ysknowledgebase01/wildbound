@@ -13,8 +13,29 @@ Each day has up to three parts:
 
 ## 2026-11-02
 
-### Add-on (v1.454 to v1.459)
+### Add-on (v1.454 to v1.460)
 
+- New **living swords** (v1.460): flying devil swords with a skull engraved
+  on the blade and an eye in its forehead. They fly, so they chase flying
+  mobs too.
+  - **Daggerott**: Phantom + Magma Cube (both Lv.5). It also turns up at
+    night now and then. On a **Blade Night** (told to everyone at dusk),
+    small packs of them come out.
+  - **Abyscleaver** (boss): Fire Dragon + Daggerott (both Lv.12). Also a
+    boss in raids, on Bounty Board posters and in some Mob Towers.
+  - **Eye of the End** (Mythic): Abyscleaver + Archfiend (both Lv.30). Also
+    in Ender Monolith raids and the Boss Portal.
+  - Daggerott and Abyscleaver charge in to stab. Abyscleaver and Eye of the
+    End spin to cut everything around them. Eye of the End throws bursts of
+    small daggers from far away.
+  - Ride your own one and you hold it in your hand as a sword instead. It
+    hits harder than a netherite sword and grows with your level and your
+    mob's. A short press is its special move; hold to let it go. While you
+    hold it, it drinks your health, and lets go before you drop too low. A
+    mob with the Drain trait wins some of that back as you hit.
+- The Archfiend, Dreadlord, Drakari, Dragonlord, Minotaur, Brutaurus and
+  Ender Overlord walk with long, heavy steps instead of quick little ones
+  (v1.460).
 - New **Potion Store** (v1.458). It sells potions that heal your caught
   mobs, plus the Shop's potions for you:
   - **Mob Tonic** (5 coins): heals a hurt mob by half. It can't wake a
