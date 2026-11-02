@@ -11,6 +11,22 @@ Each day has up to three parts:
 
 ---
 
+## 2026-11-02
+
+### Add-on (v1.454)
+
+- The Minotaur and the other big boss and mythic fighters built like it
+  (Brutaurus, Unixion, Kirin, Frost Elk, Everfrost, Archfiend, Dreadlord,
+  Drakari, Dragonlord, Soulreaper, Endbringer, Ender Overlord, Manticore,
+  Naga, Ouroboros) could chase an enemy but never land a hit. They now hit
+  what they reach, wild or caught.
+- Wild ones of these now come after players, instead of only fighting back
+  when hit.
+- Under water, a mob's arrows swim like slow torpedoes that turn toward
+  their target, with a trail of bubbles.
+
+---
+
 ## 2026-11-01
 
 ### Add-on (v1.427 to v1.453)
