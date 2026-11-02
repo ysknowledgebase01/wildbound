@@ -13,8 +13,13 @@ Each day has up to three parts:
 
 ## 2026-11-02
 
-### Add-on (v1.454 to v1.455)
+### Add-on (v1.454 to v1.456)
 
+- The health and level label over tall mobs (the Minotaur, Kirin, Frost
+  Elk, the reapers and fiends, Kings and others) now floats over the top of
+  the mob instead of covering its face (v1.456).
+- Riding a tall mob puts you on its shoulders or back, instead of inside
+  it (v1.456).
 - Wild sharks now hunt caught mobs in the water too, not only swimming
   players.
 - The Minotaur and the other big boss and mythic fighters built like it
