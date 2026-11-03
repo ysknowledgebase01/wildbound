@@ -13,8 +13,29 @@ Each day has up to three parts:
 
 ## 2026-11-02
 
-### Add-on (v1.454 to v1.460)
+### Add-on (v1.454 to v1.461)
 
+- New **living axes** (v1.461): two huge flying demon axes with uneven,
+  spiked blades.
+  - **Oathbreaker** (boss): Daggerott + Void Drake (both Lv.20). Also a
+    boss in raids, on Bounty Board posters and in some Mob Towers.
+  - **Valley of Doom** (Mythic): Minotaur + Oathbreaker (both Lv.40). Also
+    in Ender Monolith raids and the Boss Portal.
+  - When one spots an enemy, it leaps high into the air and dives straight
+    down onto it, hitting everything around where it lands.
+  - They are slow, but hit very hard. Every hit rolls a power die and can
+    land up to twice as hard. With your own axe, you see the roll above
+    your hotbar.
+  - Their hits knock enemies far back, and nothing knocks them back.
+  - While your Valley of Doom fights beside you, you get stronger too.
+  - Ride your own one and you hold it in your hand, like the living swords.
+    It drinks your health the same way. A short press makes you jump and
+    slam down, hitting everything around where you land.
+- **Mythic mixes** now follow one rule: a two-mob mix needs both mobs at
+  Lv.40, and a four-of-a-kind mix needs Lv.30 (v1.461). Eye of the End,
+  Endbringer, Dreadlord, Dragonlord (two Drakari) and Megalodon (two Great
+  Whites) moved up from Lv.30 to Lv.40. Megalodon's four-Shark mix is gone.
+- Abyscleaver's mix now needs both mobs at Lv.20, up from Lv.12 (v1.461).
 - New **living swords** (v1.460): flying devil swords with a skull engraved
   on the blade and an eye in its forehead. They fly, so they chase flying
   mobs too.
@@ -69,6 +90,8 @@ Each day has up to three parts:
 
 ### Website
 
+- The Mob Index has Oathbreaker and Valley of Doom, and shows the new mix
+  levels for Mythics and Abyscleaver.
 - The Shop tab now has the Potion Store and the Mob Mixer, and the Items
   tab has the Crystal Vial, Glimmerwater, Revive Potion and Mob Tonic.
 
