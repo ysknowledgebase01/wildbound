@@ -13,7 +13,27 @@ Each day has up to three parts:
 
 ## 2026-11-05
 
+### Add-on (v1.473)
+
+- **Toadhan:** a fast elite martial fighter. Mix Piglin with Frog, Toxic Frog or
+  Ember Frog, both Lv.5. Find it as a tower captain or a rare Lv.15-20 replacement
+  for wild zombies and spiders exposed to rain; no pond is needed.
+- **Kagerog:** a legendary twin-sword fighter. Mix Toadhan and Dragon Squire,
+  both Lv.30. It leaps toward its target and delivers a downward crossing strike.
+  Both fighters use normal level growth, capture and battle rules.
+- **Frog ponds:** more frogs appear near small pools during rain. Sneak-use a
+  sponge on the bank of an existing pond with 4-64 connected water blocks to mark
+  it without draining it. Frogs can arrive after one day cycle.
+- **Ember Frog:** the existing fire frog appears near magma in the Nether and
+  withstands fire and lava. Existing catches and recipes keep their identity.
+- **Anglerfish:** night and low-light replacement chances are higher, and dark
+  underground water can qualify. Its luminous parts use the same glow material
+  as Glow Squid. Local population limits remain.
+
 ### Website
+
+- Added Toadhan and Kagerog recipes, portraits and stats to the Mob Index, plus
+  updated frog pond, Ember Frog and Anglerfish encounter information.
 
 - Added Anglerfish and Sentinel to the Mob Index, with their mix ingredients,
   minimum parent levels, portraits and links from the parent mobs.
