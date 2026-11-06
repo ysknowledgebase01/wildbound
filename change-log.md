@@ -13,6 +13,18 @@ Each day has up to three parts:
 
 ## 2026-11-05
 
+### Add-on (v1.474)
+
+- **Rainy-day encounters:** eligible wild cows, sheep, pigs, chickens, mooshrooms
+  and rabbits have a 30% Frog / 30% Toadhan / 40% unchanged roll during rain.
+  Nearby existing animals are checked too, once per rainy spell. No pond is needed;
+  named, tamed, leashed and claimed animals are protected.
+- **Neutral Toadhan:** wild Toadhan waits until attacked or a catch is attempted,
+  then retaliates against its provoker. Caught Toadhan keeps its usual battle behavior.
+- **Admin weather controls:** Admin Wand -> Weather offers Clear, Rain and
+  Thunderstorm for 1-30 minutes. Rain detection also checks a storm already underway
+  when the pack starts.
+
 ### Add-on (v1.473)
 
 - **Toadhan:** a fast elite martial fighter. Mix Piglin with Frog, Toxic Frog or
@@ -31,6 +43,8 @@ Each day has up to three parts:
   as Glow Squid. Local population limits remain.
 
 ### Website
+
+- Updated Frog and Toadhan encounter information in the Mob Index.
 
 - Added Toadhan and Kagerog recipes, portraits and stats to the Mob Index, plus
   updated frog pond, Ember Frog and Anglerfish encounter information.
