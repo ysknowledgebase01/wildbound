@@ -39,6 +39,7 @@ Each day has up to three parts:
 
 - Updated the affected Mob Index entries with their close and ranged attacks.
 - Updated the Gold Golem recipes and their parent links in the Mob Index.
+- Trimmed the Mob Index "How to get it" column to mix recipes and short Wild and Raid boss labels, which also stops long rows stretching the table.
 
 ## 2026-11-05
 
