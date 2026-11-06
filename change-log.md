@@ -11,6 +11,28 @@ Each day has up to three parts:
 
 ---
 
+## 2026-11-06
+
+### Add-on (v1.475)
+
+- **Paired legendary attacks:** Dark Knight fires dark skulls, Dragon Knight
+  fires blue wind beams, Ender Golem launches slow homing void orbs, Kraken
+  sends bubble streams and Kagerog launches flying shadow swords while keeping
+  its leap and close sword strike. Dark Mage gains a close energy field that
+  pushes enemies away without harming itself.
+- **Different volley styles:** Kraken, Kagerog and Dragon Knight fire 2–4
+  smaller shots that can each damage the same enemy. Dark Mage, Grand Llama,
+  Ender King and Arch Warden aim at up to 2–4 different enemies, with damage
+  from each shot. Explosive volleys damage each enemy once, including splash
+  and split shots; Sentinel keeps its existing missile rule.
+- **Ender Overlord:** void orbs split into shadow swords. Its claw, close void
+  blast and teleport gap closer give it a different attack pattern from Ender King.
+- Attacks preserve blocks and respect caught-mob ownership and battle targets.
+
+### Website
+
+- Updated the affected Mob Index entries with their close and ranged attacks.
+
 ## 2026-11-05
 
 ### Add-on (v1.474)
@@ -42,6 +64,41 @@ Each day has up to three parts:
   underground water can qualify. Its luminous parts use the same glow material
   as Glow Squid. Local population limits remain.
 
+### Add-on (v1.471)
+
+- **Players first.** Wild Anglerfish and Sentinel prioritize visible players,
+  then retaliate against attackers. Uninvolved sea life no longer distracts them.
+- **More ocean encounters.** The eligible ocean-floor replacement chance is now
+  30%, up from 15%; existing population limits remain.
+- **Sentinel missile salvos.** It fires 2-4 missiles with small course corrections.
+  Evasive movement can make them miss. Overlapping missiles and blasts damage
+  each enemy at most once per salvo, and leave blocks intact.
+- **Missiles are not creatures.** Looking at a torpedo no longer shows mob stats.
+- **Level shark bodies.** All shark kinds, including Megalodon, keep their bodies
+  level while rising or descending. Their tail motion is preserved.
+
+### Add-on (v1.470)
+
+- **Ocean-floor spawning repaired.** Anglerfish and Sentinel can now find the
+  seabed when replacing eligible natural ocean spawns. The original chances and
+  local population limits stay the same.
+- **Slow swimming restored.** Both keep cruising near the seabed while watching
+  distant prey, instead of stopping whenever an enemy is in sight.
+- **Curving shots.** Energy balls and torpedoes follow moving enemies with gradual
+  turns. Torpedoes still leave the launcher straight before turning. Shots check
+  actual body hits, including tall enemies, and stop at walls; blasts leave blocks intact.
+
+### Add-on (v1.469)
+
+- **Anglerfish:** a slow ocean-floor predator with a glowing lure, ranged energy
+  shots and a close-range bite. Mix Shark + Shardion, both Lv.15 or higher.
+- **Sentinel:** a legendary armored variant with high health and defense, slow
+  movement and torpedoes that damage nearby enemies without breaking blocks.
+  Mix Anglerfish + Chrome Golem, both Lv.30 or higher.
+- Both use the existing level growth, inheritance and combat systems. Wild ones
+  stay near the seabed and can climb submerged obstacles; caught ones float and
+  follow their owner. Underwater torpedoes leave bubbles; in air they use exhaust.
+
 ### Website
 
 - Updated Frog and Toadhan encounter information in the Mob Index.
@@ -51,6 +108,120 @@ Each day has up to three parts:
 
 - Added Anglerfish and Sentinel to the Mob Index, with their mix ingredients,
   minimum parent levels, portraits and links from the parent mobs.
+
+## 2026-11-04
+
+### Add-on (v1.468)
+
+- **Lions attack on sight.** Lions and cubs now go after anything they see:
+  players, caught mobs, villagers, traders, animals and hostile mobs. Tamed,
+  named, leashed or ridden animals are still left alone.
+- **Wild Lions are tougher.** They're now Lv.20-30, a little rarer and harder to
+  catch.
+- **Frost Elk are tougher.** They're now Lv.15-20 wherever they appear, including
+  snowy areas, and harder to catch.
+- **Snakes ignore other monsters.** Wild snakes no longer attack hostile mobs, and
+  don't fight back against them. Caught snakes still fight for you.
+- **A caught Wither that fights.** It flies, hunts enemies, comes to help you and
+  has no boss bar. Its three heads fire at up to three different enemies at once,
+  and it does this while you ride it too.
+- **No more wither roses.** Roses left behind where a Wither kills something are
+  now cleared away.
+
+### Add-on (v1.467)
+
+- **Lions on the prowl.** About 1 in 10 natural farm animals, like cows, pigs,
+  horses and sheep, now appears as a lion instead. Most are Lion Cubs (Lv.5-10)
+  and some are Wild Lions (Lv.15-20).
+- **Lions hunt wild animals.** They go after animals like cows, pigs and horses.
+  They leave players, caught mobs, villagers and any animal that's tamed, named,
+  on a lead or being ridden alone. Like other hostile mobs, they're cleared from
+  claimed land and the safe spawn area.
+- **More Frost Elk.** One in five goats now appears as a Frost Elk.
+- **Room for everyone.** Animals stop turning into lions once an area has two
+  Wild Lions or two cubs, and goats stop turning into Frost Elk once one is
+  nearby.
+- **Snowy encounters sooner.** Frost goats, frost horses and Frost Elk can now
+  show up the first time you visit a snowy area.
+
+### Add-on (v1.466)
+
+- **Wolf-built mobs rebuilt.** 23 mobs, including the Archfiend, Minotaur,
+  Unixion, Naga, Soulreaper and the Wild Lion, were secretly wolves under the
+  hood and kept their pet habits. They now use the same plain fighter brain as
+  the Shadow Knight, to help caught ones go after enemies instead of waiting for
+  them to come close. Their looks, stats and drops stay the same, and leads no
+  longer work on them.
+- **Wild ones stay focused.** These mobs no longer call for help, and no longer
+  turn on players after chasing prey.
+- **Skeletons are braver.** They now run only from real wolves, not from every
+  mob that used to be built on one.
+- **Lion Cubs can bite.** A caught Lion Cub chased enemies but could never hurt
+  them with a bite.
+
+### Add-on (v1.465)
+
+- **Towers fight at the level they promise.** Tower and base guards now match
+  the level on the notice, and guards are a few levels below their captain.
+- **Wild mobs get tougher the further you travel.** Ordinary wild mobs go up 5
+  levels for every 200 blocks from spawn, up to Lv.40. The level is set once and
+  doesn't change as a mob wanders.
+- **Monoliths come back.** Old expired Monoliths no longer block new ones, new
+  ones appear closer to you, and your progress toward one survives a restart.
+
+### Add-on (v1.464)
+
+- **Caught mobs look for trouble.** They now search for hostile mobs near them
+  instead of waiting to be attacked, and a direct order comes first.
+- **More ways to give an order.** Using a caught ball on a mob, or aiming it at
+  one you can see, sends your mob after it. Walls block an order.
+- **Tower and base golems fight.** Golems guarding a tower now attack players
+  and their mobs. Catch one and it stops. Ordinary golems are unchanged.
+
+### Add-on (v1.463)
+
+- **More land in the south.** The mainland now reaches further south, with new
+  offshore habitats. Land that was already there stays as it was.
+- **Tower levels follow distance.** They rise with distance from spawn and the
+  level of nearby players. Your deployed mob's level doesn't count.
+- **Tougher catches.** Boss-tier captains and bounty mobs are a little harder to
+  catch.
+- **Daggerotts in the Nether.** They can now appear in place of some Magma Cubes.
+- **Frost mobs and powder snow.** Frost mobs now stay on top of powder snow.
+
+## 2026-11-03
+
+### Add-on (v1.462)
+
+- **Calmer walking.** Big mobs no longer scurry on tiny fast steps. The
+  Archfiend, Dreadlord, Drakari, Dragonlord, Minotaur, Brutaurus and Ender
+  Overlord now stride like a zombie or the Shadow Knight, and bigger mobs
+  take slower, longer steps. Snakes slither slowly, and the four-legged
+  mobs (Grizzly, lions, Manticore, Kirin, Unixion, Frost Elk, Everfrost)
+  walk at a natural pace. When a mob only creeps or gets pushed, its legs
+  barely move.
+- **Big mobs face what they hit.** A boss or Mythic no longer strikes an
+  enemy standing behind it. It turns to face the enemy first.
+- **Poison works again in battle.** Poison, Wither, burning and lava now
+  hurt mobs as much as they should for their level. Before, they barely
+  scratched a high-level mob. Poison still can't finish a mob off.
+- **Fire from mobs goes out.** Fire started by a blaze's or ghast's
+  fireball, or by lightning, now burns out after a few seconds.
+- **Give, not Ride.** Holding a Raid Bar, Awakening Crystal, Ender Core,
+  Glimmerwater, Revive Potion or Mob Tonic, the button on your own mob says
+  **Give**, so you hand it over instead of climbing on.
+- **Flying mounts.** Look down to fly lower and jump to fly higher. Get off
+  in the air (or put it back in its ball) and you float down slowly.
+- **Reaper Hunt**: the Reaper now looks like a Soulreaper. It can't be hit
+  or pushed, but it can still catch you.
+- **Balloon Pop**: while a round is on, only your hands pop balloons. Other
+  items, Mob Balls included, can't be used.
+- **Minigame fields**: when a round starts, wild animals and mobs are
+  cleared from the field. Pets and named mobs are moved just outside. Any
+  that wander in during the round are cleared the same way. Mobs from a game give no XP
+  and drop nothing, and show no level or health labels.
+
+---
 
 ## 2026-11-02
 
