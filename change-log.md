@@ -11,6 +11,13 @@ Each day has up to three parts:
 
 ---
 
+## 2026-11-05
+
+### Website
+
+- Added Anglerfish and Sentinel to the Mob Index, with their mix ingredients,
+  minimum parent levels, portraits and links from the parent mobs.
+
 ## 2026-11-02
 
 ### Add-on (v1.454 to v1.461)
