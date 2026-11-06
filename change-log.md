@@ -13,6 +13,29 @@ Each day has up to three parts:
 
 ## 2026-11-06
 
+### Add-on (v1.477)
+
+- **Mobs far from spawn are just higher level.** Levelled mobs no longer show a star
+  or "Elite" in their names: they read like "Zombie Lv.6". Levelled wild mobs and the
+  rare random ones are no harder to catch than any other.
+- **Element and race mixing.** Lower mobs now mix as their element and their race.
+  Fire mobs count as a Magma Cube, Poison mobs as a Spider, Frost mobs as a Stray,
+  Undead mobs as a Zombie, Void mobs as an Enderman and Storm mobs as a Breeze. A
+  Venom Sheep can stand in for a Spider or a Sheep, for example. Exact recipes always
+  come first, levels still apply, and two special mobs never turn into a plain mob
+  this way. Every special mob now has something it can mix into.
+- **Mob Towers and Bases have floors.** Ground floor guards are the lighter special
+  mobs, the second floor holds stronger, useful ones, and Captains are strong elites or
+  lower bosses. Places already standing change the next time they're retaken.
+- **Captains are much harder to catch.** Every Captain is as hard to catch as a Raid
+  Boss at any level, and can't be caught for 30 seconds after 10 balls. Guards are
+  harder to catch too, and the second floor harder still.
+- **Wither Skeleton is now an elite,** with stronger stats, and appears on the second
+  floor of Grave places. Wild ones are tougher too.
+- **Fixes:** Venom Sheep and Bone Sheep have their faces and skin back, Hex Cats walk
+  properly, and a mob that was caught next to another one no longer brings a second
+  copy out of its ball.
+
 ### Add-on (v1.476)
 
 - **New Gold Golem recipes.** Mix a Golden Pig and an Iron Golem, or two Iron Golems
@@ -39,6 +62,7 @@ Each day has up to three parts:
 
 - Updated the affected Mob Index entries with their close and ranged attacks.
 - Updated the Gold Golem recipes and their parent links in the Mob Index.
+- Updated the Mob Index for element and race mixing, the Wither Skeleton's new rank and the new catch rules.
 - Trimmed the Mob Index "How to get it" column to mix recipes and short Wild and Raid boss labels, which also stops long rows stretching the table.
 
 ## 2026-11-05
