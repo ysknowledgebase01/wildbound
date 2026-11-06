@@ -13,6 +13,12 @@ Each day has up to three parts:
 
 ## 2026-11-06
 
+### Add-on (v1.476)
+
+- **New Gold Golem recipes.** Mix a Golden Pig and an Iron Golem, or two Iron Golems
+  that are both Lv.12 or higher. The old Piglin + Iron Golem, Copper Golem + Piglin
+  and Zombified Piglin + Iron Golem mixes no longer make one.
+
 ### Add-on (v1.475)
 
 - **Paired legendary attacks:** Dark Knight fires dark skulls, Dragon Knight
@@ -32,6 +38,7 @@ Each day has up to three parts:
 ### Website
 
 - Updated the affected Mob Index entries with their close and ranged attacks.
+- Updated the Gold Golem recipes and their parent links in the Mob Index.
 
 ## 2026-11-05
 
