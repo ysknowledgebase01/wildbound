@@ -13,6 +13,15 @@ Each day has up to three parts:
 
 ## 2026-11-07
 
+### Add-on (v1.489)
+
+- **The ten newest mobs show up again.** Vampire Villager, Count Thirst, Dark Stallion,
+  Ender Centaur, Lord of Divinity, Elder Overlord, Hopfu, Shadow Hopper, Noman and
+  Leviathan were invisible or only half drawn. Now their whole body shows.
+- **Count Thirst's bats** now fly around him properly instead of looking frozen.
+- **New eggs.** Each of those ten mobs has its own spawn egg and ball picture now, instead
+  of a plain piglin or horse egg. Kagerog's egg is now gold, so it doesn't look like Toadhan's.
+
 ### Add-on (v1.488)
 
 - **Storage Guard.** The Storekeeper at every Storage and Storage Locker is now the Storage
