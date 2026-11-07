@@ -13,6 +13,21 @@ Each day has up to three parts:
 
 ## 2026-11-07
 
+### Add-on (v1.490)
+
+- **Lions and Toadhan grow stronger far from spawn.** Wild Lion Cubs, Wild Lions and Toadhan
+  now level up with distance like every other wild mob, so far out they match the mobs around them.
+- **Higher levels are harder to catch.** The higher a mob's level, the lower its catch chance.
+  A Lv.40 mob is not easy to catch: a Lv.40 sheep is under 10% at full health. Tower mobs,
+  tower captains and bosses get harder with level too, on top of their own catch rules.
+- **More frogs.** Any still water attracts frogs if you wait, even a single block or a big lake.
+  On rainy days frogs come much sooner, and they also hop about on open ground.
+  Plain frogs can now come onto claimed land too.
+- **Rabbits and Hopfu in more places.** Small groups of rabbits now turn up on open grass, dirt,
+  sand and snow away from claimed land, and sometimes one of them is a Hopfu.
+- **Town Guards level up.** A town's Guards are stronger the farther the town is from spawn,
+  a bit above the wild mobs around it. Their level shows in their name.
+
 ### Add-on (v1.489)
 
 - **The ten newest mobs show up again.** Vampire Villager, Count Thirst, Dark Stallion,
