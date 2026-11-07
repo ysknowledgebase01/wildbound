@@ -11,6 +11,18 @@ Each day has up to three parts:
 
 ---
 
+## 2026-11-07
+
+### Add-on (v1.487)
+
+- **Storage Locker.** A small 3x3 storage building with three barrels and a Storekeeper in
+  the middle. Build it on your own land with the Building Deed, one on each piece of land.
+  The barrels are your Box 1, 2 and 3, the same as at every Storage, and only you can see
+  what's in yours. Hold the Building Deed and tap the locker to take it down. Your things
+  stay in your storage.
+- **Storage buildings** now put an open box away before they're removed, so nothing in it
+  is lost.
+
 ## 2026-11-06
 
 ### Add-on (v1.486)
@@ -25,9 +37,6 @@ Each day has up to three parts:
   King, Grand Llama, Elder Dragon and Arch Warden got stronger or changed shape. Leviathan,
   Ender Centaur, Noman, Dark Stallion, Count Thirst, Sentinel, Kagerog and Shadow Hopper
   got weaker, and that includes the ones you already own.
-
-### Add-on (v1.486)
-
 - **Console Block menu fixed.** It wouldn't open for land owners and co-owners. It works
   again on every land.
 
