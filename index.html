@@ -322,7 +322,13 @@ function row(m) {
   const ing = (id, name, lv, same) => TYPES[id] && !same
     ? `<span class="ing" title="${esc(typeTitle(id))}">${mini(id, lv)}${go(id, TYPES[id].name)}</span>`
     : `<span class="ing">${mini(id, lv)}${go(id, name)}</span>`;
-  const recipes = m.makes.map((r) => `<div class="recipe">${r.n
+  // One parent mixed with every other Mythic reads as one line. Worked out from
+  // the recipes, so a Mythic that isn't in the mix brings the full list back.
+  const others = DATA.mobs.filter((x) => x.tier === "mythic" && x.id !== m.id).map((x) => x.id);
+  const anyMythic = m.makes.length === others.length && others.length > 1 && m.makes.every((r) => !r.n && r.ai === m.makes[0].ai && r.lv === m.makes[0].lv && others.includes(r.bi));
+  const recipes = anyMythic
+    ? `<div class="recipe">${ing(m.makes[0].ai, m.makes[0].a, m.makes[0].lv)} + <span class="ing">${mini("enderstalker", m.makes[0].lv)}<span class="t-mythic">Any Mythic</span></span></div>`
+    : m.makes.map((r) => `<div class="recipe">${r.n
     ? `<span class="ing"><span class="minis">${Array.from({ length: r.n }, (_, i) => mini(r.ai, i === r.n - 1 ? r.lv : 0)).join("")}</span>${r.n} × ${go(r.ai, r.a)}</span>`
     : `${ing(r.ai, r.a, r.lv, r.ai === r.bi)} + ${ing(r.bi, r.b, r.lv, r.ai === r.bi)}`}</div>`).join("");
   const how = `<div class="src">${tags.filter(Boolean).map((t) => `<span class="tag">${t}</span>`).join("")}${!tags.filter(Boolean).length && !recipes ? '<span class="tag">-</span>' : ""}</div><div class="recipes">${recipes}</div>`;
