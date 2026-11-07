@@ -13,6 +13,24 @@ Each day has up to three parts:
 
 ## 2026-11-06
 
+### Add-on (v1.486)
+
+- **God class.** The six strongest Mythics are now God class: Ender Overlord, Elder Overlord,
+  Lord of Divinity, Valley of Doom, Eye of the End and Leviathan. Hits from your own God
+  ignore 25 percent of defence.
+- **The strongest mobs were rebalanced.** Ender Overlord is now the strongest mob, and Ender
+  King and Grand Llama are the top Legends. Valley of Doom and Eye of the End keep low life
+  but hit hardest. Leviathan keeps its high life, but hits softer once it's yours.
+- **Stat changes.** Ender Overlord, Lord of Divinity, Valley of Doom, Eye of the End, Ender
+  King, Grand Llama, Elder Dragon and Arch Warden got stronger or changed shape. Leviathan,
+  Ender Centaur, Noman, Dark Stallion, Count Thirst, Sentinel, Kagerog and Shadow Hopper
+  got weaker, and that includes the ones you already own.
+
+### Add-on (v1.486)
+
+- **Console Block menu fixed.** It wouldn't open for land owners and co-owners. It works
+  again on every land.
+
 ### Add-on (v1.485)
 
 - **Console Blocks can be removed by mining.** A land's owners can mine theirs, and admins
