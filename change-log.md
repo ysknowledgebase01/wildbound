@@ -13,6 +13,14 @@ Each day has up to three parts:
 
 ## 2026-11-06
 
+### Add-on (v1.484)
+
+- **Mining mobs look busy.** A working mob leans into the wall, with digging sounds and
+  stone chips flying off.
+- **Mining Outposts look like mines.** They now have a stone and gravel floor, a rail
+  track with a minecart, ore in the walls and lantern posts. Existing outposts update by
+  themselves.
+
 ### Add-on (v1.483)
 
 - **Mining Outposts use a plain barrel.** Open it like any barrel and put one caught mob's
