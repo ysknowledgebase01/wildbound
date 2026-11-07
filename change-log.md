@@ -13,6 +13,14 @@ Each day has up to three parts:
 
 ## 2026-11-06
 
+### Add-on (v1.482)
+
+- **Building Deed now works like the Shop Deed.** It has the same look and the same steps:
+  place it, pick a building, check the outline, tap the deed, choose which way the front
+  faces, and build.
+- **Building needs less empty space.** Only the blocks the building uses have to be free,
+  and plants are replaced. If something is in the way, the message says what and where.
+
 ### Add-on (v1.481)
 
 - **Building Deed fixed.** It's now a block you can see. Place it on your own land, pick a
