@@ -13,6 +13,22 @@ Each day has up to three parts:
 
 ## 2026-11-07
 
+### Add-on (v1.493)
+
+- **The newest mobs really walk now.** A fault stopped every animation on Count Thirst,
+  Vampire Villager, Noman, Lord of Divinity, Hopfu, Shadow Hopper and Elder Overlord. Two-legged
+  mobs now walk like people, swinging their arms and bending their knees. Ender Centaur, Dark
+  Stallion, Lord of Divinity and Elder Overlord walk like horses. Every leg keeps pace with the
+  ground, so nobody glides.
+- **Count Thirst's bats circle him**, and the bats he shoots are real bats, not specks.
+- **Shadow Hopper's kunai fly point first** at their target. Ender Centaur's spear and Noman's
+  snowballs show as real models too.
+- **Sanctuary Box.** To send a mob to the Sanctuary, put it in the barrel in the Mob Trainer's
+  front fence. Its trait crystal waits in the same box for you to take.
+- **Mob Trainer chests 7-9** take the place of the hay bales and target.
+- **The Mob Trainer's Mob Chests** now let you crouch + tap to pick a page, and each player
+  keeps their own page.
+
 ### Add-on (v1.492)
 
 - **Walking and moving parts, second try.** The newest mobs, Toadhan and Kagerog now work out
