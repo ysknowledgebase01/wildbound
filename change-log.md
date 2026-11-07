@@ -13,6 +13,16 @@ Each day has up to three parts:
 
 ## 2026-11-06
 
+### Add-on (v1.485)
+
+- **Console Blocks can be removed by mining.** A land's owners can mine theirs, and admins
+  can remove any of them. If a land's Console Block has gone missing, Utility gives
+  you a new one.
+- **Withers near claimed land** no longer break blocks. While one is close to claimed land,
+  other mobs can't change blocks or pick up items either.
+- **Sculk stays off claimed land.** When a mob dies on or near claimed land, any sculk
+  catalyst close by pops out as an item.
+
 ### Add-on (v1.484)
 
 - **Mining mobs look busy.** A working mob leans into the wall, with digging sounds and
