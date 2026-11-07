@@ -13,6 +13,18 @@ Each day has up to three parts:
 
 ## 2026-11-07
 
+### Add-on (v1.492)
+
+- **Walking and moving parts, second try.** The newest mobs, Toadhan and Kagerog now work out
+  their steps from how far they really move, so their legs should swing as they walk.
+- **Count Thirst's bats** circle him on their own, bobbing as they fly.
+- **Toadhan and Kagerog swim** with a frog kick in water instead of walking along the bottom.
+- **Lord of Divinity is much bigger**, twice its first size.
+- **Fairer kill XP.** Ordinary wild mobs no longer count as elites, so they no longer give
+  huge XP or an elite message. XP now follows how strong the mob is. Beating a mob above your
+  caught mob's level gives more, and a much weaker one gives less. Rare elites and tower mobs
+  still give double.
+
 ### Add-on (v1.491)
 
 - **The newest mobs are whole.** Left legs, ears, arms and wings were missing from Vampire
