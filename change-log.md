@@ -13,6 +13,70 @@ Each day has up to three parts:
 
 ## 2026-11-06
 
+### Add-on (v1.481)
+
+- **Building Deed fixed.** It's now a block you can see. Place it on your own land, pick a
+  building, check the glowing outline, then tap the deed to build. The deed comes back
+  to you afterwards.
+- **Take buildings down.** Hold your deed and tap an outpost or fountain to remove it.
+  Fountains built before this update are removed by hand.
+- **Trait Crystals** now show their icon.
+- **Mob Menu.** Crouch next to your mob and tap Mob Menu for Traits, Stats & perks and
+  more. Forge and Release stay at the Mob Chest.
+- **Empty trait slots** now show on the Traits button and in the Mob Chest.
+
+### Add-on (v1.480)
+
+- **Fixed the ten new mobs.** A settings mistake stopped their attacks and animations
+  from working.
+
+### Add-on (v1.479)
+
+- **Ten new mobs.** Lord of Divinity, Ender Centaur, Elder Overlord and Leviathan
+  (Mythic), Dark Stallion, Shadow Hopper, Count Thirst and Noman (Legend), and Hopfu and
+  Vampire Villager (Elite). Each has its own attacks and traits, and the Mob Index lists
+  their mixes.
+- **Hopfu in the wild.** Some wild rabbits are Hopfu, Lv.12 or higher. They leave you alone
+  until you hit them or throw a ball.
+- **Snow Golems in the wild.** Some Strays in snowy places come out as Snow Golems instead.
+- **Leviathan.** Beat 31 sea creatures in the ocean within 30 minutes, then stay over deep
+  water for a small chance that a Lv.70 Leviathan rises. It is very hard to catch.
+
+### Add-on (v1.478)
+
+- **Every mob has two trait slots.** Mobs keep their own four traits, and two more
+  slots are filled from a pool of traits from their parents, crystals and Lv.30 and
+  Lv.40. Swap them on the mob's card with the new Traits button. Existing mobs start
+  with both slots empty, so set yours after the update.
+- **Better traits for many mobs.** End mobs, wind mobs, sea hunters, armored mobs and
+  young dragons have new traits that suit them, and the five titans now have four
+  traits each. Gills is gone: aquatic mobs get Tough instead.
+- **Every Legend and Mythic has its own signature trait,** with 14 new ones. Wild ones
+  use them too, so some boss fights are harder.
+- **Second awakening moved to +30.** The + now goes up to +30. Mobs already at +10
+  keep their second awakening.
+- **Mixing averages the +.** A mix takes its parents' average +, then adds 1 to 3, up
+  to +10. Past that only Raid Bars add more. Each + also gives a perk point.
+- **Raid Bosses are Lv.45 to 65,** whatever mob you bring. Monolith Raid Shards go to
+  players who landed a hit.
+- **Ender Cores from the Quest Master.** Land a hit on 15 Monolith bosses to earn one.
+- **New Quest Master.** Item requests are replaced by quests of your own: hunts, tower
+  clears and boss fights. Friends nearby share kills, and each player gets a free swap
+  every 6 hours.
+- **The Sanctuary.** At the Mob Trainer, pay 30 coins to send a mob away for good and
+  keep one of its traits in a crystal. Crystals can be traded.
+- **Building Deed.** Buy one for 50 coins at the Furniture Shop to build on your own
+  land. It's yours to keep and reuse.
+- **Mining Outposts.** Put a mob to work on your land. It digs up mostly dirt, plus some
+  ores and shards, while you're online, wherever you are.
+- **Water Fountains** for your own land, just for looks.
+- **Dirt is scarcer.** It's gone from Utility, and the Builder's Depot sells 12 for 1 coin.
+
+### Website
+
+- Updated the Quest Master, Mob Trainer, Furniture Shop, Builder's Depot, Raid Shard,
+  Raid Bar, Awakening Crystal and Ender Core pages for v1.478.
+
 ### Add-on (v1.477)
 
 - **Mobs far from spawn are just higher level.** Levelled mobs no longer show a star
