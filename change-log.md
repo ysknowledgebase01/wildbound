@@ -13,6 +13,20 @@ Each day has up to three parts:
 
 ## 2026-11-07
 
+### Add-on (v1.491)
+
+- **The newest mobs are whole.** Left legs, ears, arms and wings were missing from Vampire
+  Villager, Count Thirst, Dark Stallion, Ender Centaur, Lord of Divinity, Elder Overlord, Hopfu,
+  Shadow Hopper, Noman and Leviathan. They're back.
+- **Kagerog shows up again.** It was invisible.
+- **Count Thirst's bats** circle and flap around him.
+- **Real walking.** Ender Centaur, Lord of Divinity and the other new mobs step at their real
+  speed. Toadhan, Kagerog, Hopfu and Shadow Hopper walk on two legs instead of sliding.
+- **Leviathan swims** around its water instead of lying still.
+- **Toadhan and Kagerog can swim** like other frogs, and both now have a frog egg.
+- **Lord of Divinity is bigger.**
+- **Night Daggerotts grow stronger far from spawn,** like other wild mobs.
+
 ### Add-on (v1.490)
 
 - **Lions and Toadhan grow stronger far from spawn.** Wild Lion Cubs, Wild Lions and Toadhan
