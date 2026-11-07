@@ -13,6 +13,15 @@ Each day has up to three parts:
 
 ## 2026-11-06
 
+### Add-on (v1.483)
+
+- **Mining Outposts use a plain barrel.** Open it like any barrel and put one caught mob's
+  ball in to start digging. Take the ball out to stop. Finds land in the barrel, and a
+  second ball comes straight back to you.
+- **Working mobs now show up** at the outpost.
+- **Removing an outpost** drops what's in its barrel on the ground, and its mob goes to
+  your Mob Chest.
+
 ### Add-on (v1.482)
 
 - **Building Deed now works like the Shop Deed.** It has the same look and the same steps:
