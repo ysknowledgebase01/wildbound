@@ -13,6 +13,17 @@ Each day has up to three parts:
 
 ## 2026-11-07
 
+### Add-on (v1.494)
+
+- **The newest mobs' animations, another try.** The v1.493 fix didn't work: the ten newest mobs
+  still stood frozen and Count Thirst's bats didn't circle. Their animation files are now laid
+  out like Kagerog's, which does animate. Not seen in game yet.
+- **Mob Chest pages:** crouch + tap often doesn't reach the server, so it didn't work. Now hit a
+  Mob Chest (or hold your finger on it) to pick its page, find a mob or sort. Holding a caught
+  Mob Ball, the hit opens that mob's options.
+- **Sanctuary Box:** it now records each step in the server's log, so the next try shows what
+  went wrong.
+
 ### Add-on (v1.493)
 
 - **The newest mobs really walk now.** A fault stopped every animation on Count Thirst,
