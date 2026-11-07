@@ -13,9 +13,19 @@ Each day has up to three parts:
 
 ## 2026-11-07
 
+### Add-on (v1.488)
+
+- **Storage Guard.** The Storekeeper at every Storage and Storage Locker is now the Storage
+  Guard. Talk to it to sort your storage by type, by name, rarest first or most first.
+  It sorts Box 1, 2 and 3 as one: part stacks of the same thing are joined up first, then
+  everything is laid out again from Box 1. Enchantments, names and box contents are kept.
+- **Sort my mobs.** Crouch and tap a Mob Chest, then pick Sort my mobs to lay out all your
+  stored mobs again: highest level, rarest first, by kind, by name, or just closing the gaps.
+- **Admin buildings** can now be built on claimed land.
+
 ### Add-on (v1.487)
 
-- **Storage Locker.** A small 3x3 storage building with three barrels and a Storekeeper in
+- **Storage Locker.** A small 3x3 storage building with three barrels and a Storage Guard in
   the middle. Build it on your own land with the Building Deed, one on each piece of land.
   The barrels are your Box 1, 2 and 3, the same as at every Storage, and only you can see
   what's in yours. Hold the Building Deed and tap the locker to take it down. Your things
