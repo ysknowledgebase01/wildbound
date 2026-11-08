@@ -13,6 +13,15 @@ Each day has up to three parts:
 
 ## 2026-11-08
 
+### Add-on (v1.510)
+
+- **The new mobs walk properly:** Roostarot, Cockatrice, Bamira, Furriest, Steam Walker,
+  Gargantua, Lone Hiker, High Moon and Goliath moved their legs far too fast for their steps, so
+  their legs looked frozen and their bodies shook as they moved. Their steps now match the ground
+  they cover, and Goliath takes bigger strides. Not checked in game yet.
+- **Ghastopus and Cyclopus drift about:** with nothing to fight, they now float slowly from spot
+  to spot instead of hanging in one place. Not checked in game yet.
+
 ### Add-on (v1.509)
 
 - **Iron Gate L's second door stays:** one door of the Iron Gate L, and the door of an Iron Gate
