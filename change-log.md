@@ -13,6 +13,17 @@ Each day has up to three parts:
 
 ## 2026-11-08
 
+### Add-on (v1.503)
+
+- **Iron Gate swings open:** opening a gate now shows the whole 2 by 3 door swung out beside
+  its hinge, on the side it opens toward (pick inward or outward in the gate's menu). You can
+  walk through it, and tapping it works like tapping the gate. If something is in the way, it
+  shows a single panel at the hinge instead. Not checked in game yet.
+- **Toadhan walk, second try:** Toadhan and Kagerog now time their steps the same way as the
+  mobs whose walk already works. Not checked in game yet.
+- **Guards leave Toadhan alone:** Town Guards no longer attack a wild Toadhan. Toadhan in towers
+  are still fair game. Not checked in game yet.
+
 ### Add-on (v1.502)
 
 - **Open Iron Gate:** an open gate now shows one door panel on each side of the opening. Before,
