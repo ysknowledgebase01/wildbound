@@ -13,15 +13,21 @@ Each day has up to three parts:
 
 ## 2026-11-07
 
+### Add-on (v1.500)
+
+- **Mod blocks near an Iron Gate show again:** a placed Iron Gate made the mod's blocks near it
+  (Console Blocks, Deed blocks and the gate itself) invisible, and you could see through walls
+  past them. The gate is now drawn as plain blocks with iron bars on their faces, like a
+  window. When it's open, the bars show along the hinge side. The Terrain Fill and Demolition
+  Block pictures are now the normal block size, like every other block. Not checked in game yet.
+
 ### Add-on (v1.499)
 
-- **The Iron Gate shows up now.** It was invisible: the game won't draw one block model that
-  big, so each of its six blocks now draws its own part of the gate. It also has its own icon,
+- **Iron Gate fixes.** Each of its six blocks now draws its own part of the gate (one model
+  that big can't be drawn); it may still be invisible until the v1.500 fix. It also has its own icon,
   and crafting it from four Iron Doors works (the recipe wasn't loading before). Long press the
   gate (or hold it) to open its menu; it can't be broken by mining, so remove it from the menu.
   Gates already placed keep their spot. Not seen in game yet.
-- **Console Blocks are visible again.** Since v1.498 some were invisible and you could see
-  through walls past them.
 - **Terrain Fill Block, wide stairs:** for a slope, hill or stairs you can now pick which way it
   climbs, with the length and width shown for each way. Stairs suggest one step per block of
   height, so a 3 by 6 area can make wide stairs.
