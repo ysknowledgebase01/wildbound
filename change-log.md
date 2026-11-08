@@ -13,6 +13,15 @@ Each day has up to three parts:
 
 ## 2026-11-08
 
+### Add-on (v1.505)
+
+- **Toadhan animations:** Toadhan's animation file had a few timings written in a form the
+  game can't read, which can stop all of its animations, walk included. Fixed, and the same
+  fix applies to the Sentinel. Not checked in game yet.
+- **Iron Gate pairs:** two gates side by side in one wall now pair into a double gate even if
+  they were placed facing different ways, by different people who can manage both, or while
+  the first was open. Both hinges go on the outer sides. Not checked in game yet.
+
 ### Add-on (v1.504)
 
 - **Iron Gate swing:** grass, flowers or snow next to a gate no longer stop the door from
