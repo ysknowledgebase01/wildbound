@@ -13,6 +13,27 @@ Each day has up to three parts:
 
 ## 2026-11-07
 
+### Add-on (v1.496)
+
+- **Four new mobs: Slyfire, Necrofire, Fang Guard and Howl of Echo.** Not seen in game yet.
+- **Slyfire** (Elite): a fox mage that keeps its distance and throws a fast fireball that burns
+  and splashes anyone close by, and pushes you back with an open palm when you get close. One
+  wild fox in five is a Slyfire, and it can be the captain of an Ember tower. Mix an Apprentice
+  Mage and a Fire Fox, both Lv.12.
+- **Necrofire** (Legend): a necromancer fox. Its main move raises a risen skeleton and zombie
+  (up to four) that fight for it for 35 seconds and leave nothing behind. It also fires a
+  withering beam and pushes you back, and when it takes three hits in quick succession it warps away. A
+  caught one raises its helpers on command. Found only as a Raid Boss, a Legend Portal boss or a
+  Very Hard bounty, at Lv.40 or more. Mix a Slyfire and a Dark Mage, both Lv.30.
+- **Fang Guard** (Elite): wolves that hunt in packs of three. They dart in, bite once, back off
+  and circle. Three wild wolves in ten are a Fang Guard pack instead, and now and then a pack
+  comes out at night. A lower-level wild one sometimes howls in one more guard. Mix two Wolves, both
+  Lv.12.
+- **Howl of Echo** (Mythic): a great wolf with a turning halo. It bites and claws, pounces, and
+  lets out a sonic howl in front of it, and a wild one calls in pairs of Fang Guards. Beat five
+  Fang Guards, or ten farm animals at night, within 20 minutes, and it comes for you. Very hard
+  to catch. Mix two Fang Guards, both Lv.40.
+
 ### Add-on (v1.495)
 
 - **Count Thirst warps about like an enderman** instead of walking: in a fight he blinks to a
