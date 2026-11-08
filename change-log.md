@@ -13,6 +13,15 @@ Each day has up to three parts:
 
 ## 2026-11-08
 
+### Add-on (v1.507)
+
+- **Iron Gates rebuilt as real doors:** every Iron Gate is now a thin door set in the middle of
+  the wall instead of solid blocks. The Iron Gate (2 by 3) has one door hinged left or right.
+  The Iron Gate S (1 by 2) opens flat against its hinge side like a normal door. The Iron
+  Gate L (4 by 3) has two doors hinged on the outer sides that swing open to the left and
+  right. Gates never join together any more. Gates already placed are redrawn in the new
+  style, and an earlier double gate turns into one Iron Gate L. Not checked in game yet.
+
 ### Add-on (v1.506)
 
 - **Three Iron Gates:** the Iron Gate (2 by 3, one door), the new Iron Gate L (4 by 3, a double
