@@ -13,6 +13,14 @@ Each day has up to three parts:
 
 ## 2026-11-08
 
+### Add-on (v1.508)
+
+- **New Iron Gate doors:** all three Iron Gates now use a new iron door model with a real hinge
+  on its outer edge, and the door swings open on that hinge. The Iron Gate is one door, the
+  Iron Gate S is a smaller version, and the Iron Gate L is two doors that open to the left and
+  right with nothing left in the middle. Locks and menus work as before. Gates already placed
+  get the new door. Not checked in game yet.
+
 ### Add-on (v1.507)
 
 - **Iron Gates rebuilt as real doors:** every Iron Gate is now a thin door set in the middle of
