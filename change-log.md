@@ -13,6 +13,15 @@ Each day has up to three parts:
 
 ## 2026-11-08
 
+### Add-on (v1.502)
+
+- **Open Iron Gate:** an open gate now shows one door panel on each side of the opening. Before,
+  each side showed two panels, and the one against the wall looked black. Not checked in game yet.
+- **Stairs on every row:** Terrain Fill stairs now put stairs on the top row too, so 2 long
+  gives two rows of stairs. Not checked in game yet.
+- **Toadhan walks:** Toadhan's moves are now set up the same way as Kagerog's, whose walk
+  plays, so its walk should show when it moves. Not checked in game yet.
+
 ### Add-on (v1.501)
 
 - **Iron Gate looks like a door:** the gate is now one solid 2 by 3 iron door that matches its
