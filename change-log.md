@@ -13,6 +13,14 @@ Each day has up to three parts:
 
 ## 2026-11-08
 
+### Add-on (v1.504)
+
+- **Iron Gate swing:** grass, flowers or snow next to a gate no longer stop the door from
+  swinging out, and neither does unclaimed ground. Not checked in game yet.
+- **Toadhan walk, third try:** Toadhan's drawing setup now matches Kagerog's. Not checked in
+  game yet.
+- **Rain works:** the server now detects rain, and Toadhan come with it.
+
 ### Add-on (v1.503)
 
 - **Iron Gate swings open:** opening a gate now shows the whole 2 by 3 door swung out beside
