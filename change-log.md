@@ -13,6 +13,32 @@ Each day has up to three parts:
 
 ## 2026-11-08
 
+### Add-on (v1.509)
+
+- **Iron Gate L's second door stays:** one door of the Iron Gate L, and the door of an Iron Gate
+  hinged on the right, disappeared right after placing. It now stays, and a gate that loses its
+  door gets it back within a few seconds. Not checked in game yet.
+- **Eleven new mobs:**
+  - **Roostarot:** mix a Chicken, Zombie Chicken or Ender Chicken with a Snakeling (both Lv.5),
+    or find one among wild chickens. It's hostile.
+  - **Cockatrice (Mythic):** mix two Roostarots (both Lv.30).
+  - **Bamira:** mix a Sheep and a Llama (both Lv.5), or find one among wild sheep. It heals
+    itself now and then in a fight.
+  - **Furriest (boss):** mix two Bamiras (both Lv.20). It also heals itself now and then.
+  - **Ghastopus:** mix a Ghast and a Squid (both Lv.5), or find one among wild ghasts.
+  - **Cyclopus (boss):** mix two Ghastopuses (both Lv.20).
+  - **Steam Walker:** mix a Spider and a Guardian, or find one among wild spiders.
+  - **Gargantua (Legend):** mix two Steam Walkers (both Lv.30).
+  - **High Moon (boss):** mix two Lone Hikers (both Lv.20). Lone Hiker can't be found in the
+    world yet.
+  - **Goliath (Mythic):** mix two Arch Wardens (both Lv.40).
+
+  Not checked in game yet.
+
+### Website
+
+- Mob Index: the eleven new mobs with their mixes and portraits.
+
 ### Add-on (v1.508)
 
 - **New Iron Gate doors:** all three Iron Gates now use a new iron door model with a real hinge
