@@ -13,6 +13,38 @@ Each day has up to three parts:
 
 ## 2026-11-07
 
+### Add-on (v1.498)
+
+- **The newest mobs can climb.** Fang Guard, Howl of Echo, Hopfu, Count Thirst and the other new
+  mobs couldn't step up even one block while chasing, and nor could Toadhan and Kagerog. Now they
+  step up blocks and edge around what's in their way.
+- **Animals leap:** Fang Guards, Howl of Echo, Hopfu, Shadow Hopper, Toadhan, Kagerog, lions,
+  elks and horses spring up walls two or three blocks high.
+- **Hopfu, Shadow Hopper, Toadhan and Kagerog chase hard** once they're after you: much faster,
+  and they keep hunting you even when you're out of sight.
+- **Howl of Echo's Sky Charge:** when you're far away or up high (even flying), it leaps into the
+  air and slams down onto you with a huge knock back. It also hits harder for every Fang Guard
+  that falls near it.
+- **Necrofire's risen are a real zombie and skeleton now:** they chase, hit and shoot arrows
+  like ordinary ones, but weaker, and still leave nothing behind. A caught Necrofire's go after
+  monsters, never you.
+- **Necrofire's Withering Beam** now hits like a Warden's blast: the Warden's charge and boom,
+  shock rings down the beam, a hard knock back and Wither.
+- **Iron Gate.** A tall iron gate, two blocks wide and three high. Put two side by side and
+  they join into one wide double gate. Tap to open or close it. It's locked to everyone but
+  you when you place it: hold it to open its menu, where you can unlock it or let chosen
+  players use it. Craft one from four Iron Doors, or buy one at the Furniture Shop (Home &
+  Garden) for 3 coins. Not seen in game yet.
+
+### Server
+
+- **The southern land was rebuilt.** The broken cliffs, half mountains and thin stone poles
+  south of spawn are gone. That land is back to the way the world first made it, with its
+  rivers and natural coasts. Further out to the south-west there's a new big continent and
+  seven islands with desert, jungle, bamboo jungle, mangrove and plain swamp, savanna,
+  mushroom fields, birch and dark forest. Rippletown and every building near it were left as
+  they were.
+
 ### Add-on (v1.497)
 
 - **Necrofire's risen skeleton and zombie really fight now.** Their hits did almost nothing
