@@ -13,6 +13,14 @@ Each day has up to three parts:
 
 ## 2026-11-08
 
+### Add-on (v1.506)
+
+- **Three Iron Gates:** the Iron Gate (2 by 3, one door), the new Iron Gate L (4 by 3, a double
+  door that opens to both sides, crafted from two Iron Gates in any pattern) and the new Iron
+  Gate S (door-sized). All three lock the same way and are sold in the Furniture Shop under
+  Home & Garden. Iron Gates placed side by side no longer join into a double gate; use an
+  Iron Gate L for that. Not checked in game yet.
+
 ### Add-on (v1.505)
 
 - **Toadhan animations:** Toadhan's animation file had a few timings written in a form the
