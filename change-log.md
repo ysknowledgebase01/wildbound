@@ -13,6 +13,26 @@ Each day has up to three parts:
 
 ## 2026-11-07
 
+### Add-on (v1.499)
+
+- **The Iron Gate shows up now.** It was invisible: the game won't draw one block model that
+  big, so each of its six blocks now draws its own part of the gate. It also has its own icon,
+  and crafting it from four Iron Doors works (the recipe wasn't loading before). Long press the
+  gate (or hold it) to open its menu; it can't be broken by mining, so remove it from the menu.
+  Gates already placed keep their spot. Not seen in game yet.
+- **Console Blocks are visible again.** Since v1.498 some were invisible and you could see
+  through walls past them.
+- **Terrain Fill Block, wide stairs:** for a slope, hill or stairs you can now pick which way it
+  climbs, with the length and width shown for each way. Stairs suggest one step per block of
+  height, so a 3 by 6 area can make wide stairs.
+- **Demolition Block, Dig Down and Dig Forward:** a single Demolition Block can now dig a square
+  hole straight down, or a tunnel away from the side you tapped it from. Pick the width (odd
+  numbers, so the block stays in the middle), the height and how far. The area shows as a red
+  outline with a yellow arrow for 30 seconds; tap the block again to confirm.
+- **Adventurers:** some wandering traders now come as a Hopfu or a Toadhan instead, without
+  llamas. They wander around and toward towns, leave you alone unless you attack them or try to
+  catch them, and fight wild lions and lion cubs to protect animals.
+
 ### Add-on (v1.498)
 
 - **The newest mobs can climb.** Fang Guard, Howl of Echo, Hopfu, Count Thirst and the other new
