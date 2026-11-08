@@ -13,6 +13,25 @@ Each day has up to three parts:
 
 ## 2026-11-07
 
+### Add-on (v1.495)
+
+- **Count Thirst warps about like an enderman** instead of walking: in a fight he blinks to a
+  spot beside or behind you every few seconds. Out of a fight he hops around now and then, and a
+  caught Count blinks back to you when left behind.
+- **Count Thirst's new Crimson Ray:** he charges for a moment and fires a red beam that hits
+  everyone in its line and knocks them back. The aim is set at the end of the charge, so you can
+  step aside.
+- **Ender Centaur** chases twice as fast and opens with its Knight Charge, which hits harder and
+  knocks you further. Its spear flies twice as fast and bursts where it lands, hurting everyone
+  close by.
+- **Sanctuary:** a mob now offers only traits it has really unlocked at its level, plus the ones
+  in its pool. A fresh Lv.6 mob no longer offers every trait it would get by Lv.40.
+- **Noman's Ice Shards:** he throws five ice shards in a fan, like a thrown fan of blades. Each
+  one that hits slows you down.
+- **Lord of Divinity's Divine Mend:** when it or a mob on its side is badly hurt, it heals itself
+  and everyone on its side close by, a little and only every 30 seconds, so it can still be
+  beaten. A caught Lord heals its owner and the owner's other mobs too.
+
 ### Add-on (v1.494)
 
 - **The newest mobs' animations, another try.** The v1.493 fix didn't work: the ten newest mobs
