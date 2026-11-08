@@ -13,6 +13,15 @@ Each day has up to three parts:
 
 ## 2026-11-07
 
+### Add-on (v1.497)
+
+- **Necrofire's risen skeleton and zombie really fight now.** Their hits did almost nothing
+  before. They now chase their foe like a zombie instead of hanging back by Necrofire, edge
+  around blocks in the way, and the zombie swings its arms when it hits.
+- **Fang Guard and Howl of Echo are faster than a Wild Lion** and far more aggressive. A wild one
+  smells you out from up to 64 blocks away, even behind walls, bites much faster with a real
+  snap of the neck and a head shake, and only backs off for a moment between bites.
+
 ### Add-on (v1.496)
 
 - **Four new mobs: Slyfire, Necrofire, Fang Guard and Howl of Echo.** Not seen in game yet.
