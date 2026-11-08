@@ -11,6 +11,23 @@ Each day has up to three parts:
 
 ---
 
+## 2026-11-08
+
+### Add-on (v1.501)
+
+- **Iron Gate looks like a door:** the gate is now one solid 2 by 3 iron door that matches its
+  icon (posts, braces, brass hinges and lock), instead of see-through bars with two layers.
+  Two gates side by side meet in the middle as a double door. It's a full block thick. When
+  it's open, only the hinge side stays, showing the door along it. Not checked in game yet.
+- **Stairs fill the whole length:** Terrain Fill stairs now put a row of stairs on every step
+  and a row of full blocks at the top, so 3 long gives two rows of stairs. Before, a higher
+  Fill Block placed only one block up gave a single row of stairs and the rest flat. The stairs
+  may now climb past a higher Fill Block that is too low. Not checked in game yet.
+- **Rain works for frogs and Toadhan:** the add-on could never tell it was raining, so rain
+  frogs and the rain Toadhan never came. That's fixed. Also, a Toadhan can now come to still
+  water in any weather (a frog arrival is sometimes a Toadhan), at most two near each other,
+  so you should see Toadhan in the wild more often. Not checked in game yet.
+
 ## 2026-11-07
 
 ### Add-on (v1.500)
