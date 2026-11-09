@@ -13,6 +13,13 @@ Each day has up to three parts:
 
 ## 2026-11-08
 
+### Add-on (v1.513)
+
+- **Roostarot and Cockatrice rebuilt:** both have all-new animations, and Roostarot no longer
+  tracks you by scent from out of sight. The server also logs how much work each kind of mob
+  costs it, to find out why other things stuttered while these two were around. Not checked in
+  game yet.
+
 ### Add-on (v1.512)
 
 - **Roostarot and Cockatrice move smoothly:** their chicken-style walk, with the head and body
