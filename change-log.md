@@ -13,6 +13,12 @@ Each day has up to three parts:
 
 ## 2026-11-08
 
+### Add-on (v1.511)
+
+- **Smoother chases:** when a Roostarot or Cockatrice was around, every mob in the fight stuttered
+  as it moved. Mobs chasing across level ground now glide instead of jumping from spot to spot.
+  Not checked in game yet.
+
 ### Add-on (v1.510)
 
 - **The new mobs walk properly:** Roostarot, Cockatrice, Bamira, Furriest, Steam Walker,
