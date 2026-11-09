@@ -13,6 +13,16 @@ Each day has up to three parts:
 
 ## 2026-11-08
 
+### Add-on (v1.514)
+
+- **Event nights:** about one night in three is now an event night, announced at dusk. Each
+  is equally likely: Blade Night (Daggerott packs), Vampire Night (Vampire Villagers with
+  Vampire Bats), Blizzard Night (Snow Golems led by one Frost Golem), Critter Night (Hopfu,
+  Killer Rabbits and three kinds of fox fighting each other, until they spot you or your mobs)
+  and Night of Howl (Fang Guard packs; beat them too fast and Howl of Echo comes). Event mobs
+  can be caught as usual. Wild ones still out leave a minute after dawn. Blade Night now comes
+  less often. Not checked in game yet.
+
 ### Add-on (v1.513)
 
 - **Roostarot and Cockatrice rebuilt:** both have all-new animations, and Roostarot no longer
