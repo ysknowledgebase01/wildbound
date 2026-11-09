@@ -11,6 +11,15 @@ Each day has up to three parts:
 
 ---
 
+## 2026-11-09
+
+### Add-on (v1.515)
+
+- **Mining Outpost worker stays peaceful:** the mob working in a Mining Outpost no longer
+  shoots or attacks anyone, and wild mobs leave it alone. Not checked in game yet.
+
+---
+
 ## 2026-11-08
 
 ### Add-on (v1.514)
