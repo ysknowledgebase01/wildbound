@@ -13,6 +13,12 @@ Each day has up to three parts:
 
 ## 2026-11-08
 
+### Add-on (v1.512)
+
+- **Roostarot and Cockatrice move smoothly:** their chicken-style walk, with the head and body
+  out of step with the legs, looked like stuttering. Now only their legs move as they walk, and
+  their heads hold steady while they wander. Not checked in game yet.
+
 ### Add-on (v1.511)
 
 - **Smoother chases:** when a Roostarot or Cockatrice was around, every mob in the fight stuttered
