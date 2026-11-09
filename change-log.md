@@ -13,6 +13,12 @@ Each day has up to three parts:
 
 ## 2026-11-09
 
+### Add-on (v1.516)
+
+- **Admins can start an event night:** the Admin Wand can now pick one of the five event
+  nights. At night it starts at once; by day it comes at the next nightfall. Not checked in
+  game yet.
+
 ### Add-on (v1.515)
 
 - **Mining Outpost worker stays peaceful:** the mob working in a Mining Outpost no longer
