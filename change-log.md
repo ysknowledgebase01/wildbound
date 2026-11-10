@@ -13,6 +13,17 @@ Each day has up to three parts:
 
 ## 2026-11-09
 
+### Add-on (v1.521)
+
+- **Mixing adds up your +:** a mix's + is now its parents' + added together (+3 and +2 make
+  +5), at least +1 and up to +10. A parent already past +10 keeps its +.
+- **Sanctuary Box fixed:** a Mob Ball put in the Sanctuary Box is noticed again, so the Mob
+  Trainer can send it.
+- **+ refund:** every mixed mob under +10 gets +2 once (up to +10), to make up for mixes
+  that lowered the + since 2026-11-06.
+- **Caught Nightmare Horse hunts too:** yours now charges the enemies near you and strikes
+  them again and again, staying within about 20 blocks of you. Not checked in game yet.
+
 ### Add-on (v1.520)
 
 - **Nightmare Horse hunts for real:** a wild one now charges at players, caught mobs and other
