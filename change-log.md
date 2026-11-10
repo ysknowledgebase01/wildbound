@@ -13,6 +13,20 @@ Each day has up to three parts:
 
 ## 2026-11-10
 
+### Add-on (v1.523)
+
+- **Three new mobs:**
+  - **Crab Guard (Elite):** an armoured sea crab with pincers, a scissor snap, a water beam and a shield that doubles its defence while raised. Mix Shardion + Guardian. In the sea it shares the Anglerfish's spawns half and half. It can climb sea walls and cliffs up to 8 blocks to chase you onto land.
+  - **Nether Guard (Legend):** Crab Guard + Magma Golem, both Lv.30. Burning pincers, a tail sweep, a magma beam and an ember shield. It walks on magma unhurt. It's rare in the Nether at Lv.40, and it leads Nether Towers more often the farther out they are.
+  - **Mage Knight (Legend):** Dark Mage + Shadow Knight, both Lv.30. Sword slash and cleave, an arcane staff beam, and a warp step beside or behind its foe.
+- **Crab Guard in old mixes:** Sorcerer + Crab Guard (Lv.30) makes a Dark Mage, and Abyss Squid + Crab Guard (Lv.30) makes a Kraken. The Elder Guardian mixes still work.
+- **Elder Dragon:** its Elder Guardian mix is now Ender Dragon + Dragon Knight, both Lv.35.
+- These mobs haven't been checked in game yet.
+
+### Website
+
+- Mob Index: Crab Guard, Nether Guard and Mage Knight, and the new Dark Mage, Kraken and Elder Dragon mixes.
+
 ### Add-on (v1.522)
 
 - **More Nether encounters:** Piglins, Piglin Brutes and Zombified Piglins each have a 15% chance to become a Void Skeleton, 15% a Wither Skeleton and 15% an Ember Skeleton. Piglins also have a 10% chance to become Slyfire.
