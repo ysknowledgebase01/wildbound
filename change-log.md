@@ -13,6 +13,24 @@ Each day has up to three parts:
 
 ## 2026-11-09
 
+### Add-on (v1.518)
+
+- **Fires go out:** fire started by mob attacks, fireballs, explosions or lightning now goes out
+  after about 10 seconds instead of burning forever. Fire on netherrack or soul soil keeps
+  burning, so fireplaces still work. Not checked in game yet.
+- **Caught Skeleton Horses behave:** sending one out no longer calls four hostile skeletons
+  riding skeleton horses. Not checked in game yet.
+- **New Nightmare Horse mix:** mix a Zombie Horse and a Skeleton Horse (both Lv.5). Its old
+  mixes (Horse, Mule or Skeleton Horse with a Wither Skeleton, and Horse with a Blaze) are gone.
+  Not checked in game yet.
+- **Frost Golem and Magma Golem mix as Iron Golem type:** they now count as an Iron Golem in
+  mixes, and as Frost and Fire like the other frost and fire mobs. Not checked in game yet.
+
+### Website
+
+- Mob Index: tap a mix's "type" to see every mob it takes, and tap one to jump to it. Iron Golem
+  type now lists Frost Golem and Magma Golem. Nightmare Horse's new mix.
+
 ### Add-on (v1.517)
 
 - **Less stutter around the newest mobs:** with Fang Guards, Hopfu, Steam Walkers and the other
