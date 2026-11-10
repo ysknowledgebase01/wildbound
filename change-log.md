@@ -13,6 +13,17 @@ Each day has up to three parts:
 
 ## 2026-11-09
 
+### Add-on (v1.520)
+
+- **Nightmare Horse hunts for real:** a wild one now charges at players, caught mobs and other
+  mobs near it, strikes them again and again, and bounds about when it has nothing to chase.
+  Nightmare Horses that were already out keep up their full speed now too. Not checked in game yet.
+- **Warden ladder:** beat a wild Warden and, for the next 30 minutes, every new Warden that
+  rises is half again as strong as the last one you beat, and one time in three it's a
+  Minotaur or an Archfiend instead. Each win restarts the 30 minutes. Beat five and a Lv.40 Arch Warden comes next;
+  beat that and a Lv.70 Goliath follows. Only wild ones count. Every one of them darkens your sight like a Warden
+  while it's wild. Brutaurus no longer takes a Warden's place. Not checked in game yet.
+
 ### Add-on (v1.519)
 
 - **Nightmare Horse unleashed:** it's now much faster than any horse, and a wild one is as
