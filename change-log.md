@@ -13,6 +13,17 @@ Each day has up to three parts:
 
 ## 2026-11-09
 
+### Add-on (v1.519)
+
+- **Nightmare Horse unleashed:** it's now much faster than any horse, and a wild one is as
+  fierce as a Lion Cub: it attacks players, caught mobs, animals and other mobs it sees, but
+  leaves other Nightmare Horses and tamed, named, leashed or ridden animals alone. Its move is now a withering Blast Shot that bursts
+  where it lands. Not checked in game yet.
+
+### Website
+
+- Mob Index: Nightmare Horse's new speed.
+
 ### Add-on (v1.518)
 
 - **Fires go out:** fire started by mob attacks, fireballs, explosions or lightning now goes out
