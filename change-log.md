@@ -13,6 +13,39 @@ Each day has up to three parts:
 
 ## 2026-11-09
 
+### Add-on (v1.517)
+
+- **Less stutter around the newest mobs:** with Fang Guards, Hopfu, Steam Walkers and the other
+  newest mobs nearby, the server spent most of its time checking where they could step, so
+  every moving thing in the world stuttered. Those checks are now much cheaper. Not checked in
+  game yet.
+- **Fang Guards and the other newest mobs step down:** they can now chase you down a one-block
+  drop instead of stopping at the edge. Not checked in game yet.
+- **Steam Walker fights:** a caught Steam Walker now bites up close between Steam Blasts, and
+  Steam Blasts hit what they should. Not checked in game yet.
+- **Lions get their new faces:** Lion Cub, Wild Lion and Manticore now have their new faces,
+  with closer-set eyes, ears attached to the head and the Manticore's new snout. Not checked in
+  game yet.
+- **Ride the newest mobs:** caught Fang Guards, Howl of Echo, Hopfu, Steam Walkers, Goliath and
+  the other newest walking mobs can now be ridden like other caught mobs. Ghastopus, Cyclopus,
+  Leviathan and Elder Overlord can't be ridden yet. Not checked in game yet.
+- **Lone Hiker mix:** mix a Void Bear and a Grizzly (both Lv.12). Not checked in game yet.
+- **Fewer frogs and Toadhan:** in the rain, far fewer farm animals turn into frogs, none once an
+  area already has four wild frogs, and none turn into Toadhan any more. Frogs also turn up on
+  open ground in the rain less often. Toadhan now turn up about as often as Hopfu: sometimes
+  among frogs at the water, and in half of the adventurer visits, at most two in one area. Not
+  checked in game yet.
+- **Old frogs and Toadhan cleared:** the wild frogs and Toadhan already out in the world are
+  removed once, as their areas load over the next week. Caught, named and leashed ones stay,
+  and new ones that turn up from now on stay too. Not checked in game yet.
+- **Toadhan levels follow distance:** wild Toadhan now start at Lv.5-10 near spawn and get
+  stronger farther out, like other wild mobs, instead of always being Lv.15-20. Not checked in
+  game yet.
+
+### Website
+
+- Mob Index: Lone Hiker's mix.
+
 ### Add-on (v1.516)
 
 - **Admins can start an event night:** the Admin Wand can now pick one of the five event
