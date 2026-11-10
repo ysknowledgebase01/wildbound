@@ -11,6 +11,20 @@ Each day has up to three parts:
 
 ---
 
+## 2026-11-10
+
+### Add-on (v1.522)
+
+- **More Nether encounters:** Piglins, Piglin Brutes and Zombified Piglins each have a 15% chance to become a Void Skeleton, 15% a Wither Skeleton and 15% an Ember Skeleton. Piglins also have a 10% chance to become Slyfire.
+- **Forest variety:** Crimson and Warped Forests can also bring Apprentice Mages, Steam Walkers, Vampire Bats and Fire Foxes. Nether Skeletons can become Void, Wither or Ember Skeletons; they no longer become Snakelings there. Endseekers now replace 15% of Endermen in every dimension.
+- **Nether Towers:** look for purple locator markers. Fight through six guards to a roof captain, then collect the treasure. Captains include King Piglin, Archfiend, Minotaur, Vampire Villager, King Skeleton, Wither and Abyscleaver. Farther out, Necrofire, Count Thirst, Dark Mage and Piglin Overlord can lead them too.
+- **Tougher fights, better rewards:** Nether Towers have up to two extra levels compared with equivalent Overworld towers, one extra guard, more Raid Shards, a guaranteed Nether Shard and slightly better material and Awakening Crystal chances. They retake after 30 minutes; break a cleared tower's roof core to finish it permanently.
+- Nether distance is measured horizontally from the world's default spawn coordinates divided by eight. These encounters and towers have not been checked in game yet.
+
+### Website
+
+- Mob Index: Nether spawn sources and rates, forest encounters and Endseeker's updated chance.
+
 ## 2026-11-09
 
 ### Add-on (v1.521)
