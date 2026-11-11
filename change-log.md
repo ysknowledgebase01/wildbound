@@ -13,6 +13,14 @@ Each day has up to three parts:
 
 ## 2026-11-10
 
+### Add-on (v1.525)
+
+- **Nether Towers are easier to find:** where there is no open ground, a tower is now dug into the rock with a tunnel from its door to the nearest cave, or stands on a lava lake with a brick bridge to the shore.
+- **Tougher Nether:** wild Nether mobs start at Lv.15 near the Nether spawn and gain 5 levels every 100 blocks, up to Lv.40. Nether Tower guards and bosses rise with them.
+- **Crab Guard and Nether Guard:** their shield now stays up for 15 seconds, and they keep attacking while it is up. They walk along the sea floor instead of floating, and the Nether Guard can walk through lava.
+- **Lava Boat:** the Fisherman's Hut sells a Lava Boat for 30 coins. It floats on water and on lava, and keeps its riders from burning.
+- Not checked in game yet.
+
 ### Add-on (v1.524)
 
 - **Nether Tower bosses:** the Mage Knight can now lead a Nether Tower at any distance, always at Lv.40. The Cyclopus joins the bosses of far-out Nether Towers. The Minotaur no longer leads Nether Towers, so their bosses are now different from those of Overworld towers and bases.
