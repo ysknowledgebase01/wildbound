@@ -13,6 +13,11 @@ Each day has up to three parts:
 
 ## 2026-11-10
 
+### Add-on (v1.524)
+
+- **Nether Tower bosses:** the Mage Knight can now lead a Nether Tower at any distance, always at Lv.40. The Cyclopus joins the bosses of far-out Nether Towers. The Minotaur no longer leads Nether Towers, so their bosses are now different from those of Overworld towers and bases.
+- Not checked in game yet.
+
 ### Add-on (v1.523)
 
 - **Three new mobs:**
