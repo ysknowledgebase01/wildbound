@@ -11,6 +11,14 @@ Each day has up to three parts:
 
 ---
 
+## 2026-11-11
+
+### Add-on (v1.527)
+
+- **Nether Towers now appear:** they can be built on more kinds of Nether ground, on lava lakes even without a shore nearby (take a Lava Boat), and the game looks for a spot more often.
+- **Closer Nether Towers:** they can stand 80 blocks apart instead of 160, so you find them more often.
+- Not checked in game yet.
+
 ## 2026-11-10
 
 ### Add-on (v1.526)
