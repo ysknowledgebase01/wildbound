@@ -13,6 +13,15 @@ Each day has up to three parts:
 
 ## 2026-11-11
 
+### Add-on (v1.529)
+
+- **Bigger, fiercer Dark Stallion:** it is now much larger, as fast and aggressive as the Nightmare Horse, and tracks foes from farther away.
+- **Dread Stream:** the Dark Stallion's slow orb is now a fast dark beam that streams straight at its target.
+- **Shadow Pound:** the Dark Stallion leaps onto its foe and lands with a dark purple shockwave that hits every mob around it.
+- **Lava Boat comes back:** if your Lava Boat is broken, sinks or is lost, you get it back in your inventory (or the next time you join).
+- **Withers no longer break blocks:** mobs can't break or move blocks any more, and a Wither's explosions break nothing.
+- Not checked in game yet.
+
 ### Add-on (v1.528)
 
 - **Nether Towers really build now:** a wrong block name stopped every Nether Tower from finishing. Fixed. Where no good spot is found, a tower is now built anyway, clearing the ground it needs.
