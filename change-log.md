@@ -22,6 +22,9 @@ Each day has up to three parts:
 
 ### Website
 
+- Mob portraits keep their square shape in narrow columns. Type/family and tier/class labels use two compact lines.
+- Filter mobs by type or family, alongside search, tier and source filters.
+
 - Restored the Mob Ball tab icon.
 
 - Stat, refinement and navigation explanations start collapsed; choose "More detail" to show them.
