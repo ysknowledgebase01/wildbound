@@ -13,6 +13,11 @@ Each day has up to three parts:
 
 ## 2026-11-11
 
+### Add-on (v1.533)
+
+- **Trusted players can place Iron Gates:** a player trusted to build on your land can now place an Iron Gate there. The land's owner and co-owner can manage every gate on their land, including ones a trusted player placed.
+- Not checked in game yet.
+
 ### Add-on (v1.532)
 
 - **Caught Withers no longer drop Nether Stars:** a Wither caught just as it was dying came back out dying every time and dropped a star. Fixed: dying mobs can't be caught, and a caught Wither always comes out healthy.
