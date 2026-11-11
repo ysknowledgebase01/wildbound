@@ -19,9 +19,24 @@ Each day has up to three parts:
 - Type and family labels include Omen, Metal, Soldier, Divine, Wild and Magic.
 
 - Click a table heading to sort mobs; click again to reverse the order.
-- Choose a mob level from 1 to 20, starting at 20. Every row shows plain stats for that level, including Power (health ? attack).
+- Choose a mob level from 1 to 20, starting at 20. Every row shows plain stats for that level, including Power (health × attack).
 - Enter a refinement bonus from +0 to +30 to compare its effect on health, attack and Power.
 - Mob rows now show type and family labels, which can also be searched. Categories awaiting a decision are marked Unclear.
+
+### Add-on (v1.531)
+
+- **Event night alerts reach everyone:** players who join during an event night now get the chat message and the big title once they have loaded in, instead of missing it.
+- **Rename your caught mobs:** the stats screen has a new "Change name" button.
+- **Quieter caught mobs:** caught ghasts no longer moan the whole time, and caught mobs no longer shriek before each ranged attack.
+- Not checked in game yet.
+
+### Add-on (v1.530)
+
+- **Flying Nether Tower guards stay on the roof:** floating guards no longer get stuck between floors or in the ceiling; they guard the open roof instead.
+- **Stronger Nether Tower Kings:** King Piglin, King Skeleton and Piglin Overlord now lead a tower at Lv.40 or higher.
+- **New Nether Tower captains:** Oathbreaker, Gargantua, Cyclopus and Dark Mage can now lead a tower at any distance, alongside Archfiend.
+- **Harder to catch:** these five captains are much harder to catch than other bosses.
+- Not checked in game yet.
 
 ### Add-on (v1.529)
 
