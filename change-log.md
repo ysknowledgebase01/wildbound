@@ -13,6 +13,13 @@ Each day has up to three parts:
 
 ## 2026-11-11
 
+### Add-on (v1.532)
+
+- **Caught Withers no longer drop Nether Stars:** a Wither caught just as it was dying came back out dying every time and dropped a star. Fixed: dying mobs can't be caught, and a caught Wither always comes out healthy.
+- **Nether Stars only from tower Withers:** a Wither you build yourself no longer drops a Nether Star. Withers guarding towers still do.
+- **Nether Stars cleared once:** the Nether Stars in every player's inventory are removed once, the next time they join.
+- Not checked in game yet.
+
 ### Website
 
 - Every mob icon opens a full model preview.
