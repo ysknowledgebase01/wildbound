@@ -13,6 +13,11 @@ Each day has up to three parts:
 
 ## 2026-11-11
 
+### Add-on (v1.528)
+
+- **Nether Towers really build now:** a wrong block name stopped every Nether Tower from finishing. Fixed. Where no good spot is found, a tower is now built anyway, clearing the ground it needs.
+- Not checked in game yet.
+
 ### Add-on (v1.527)
 
 - **Nether Towers now appear:** they can be built on more kinds of Nether ground, on lava lakes even without a shore nearby (take a Lava Boat), and the game looks for a spot more often.
