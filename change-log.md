@@ -28,7 +28,7 @@ Each day has up to three parts:
 - Type and family labels include Omen, Metal, Soldier, Divine, Wild and Magic.
 
 - Click a table heading to sort mobs; click again to reverse the order.
-- Choose a mob level from 1 to 20, starting at 20. Every row shows plain stats for that level, including Power (health × attack).
+- Choose a mob level from 1 to 40, starting at 20. Every row shows plain stats for that level, including Power (health × attack).
 - Enter a refinement bonus from +0 to +30 to compare its effect on health, attack and Power.
 - Mob rows now show type and family labels, which can also be searched. Categories awaiting a decision are marked Unclear.
 
