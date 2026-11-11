@@ -13,6 +13,11 @@ Each day has up to three parts:
 
 ## 2026-11-11
 
+### Add-on (v1.534)
+
+- **Land owners control every Iron Gate on their land:** the land's owner and co-owner can always open every Iron Gate on their land and choose who else may use it. If you take away a player's trust, the gates they placed on your land become yours.
+- Not checked in game yet.
+
 ### Add-on (v1.533)
 
 - **Trusted players can place Iron Gates:** a player trusted to build on your land can now place an Iron Gate there. The land's owner and co-owner can manage every gate on their land, including ones a trusted player placed.
