@@ -13,6 +13,13 @@ Each day has up to three parts:
 
 ## 2026-11-11
 
+### Add-on (v1.531)
+
+- **Event night alerts reach everyone:** players who join during an event night now get the chat message and the big title once they have loaded in, instead of missing it.
+- **Rename your caught mobs:** the stats screen has a new "Change name" button.
+- **Quieter caught mobs:** caught ghasts no longer moan the whole time, and caught mobs no longer shriek before each ranged attack.
+- Not checked in game yet.
+
 ### Add-on (v1.530)
 
 - **Flying Nether Tower guards stay on the roof:** floating guards no longer get stuck between floors or in the ceiling; they guard the open roof instead.
