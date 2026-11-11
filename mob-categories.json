@@ -1,0 +1,970 @@
+{
+  "ender_overlord": {
+    "type": "Void",
+    "family": "Enderman"
+  },
+  "elder_overlord": {
+    "type": "Divine",
+    "family": "Dragon"
+  },
+  "lord_of_divinity": {
+    "type": "Divine",
+    "family": "Llama"
+  },
+  "valley_of_doom": {
+    "type": "Metal",
+    "family": "Weapon"
+  },
+  "eye_of_the_end": {
+    "type": "Void",
+    "family": "Eye"
+  },
+  "leviathan": {
+    "type": "Divine",
+    "family": "Dragon"
+  },
+  "goliath": {
+    "type": "Omen",
+    "family": "Warden"
+  },
+  "dragonlord": {
+    "type": "Normal",
+    "family": "Dragon"
+  },
+  "dreadlord": {
+    "type": "Fire",
+    "family": "Demon"
+  },
+  "ender_centaur": {
+    "type": "Void",
+    "family": "Centaur"
+  },
+  "brutaurus": {
+    "type": "Normal",
+    "family": "Minotaur"
+  },
+  "kirin": {
+    "type": "Storm",
+    "family": "Horse"
+  },
+  "howl_of_echo": {
+    "type": "Wild",
+    "family": "Wolf"
+  },
+  "everfrost": {
+    "type": "Frost",
+    "family": "Elk"
+  },
+  "megalodon": {
+    "type": "Wild",
+    "family": "Shark"
+  },
+  "enderstalker": {
+    "type": "Poison",
+    "family": "Scorpion"
+  },
+  "manticore": {
+    "type": "Normal",
+    "family": "Lion"
+  },
+  "ouroboros": {
+    "type": "Poison",
+    "family": "Snake"
+  },
+  "cockatrice": {
+    "type": "Normal",
+    "family": "Chicken"
+  },
+  "endbringer": {
+    "type": "Omen",
+    "family": "Reaper"
+  },
+  "elder_dragon": {
+    "type": "Frost",
+    "family": "Dragon"
+  },
+  "dragon_knight": {
+    "type": "Normal",
+    "family": "Knight"
+  },
+  "arch_warden": {
+    "type": "Normal",
+    "family": "Warden"
+  },
+  "dark_knight": {
+    "type": "Normal",
+    "family": "Knight"
+  },
+  "noman": {
+    "type": "Frost",
+    "family": "Golem"
+  },
+  "dark_stallion": {
+    "type": "Dark",
+    "family": "Horse"
+  },
+  "ender_golem": {
+    "type": "Void",
+    "family": "Golem"
+  },
+  "sentinel": {
+    "type": "Metal",
+    "family": "Fish"
+  },
+  "mage_knight": {
+    "type": "Magic",
+    "family": "Knight"
+  },
+  "dark_mage": {
+    "type": "Magic",
+    "family": "Mage"
+  },
+  "count_thirst": {
+    "type": "Undead",
+    "family": "Villager"
+  },
+  "kraken": {
+    "type": "Normal",
+    "family": "Squid"
+  },
+  "gargantua": {
+    "type": "Metal",
+    "family": "Spider"
+  },
+  "kagerog": {
+    "type": "Soldier",
+    "family": "Frog"
+  },
+  "necrofire": {
+    "type": "Fire / Undead",
+    "family": "Fox"
+  },
+  "shadow_hopper": {
+    "type": "Void",
+    "family": "Rabbit"
+  },
+  "ender_king": {
+    "type": "Void",
+    "family": "Enderman"
+  },
+  "grand_llama": {
+    "type": "Normal",
+    "family": "Llama"
+  },
+  "end_dragon": {
+    "type": "Void",
+    "family": "Dragon"
+  },
+  "nether_guard": {
+    "type": "Fire",
+    "family": "Crab"
+  },
+  "zombie_overlord": {
+    "type": "Undead",
+    "family": "Zombie"
+  },
+  "piglin_overlord": {
+    "type": "Normal",
+    "family": "Piglin"
+  },
+  "slime_overlord": {
+    "type": "Normal",
+    "family": "Slime"
+  },
+  "wolf_overlord": {
+    "type": "Wild",
+    "family": "Wolf"
+  },
+  "skeleton_overlord": {
+    "type": "Normal",
+    "family": "Skeleton"
+  },
+  "spider_overlord": {
+    "type": "Poison",
+    "family": "Spider"
+  },
+  "creeper_overlord": {
+    "type": "Normal",
+    "family": "Creeper"
+  },
+  "chicken_overlord": {
+    "type": "Normal",
+    "family": "Chicken"
+  },
+  "bee_overlord": {
+    "type": "Poison",
+    "family": "Bee"
+  },
+  "king_zombie": {
+    "type": "Undead",
+    "family": "Zombie"
+  },
+  "king_piglin": {
+    "type": "Normal",
+    "family": "Piglin"
+  },
+  "king_slime": {
+    "type": "Normal",
+    "family": "Slime"
+  },
+  "king_wolf": {
+    "type": "Wild",
+    "family": "Wolf"
+  },
+  "king_skeleton": {
+    "type": "Normal",
+    "family": "Skeleton"
+  },
+  "king_spider": {
+    "type": "Poison",
+    "family": "Spider"
+  },
+  "king_creeper": {
+    "type": "Normal",
+    "family": "Creeper"
+  },
+  "king_chicken": {
+    "type": "Normal",
+    "family": "Chicken"
+  },
+  "queen_bee": {
+    "type": "Poison",
+    "family": "Bee"
+  },
+  "king_chrome_slime": {
+    "type": "Metal",
+    "family": "Slime"
+  },
+  "oathbreaker": {
+    "type": "Metal",
+    "family": "Weapon"
+  },
+  "abyscleaver": {
+    "type": "Metal",
+    "family": "Weapon"
+  },
+  "siege_ravager": {
+    "type": "Normal",
+    "family": "Ravager"
+  },
+  "high_moon": {
+    "type": "Wild",
+    "family": "Bear"
+  },
+  "whale_shark": {
+    "type": "Wild",
+    "family": "Shark"
+  },
+  "archfiend": {
+    "type": "Fire",
+    "family": "Demon"
+  },
+  "chrome_golem": {
+    "type": "Metal",
+    "family": "Golem"
+  },
+  "furriest": {
+    "type": "Normal",
+    "family": "Sheep"
+  },
+  "minotaur": {
+    "type": "Normal",
+    "family": "Minotaur"
+  },
+  "cyclopus": {
+    "type": "Normal",
+    "family": "Squid"
+  },
+  "gemstalker": {
+    "type": "Poison",
+    "family": "Scorpion"
+  },
+  "drakari": {
+    "type": "Normal",
+    "family": "Dragon"
+  },
+  "unixion": {
+    "type": "Storm",
+    "family": "Horse"
+  },
+  "frost_elk": {
+    "type": "Frost",
+    "family": "Elk"
+  },
+  "great_white": {
+    "type": "Wild",
+    "family": "Shark"
+  },
+  "magma_golem": {
+    "type": "Fire",
+    "family": "Golem"
+  },
+  "naga": {
+    "type": "Poison",
+    "family": "Snake"
+  },
+  "endseeker": {
+    "type": "Void",
+    "family": "Enderman"
+  },
+  "frost_golem": {
+    "type": "Frost",
+    "family": "Golem"
+  },
+  "death_knight": {
+    "type": "Undead",
+    "family": "Knight"
+  },
+  "drake_knight": {
+    "type": "Fire",
+    "family": "Knight"
+  },
+  "sorcerer": {
+    "type": "Magic",
+    "family": "Mage"
+  },
+  "void_drake": {
+    "type": "Void",
+    "family": "Dragon"
+  },
+  "fire_dragon": {
+    "type": "Fire",
+    "family": "Dragon"
+  },
+  "soulreaper": {
+    "type": "Omen",
+    "family": "Reaper"
+  },
+  "vampire_villager": {
+    "type": "Undead",
+    "family": "Villager"
+  },
+  "hopfu": {
+    "type": "Normal",
+    "family": "Rabbit"
+  },
+  "toadhan": {
+    "type": "Soldier",
+    "family": "Frog"
+  },
+  "slyfire": {
+    "type": "Fire",
+    "family": "Fox"
+  },
+  "zombie_shark": {
+    "type": "Undead",
+    "family": "Shark"
+  },
+  "fang_guard": {
+    "type": "Wild",
+    "family": "Wolf"
+  },
+  "war_piglin": {
+    "type": "Normal",
+    "family": "Piglin"
+  },
+  "shark": {
+    "type": "Wild",
+    "family": "Shark"
+  },
+  "gold_golem": {
+    "type": "Metal",
+    "family": "Golem"
+  },
+  "storm_golem": {
+    "type": "Storm",
+    "family": "Golem"
+  },
+  "gilded_hoglin": {
+    "type": "Metal",
+    "family": "Hoglin"
+  },
+  "anglerfish": {
+    "type": "Normal",
+    "family": "Fish"
+  },
+  "wild_lion": {
+    "type": "Wild",
+    "family": "Lion"
+  },
+  "lone_hiker": {
+    "type": "Wild",
+    "family": "Bear"
+  },
+  "wyvern": {
+    "type": "Fire",
+    "family": "Dragon"
+  },
+  "ember_bear": {
+    "type": "Fire",
+    "family": "Polar Bear"
+  },
+  "void_bear": {
+    "type": "Void",
+    "family": "Polar Bear"
+  },
+  "shardion": {
+    "type": "Poison",
+    "family": "Scorpion"
+  },
+  "dire_wolf": {
+    "type": "Wild",
+    "family": "Wolf"
+  },
+  "grizzly": {
+    "type": "Wild",
+    "family": "Bear"
+  },
+  "crab_guard": {
+    "type": "Water",
+    "family": "Crab"
+  },
+  "steam_walker": {
+    "type": "Metal",
+    "family": "Spider"
+  },
+  "iron_turtle": {
+    "type": "Metal",
+    "family": "Turtle"
+  },
+  "dragon_squire": {
+    "type": "Fire",
+    "family": "Knight"
+  },
+  "zombie_panda": {
+    "type": "Undead",
+    "family": "Panda"
+  },
+  "ender_panda": {
+    "type": "Void",
+    "family": "Panda"
+  },
+  "nightmare_horse": {
+    "type": "Fire",
+    "family": "Horse"
+  },
+  "drake": {
+    "type": "Fire",
+    "family": "Dragon"
+  },
+  "frost_drake": {
+    "type": "Frost",
+    "family": "Dragon"
+  },
+  "storm_drake": {
+    "type": "Storm",
+    "family": "Dragon"
+  },
+  "venom_drake": {
+    "type": "Poison",
+    "family": "Dragon"
+  },
+  "zombie_wolf": {
+    "type": "Undead",
+    "family": "Wolf"
+  },
+  "storm_phantom": {
+    "type": "Storm",
+    "family": "Phantom"
+  },
+  "ghastopus": {
+    "type": "Normal",
+    "family": "Squid"
+  },
+  "frost_horse": {
+    "type": "Frost",
+    "family": "Horse"
+  },
+  "storm_ghast": {
+    "type": "Storm",
+    "family": "Happy Ghast"
+  },
+  "sea_horse": {
+    "type": "Water",
+    "family": "Horse"
+  },
+  "apprentice_mage": {
+    "type": "Magic",
+    "family": "Mage"
+  },
+  "magma_cow": {
+    "type": "Fire",
+    "family": "Cow"
+  },
+  "wither_cow": {
+    "type": "Wither",
+    "family": "Cow"
+  },
+  "hex_cat": {
+    "type": "Hex",
+    "family": "Cat"
+  },
+  "venom_llama": {
+    "type": "Poison",
+    "family": "Llama"
+  },
+  "ember_llama": {
+    "type": "Fire",
+    "family": "Llama"
+  },
+  "roostarot": {
+    "type": "Normal",
+    "family": "Chicken"
+  },
+  "frost_zombie": {
+    "type": "Frost",
+    "family": "Zombie"
+  },
+  "void_zombie": {
+    "type": "Void",
+    "family": "Zombie"
+  },
+  "killer_rabbit": {
+    "type": "Hunter",
+    "family": "Rabbit"
+  },
+  "zombie_cow": {
+    "type": "Undead",
+    "family": "Cow"
+  },
+  "toxic_slime": {
+    "type": "Poison",
+    "family": "Slime"
+  },
+  "frost_slime": {
+    "type": "Frost",
+    "family": "Slime"
+  },
+  "abyss_dolphin": {
+    "type": "Water",
+    "family": "Dolphin"
+  },
+  "wither_skeleton": {
+    "type": "Wither",
+    "family": "Wither Skeleton"
+  },
+  "zombie_pig": {
+    "type": "Undead",
+    "family": "Pig"
+  },
+  "ember_pig": {
+    "type": "Fire",
+    "family": "Pig"
+  },
+  "frost_goat": {
+    "type": "Frost",
+    "family": "Goat"
+  },
+  "thunder_goat": {
+    "type": "Storm",
+    "family": "Goat"
+  },
+  "void_skeleton": {
+    "type": "Void",
+    "family": "Skeleton"
+  },
+  "daggerott": {
+    "type": "Metal",
+    "family": "Weapon"
+  },
+  "bomber_zombie": {
+    "type": "Explosive",
+    "family": "Zombie"
+  },
+  "bamira": {
+    "type": "Normal",
+    "family": "Sheep"
+  },
+  "venom_fox": {
+    "type": "Poison",
+    "family": "Fox"
+  },
+  "fire_fox": {
+    "type": "Fire",
+    "family": "Fox"
+  },
+  "toxic_frog": {
+    "type": "Poison",
+    "family": "Frog"
+  },
+  "magma_frog": {
+    "type": "Fire",
+    "family": "Frog"
+  },
+  "ember_skeleton": {
+    "type": "Fire",
+    "family": "Skeleton"
+  },
+  "hornet": {
+    "type": "Poison",
+    "family": "Bee"
+  },
+  "ember_spider": {
+    "type": "Fire",
+    "family": "Spider"
+  },
+  "frost_spider": {
+    "type": "Frost",
+    "family": "Spider"
+  },
+  "bone_sheep": {
+    "type": "Bone",
+    "family": "Sheep"
+  },
+  "venom_sheep": {
+    "type": "Poison",
+    "family": "Sheep"
+  },
+  "abyss_squid": {
+    "type": "Water",
+    "family": "Squid"
+  },
+  "zombie_rabbit": {
+    "type": "Undead",
+    "family": "Rabbit"
+  },
+  "vampire_bat": {
+    "type": "Undead",
+    "family": "Bat"
+  },
+  "toxic_creeper": {
+    "type": "Poison",
+    "family": "Creeper"
+  },
+  "zombie_chicken": {
+    "type": "Undead",
+    "family": "Chicken"
+  },
+  "ender_chicken": {
+    "type": "Void",
+    "family": "Chicken"
+  },
+  "lion_cub": {
+    "type": "Wild",
+    "family": "Lion"
+  },
+  "snakeling": {
+    "type": "Poison",
+    "family": "Snake"
+  },
+  "chrome_slime": {
+    "type": "Metal",
+    "family": "Slime"
+  },
+  "golden_pig": {
+    "type": "Metal",
+    "family": "Pig"
+  },
+  "warden": {
+    "type": "Normal",
+    "family": "Warden"
+  },
+  "wither": {
+    "type": "Wither",
+    "family": "Wither"
+  },
+  "iron_golem": {
+    "type": "Metal",
+    "family": "Golem"
+  },
+  "ravager": {
+    "type": "Normal",
+    "family": "Ravager"
+  },
+  "turtle": {
+    "type": "Normal",
+    "family": "Turtle"
+  },
+  "camel": {
+    "type": "Normal",
+    "family": "Camel"
+  },
+  "piglin_brute": {
+    "type": "Normal",
+    "family": "Piglin Brute"
+  },
+  "elder_guardian": {
+    "type": "Normal",
+    "family": "Elder Guardian"
+  },
+  "panda": {
+    "type": "Normal",
+    "family": "Panda"
+  },
+  "camel_husk": {
+    "type": "Undead",
+    "family": "Camel"
+  },
+  "breeze": {
+    "type": "Storm",
+    "family": "Breeze"
+  },
+  "donkey": {
+    "type": "Normal",
+    "family": "Donkey"
+  },
+  "horse": {
+    "type": "Normal",
+    "family": "Horse"
+  },
+  "llama": {
+    "type": "Normal",
+    "family": "Llama"
+  },
+  "mule": {
+    "type": "Normal",
+    "family": "Mule"
+  },
+  "trader_llama": {
+    "type": "Normal",
+    "family": "Trader Llama"
+  },
+  "enderman": {
+    "type": "Void",
+    "family": "Enderman"
+  },
+  "hoglin": {
+    "type": "Normal",
+    "family": "Hoglin"
+  },
+  "sniffer": {
+    "type": "Normal",
+    "family": "Sniffer"
+  },
+  "zoglin": {
+    "type": "Undead",
+    "family": "Hoglin"
+  },
+  "zombie_horse": {
+    "type": "Undead",
+    "family": "Zombie Horse"
+  },
+  "polar_bear": {
+    "type": "Frost",
+    "family": "Polar Bear"
+  },
+  "guardian": {
+    "type": "Normal",
+    "family": "Guardian"
+  },
+  "piglin": {
+    "type": "Normal",
+    "family": "Piglin"
+  },
+  "armadillo": {
+    "type": "Normal",
+    "family": "Armadillo"
+  },
+  "allay": {
+    "type": "Normal",
+    "family": "Allay"
+  },
+  "cat": {
+    "type": "Normal",
+    "family": "Cat"
+  },
+  "happy_ghast": {
+    "type": "Normal",
+    "family": "Happy Ghast"
+  },
+  "strider": {
+    "type": "Fire",
+    "family": "Strider"
+  },
+  "blaze": {
+    "type": "Fire",
+    "family": "Blaze"
+  },
+  "creeper": {
+    "type": "Normal",
+    "family": "Creeper"
+  },
+  "drowned": {
+    "type": "Undead",
+    "family": "Zombie"
+  },
+  "husk": {
+    "type": "Undead",
+    "family": "Zombie"
+  },
+  "phantom": {
+    "type": "Undead",
+    "family": "Phantom"
+  },
+  "stray": {
+    "type": "Frost",
+    "family": "Skeleton"
+  },
+  "zombie": {
+    "type": "Undead",
+    "family": "Zombie"
+  },
+  "slime": {
+    "type": "Normal",
+    "family": "Slime"
+  },
+  "shulker": {
+    "type": "Void",
+    "family": "Shulker"
+  },
+  "zombie_pigman": {
+    "type": "Undead",
+    "family": "Piglin"
+  },
+  "bogged": {
+    "type": "Poison",
+    "family": "Skeleton"
+  },
+  "magma_cube": {
+    "type": "Fire",
+    "family": "Magma Cube"
+  },
+  "nautilus": {
+    "type": "Normal",
+    "family": "Nautilus"
+  },
+  "skeleton_horse": {
+    "type": "Normal",
+    "family": "Skeleton Horse"
+  },
+  "zombie_nautilus": {
+    "type": "Undead",
+    "family": "Zombie Nautilus"
+  },
+  "skeleton": {
+    "type": "Normal",
+    "family": "Skeleton"
+  },
+  "witch": {
+    "type": "Hex",
+    "family": "Witch"
+  },
+  "vex": {
+    "type": "Undead",
+    "family": "Vex"
+  },
+  "ocelot": {
+    "type": "Normal",
+    "family": "Cat"
+  },
+  "wolf": {
+    "type": "Wild",
+    "family": "Wolf"
+  },
+  "parched": {
+    "type": "Undead",
+    "family": "Skeleton"
+  },
+  "spider": {
+    "type": "Poison",
+    "family": "Spider"
+  },
+  "dolphin": {
+    "type": "Normal",
+    "family": "Dolphin"
+  },
+  "fox": {
+    "type": "Normal",
+    "family": "Fox"
+  },
+  "goat": {
+    "type": "Normal",
+    "family": "Goat"
+  },
+  "axolotl": {
+    "type": "Normal",
+    "family": "Axolotl"
+  },
+  "cave_spider": {
+    "type": "Poison",
+    "family": "Spider"
+  },
+  "copper_golem": {
+    "type": "Metal",
+    "family": "Golem"
+  },
+  "bee": {
+    "type": "Poison",
+    "family": "Bee"
+  },
+  "cow": {
+    "type": "Normal",
+    "family": "Cow"
+  },
+  "frog": {
+    "type": "Normal",
+    "family": "Frog"
+  },
+  "glow_squid": {
+    "type": "Normal",
+    "family": "Glow Squid"
+  },
+  "mooshroom": {
+    "type": "Normal",
+    "family": "Cow"
+  },
+  "pig": {
+    "type": "Normal",
+    "family": "Pig"
+  },
+  "squid": {
+    "type": "Normal",
+    "family": "Squid"
+  },
+  "endermite": {
+    "type": "Void",
+    "family": "Endermite"
+  },
+  "sheep": {
+    "type": "Normal",
+    "family": "Sheep"
+  },
+  "ghast": {
+    "type": "Fire",
+    "family": "Ghast"
+  },
+  "snow_golem": {
+    "type": "Frost",
+    "family": "Golem"
+  },
+  "silverfish": {
+    "type": "Poison",
+    "family": "Silverfish"
+  },
+  "bat": {
+    "type": "Normal",
+    "family": "Bat"
+  },
+  "parrot": {
+    "type": "Normal",
+    "family": "Parrot"
+  },
+  "tadpole": {
+    "type": "Normal",
+    "family": "Frog"
+  },
+  "chicken": {
+    "type": "Normal",
+    "family": "Chicken"
+  },
+  "cod": {
+    "type": "Normal",
+    "family": "Fish"
+  },
+  "pufferfish": {
+    "type": "Poison",
+    "family": "Fish"
+  },
+  "rabbit": {
+    "type": "Normal",
+    "family": "Rabbit"
+  },
+  "salmon": {
+    "type": "Normal",
+    "family": "Fish"
+  },
+  "tropicalfish": {
+    "type": "Normal",
+    "family": "Fish"
+  }
+}
