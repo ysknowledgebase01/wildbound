@@ -22,6 +22,8 @@ Each day has up to three parts:
 
 ### Website
 
+- Restored the Mob Ball tab icon.
+
 - Stat, refinement and navigation explanations start collapsed; choose "More detail" to show them.
 
 - Every mob icon opens a full model preview.
