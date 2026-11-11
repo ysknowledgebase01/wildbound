@@ -22,6 +22,8 @@ Each day has up to three parts:
 
 ### Website
 
+- Stat, refinement and navigation explanations start collapsed; choose "More detail" to show them.
+
 - Every mob icon opens a full model preview.
 - Type and family labels include Omen, Metal, Soldier, Divine, Wild and Magic.
 
