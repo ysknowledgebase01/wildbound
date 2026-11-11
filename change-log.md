@@ -15,6 +15,11 @@ Each day has up to three parts:
 
 ### Add-on (v1.534)
 
+- **Craft an Ender Core:** surround an Eye of Ender with eight Awakening Crystals to make one core.
+- **Awakening Crystal recipe:** now costs four Raid Bars around a diamond.
+- **Raid Bars refine up to +10:** beyond +10, combine mobs through mixing. Parents' + values add together, up to +30.
+- **Second awakening at +20:** a +20 mob can grow to Lv.40 without an Ender Core. First awakening remains +5.
+
 - **Land owners control every Iron Gate on their land:** the land's owner and co-owner can always open every Iron Gate on their land and choose who else may use it. If you take away a player's trust, the gates they placed on your land become yours.
 - Not checked in game yet.
 
