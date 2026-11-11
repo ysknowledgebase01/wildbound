@@ -13,6 +13,11 @@ Each day has up to three parts:
 
 ## 2026-11-10
 
+### Add-on (v1.526)
+
+- **Lava Boat:** it can no longer be broken, so it can't turn into a plain boat or sink in lava. Hit it, or sneak and tap it, to open a menu and pick it up. It goes back into your inventory. Only the player who placed it can pick it up.
+- Not checked in game yet.
+
 ### Add-on (v1.525)
 
 - **Nether Towers are easier to find:** where there is no open ground, a tower is now dug into the rock with a tunnel from its door to the nearest cave, or stands on a lava lake with a brick bridge to the shore.
