@@ -13,6 +13,14 @@ Each day has up to three parts:
 
 ## 2026-11-11
 
+### Add-on (v1.530)
+
+- **Flying Nether Tower guards stay on the roof:** floating guards no longer get stuck between floors or in the ceiling; they guard the open roof instead.
+- **Stronger Nether Tower Kings:** King Piglin, King Skeleton and Piglin Overlord now lead a tower at Lv.40 or higher.
+- **New Nether Tower captains:** Oathbreaker, Gargantua, Cyclopus and Dark Mage can now lead a tower at any distance, alongside Archfiend.
+- **Harder to catch:** these five captains are much harder to catch than other bosses.
+- Not checked in game yet.
+
 ### Add-on (v1.529)
 
 - **Bigger, fiercer Dark Stallion:** it is now much larger, as fast and aggressive as the Nightmare Horse, and tracks foes from farther away.
