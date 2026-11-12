@@ -13,6 +13,11 @@ Each day has up to three parts:
 
 ## 2026-11-11
 
+### Add-on (v1.535)
+
+- **XP bar fill corrected:** fixed a display issue that could leave the bar looking almost empty when you were close to the next level. The bar can now fill completely at maximum level.
+- Not checked in game yet.
+
 ### Add-on (v1.534)
 
 - **Craft an Ender Core:** surround an Eye of Ender with eight Awakening Crystals to make one core.
