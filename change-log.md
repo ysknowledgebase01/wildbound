@@ -13,6 +13,14 @@ Each day has up to three parts:
 
 ## 2026-11-11
 
+### Add-on (v1.536)
+
+- **Stronger Ender Centaur:** higher health, attack and defence make it a clear upgrade over both recipe parents at the same level and +.
+- **Explosive spear:** the thrown spear arcs downward and bursts on impact, damaging nearby enemies without breaking blocks.
+- **Heavy melee:** stronger spear combinations, charges and ground pounds.
+- **Stronger traits:** Rage and an improved Void Sovereign signature add more useful combat effects and boss damage.
+- Not checked in game yet.
+
 ### Add-on (v1.535)
 
 - **XP bar fill corrected:** fixed a display issue that could leave the bar looking almost empty when you were close to the next level. The bar can now fill completely at maximum level.
