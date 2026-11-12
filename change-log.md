@@ -11,6 +11,15 @@ Each day has up to three parts:
 
 ---
 
+## 2026-11-12
+
+### Add-on (v1.537)
+
+- **Ladder stacks:** interact with a single Terrain Fill Block to build a dirt column with ladders. Choose up or down, the ladder side and a height from 1 to 64 blocks. Both columns must be clear; it does not dig or replace existing terrain.
+- **Tool artwork:** updated the Terrain Fill and Demolition block faces and inventory icons.
+- **Mob balance corrected:** reduced the base health, attack and defence of Ender Centaur, Dragon Knight, Dark Knight, Noman and Arch Warden. Their recipes, traits and combat moves are unchanged.
+- Not checked in game yet.
+
 ## 2026-11-11
 
 ### Add-on (v1.536)
