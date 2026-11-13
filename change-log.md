@@ -13,6 +13,20 @@ Each day has up to three parts:
 
 ## 2026-11-13
 
+### Add-on (v1.539)
+
+- **Better balls in treasure, now random:** tower and base treasure gives 12 Ember Balls, 6 Nether Balls, or no balls, never both.
+- **Gear in first person:** set weapons now point the right way in first person, and the scythe's blade faces forward.
+- **Staffs shoot:** a short tap with a staff fires a glowing magic bolt that chases the enemy you aim at. Holding still does the special move.
+- **New gear effects:** special moves now show solid glowing slashes, shockwave rings, eruption pillars, beams and flying shards in each set's colour.
+- **Warp Blocks:** only admins can break them, admins can pair them anywhere (even across dimensions), and travelling makes a magical whoosh.
+- **Ladder stacks:** the ladder side starts on the side you're standing on.
+- **No health bar on tool blocks:** the Terrain Fill, Demolition and Warp Blocks no longer show a green bar.
+- **The End gets bosses:** strong elite and boss mobs now hunt on the End islands (Lv.50 to 60), away from the portals. Most Endermen stay normal.
+- **End strongholds:** purpur towers appear on the outer End islands, guarded at Lv.60 with a Lv.65 captain (Lv.75 far out). Beat or catch the captain for treasure. A stronghold is retaken after an hour.
+- **Haunted ships:** rare haunted ships can appear far out at sea with a crew to fight and treasure on board.
+- Not checked in game yet.
+
 ### Add-on (v1.538)
 
 - **Treasure for everyone:** once a tower or base captain is beaten, every player gets the same treasure in its chest, even players who weren't in the fight. Tap the chest, take what you like, and the rest stays saved for you until the tower is retaken and a new captain arrives. One player can look in the chest at a time.
