@@ -11,6 +11,21 @@ Each day has up to three parts:
 
 ---
 
+## 2026-11-13
+
+### Add-on (v1.538)
+
+- **Treasure for everyone:** once a tower or base captain is beaten, every player gets the same treasure in its chest, even players who weren't in the fight. Tap the chest, take what you like, and the rest stays saved for you until the tower is retaken and a new captain arrives. One player can look in the chest at a time.
+- **Better balls in the treasure:** every Overworld and Nether tower or base treasure now includes 12 Ember Balls and 6 Nether Balls.
+- **More better balls:** the Boutique now sells 20 Ember Balls or 20 Nether Balls at the same price (was 5), and crafting makes 16 (was 6). Hard quests that gave 6 Ember or Nether Balls now give 20.
+- **Tower cores removed:** the crying obsidian core is gone from towers and bases, and they can no longer be finished for good by hand. Old cores disappear the next time someone visits.
+- **13 gear sets:** Wyrmscale, Cinderforge, Soulreaper, Tidefang, Ironhorn, Everfrost, Hexweaver, Voidstep, Gemstalker, Fangwild, Chrome Titan, Sunmane and Foxfire. Each has a weapon, an off-hand, a helmet, a chestplate and leggings, all a step above netherite. Every set plays differently: some hit harder, some take more hits, some dodge more.
+- **Hunt Points:** beating elite, boss, legend and mythic mobs gives Hunt Points at the Quest Master (more for higher levels). Everyone close by gets the points. Every 100 points is a Forge Prize.
+- **Forging:** the Blacksmith forges a set piece for Forge Prizes, coins, Raid Shards and a diamond piece (or the weapon's base item). Every piece comes with three enchantments, and the Enchantress can add more.
+- **Special moves:** hold a set weapon, then let go, for its special move (for example a fire slam, an ice line, a chasing magic flask or a lightning chain). Normal hits can also burn, freeze, poison and more. Sneak with a set off-hand to block most of a hit from the front. Wearing all three armor pieces of one set gives a bonus.
+- **Soul Unlock:** set gear grows stronger as you use it. Beat mobs to fill its Soul bar, then the Enchantress unlocks the next Soul level.
+- Not checked in game yet.
+
 ## 2026-11-12
 
 ### Add-on (v1.537)
