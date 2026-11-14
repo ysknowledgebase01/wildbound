@@ -13,6 +13,14 @@ Each day has up to three parts:
 
 ## 2026-11-13
 
+### Add-on (v1.542)
+
+- **Mobs are back:** since v1.539 a start-up error switched off most of the add-on, including wild mobs and sending out your caught mobs. Fixed.
+- **Haunted ship crews:** a setting the game rejected on the ship crew is fixed.
+- **Gear held like any other weapon:** every set weapon (swords, hammers, scythe, lance, staffs, bow) is now held and swung the same way as normal swords and bows, with the edge or hammer head facing down.
+- **Warp Blocks for everyone:** any player can now travel with a Warp Block. Only admins can place or remove them.
+- Not checked in game yet.
+
 ### Add-on (v1.541)
 
 - **Gear back in your hand:** set weapons no longer float away from the player's hand. Off-hand set pieces sit on the left hand.
