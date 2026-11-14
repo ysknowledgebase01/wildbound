@@ -13,6 +13,11 @@ Each day has up to three parts:
 
 ## 2026-11-14
 
+### Add-on (v1.553)
+
+- **No more towers under the sea:** a Mob Tower is never built on the sea floor any more, and old towers that ended up under water are taken down and their spot turned into a Sea Base (or now and then a haunted ship) instead of getting a new captain.
+- Not checked in game yet.
+
 ### Add-on (v1.552)
 
 - **Haunted ships get built:** the admin option to call a haunted ship works again, and a ship's stretch of ocean now stays loaded while it is being built, so ships no longer get stuck half-planned.
