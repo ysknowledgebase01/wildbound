@@ -13,6 +13,18 @@ Each day has up to three parts:
 
 ## 2026-11-13
 
+### Add-on (v1.546)
+
+- **Weapons face the right way:** set weapons now hold their blade or head away from you.
+- **Super weapons:** set weapons hit much harder than netherite. Every hit lands the weapon's element (burn, freeze, poison, wither, shock and more), adds elemental damage and drains a little health back. Soul levels add more power.
+- **Built-in enchantments always on:** every set piece carries its three enchantments, however you got it.
+- **Bigger specials:** long-press specials hit much harder, and their slashes, rings, beams and pillars are bigger and easier to see.
+- **Stronger armor:** each set armor piece cuts the damage you take, and a full set halves damage from mobs of its own element.
+- **Hunt Points in chat:** earning Hunt Points now also shows your progress in chat.
+- **Haunted ships appear:** ships can now find a spot in oceans with kelp and seagrass, and appear when someone is out at sea.
+- **Bigger Ironhorn Maul:** the Ironhorn Maul is drawn bigger in hand, as a first try.
+- Not checked in game yet.
+
 ### Add-on (v1.545)
 
 - **New weapon pictures:** every set weapon has a new hand-drawn look and is held like a normal sword.
