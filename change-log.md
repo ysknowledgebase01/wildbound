@@ -11,6 +11,14 @@ Each day has up to three parts:
 
 ---
 
+## 2026-11-14
+
+### Add-on (v1.550)
+
+- **Haunted ships are easy to find:** open ocean that players sail across (at least 250 blocks from spawn) becomes a possible ship spot, and every new ship picks one of those spots at random. Up to four sail at once, each stays for two days, and ships within 1500 blocks show on your locator bar.
+- **Admins can call a haunted ship:** a new admin option builds a ship on open water nearby.
+- Not checked in game yet.
+
 ## 2026-11-13
 
 ### Add-on (v1.549)
