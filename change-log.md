@@ -13,6 +13,16 @@ Each day has up to three parts:
 
 ## 2026-11-13
 
+### Add-on (v1.545)
+
+- **New weapon pictures:** every set weapon has a new hand-drawn look and is held like a normal sword.
+- **Shields fixed:** set shields are held exactly like a normal shield, in every view.
+- **Hunt Points page:** each set is now a button showing your points (they keep counting past 100). Tap a set with 100 or more to get its Sigil.
+- **Forging is a simple swap:** the Blacksmith gives any one piece of a set for one Sigil of that set. Nothing else is needed.
+- **Staffs:** swinging a staff at a mob or a block also fires its magic bolt.
+- **Fangwild Spear:** the Fangwild Bow is now a spear that hits harder the more a foe is hurt. Its special, Bloodthirst Lunge, dashes through foes in a line.
+- Not checked in game yet.
+
 ### Add-on (v1.544)
 
 - **Admins can give Hunt Points:** a new admin option gives an online player Hunt Points for one set. Every 100 still gives that set's Sigil.
