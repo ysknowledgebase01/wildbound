@@ -13,6 +13,15 @@ Each day has up to three parts:
 
 ## 2026-11-13
 
+### Add-on (v1.547)
+
+- **Hunt Points mob list:** on the Quest Master's Hunt Points page, tap a set under 100 points to see every mob that counts for it.
+- Not checked in game yet.
+
+### Website
+
+- **Weapons tab:** the Mob Index has a new Weapons tab with all 13 gear sets: each weapon's attack, element, special move and armor, and which mobs to hunt for its Sigil.
+
 ### Add-on (v1.546)
 
 - **Weapons face the right way:** set weapons now hold their blade or head away from you.
