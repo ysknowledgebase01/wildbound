@@ -13,6 +13,13 @@ Each day has up to three parts:
 
 ## 2026-11-13
 
+### Add-on (v1.549)
+
+- **Hunt Points in the Walkie Talkie:** check every set's hunt progress and claim Sigils from the Walkie Talkie too.
+- **More frost mobs:** in snowy places, some of the snow golems that appear are now a Frost Elk or a Frost Golem instead.
+- **Calm frost mobs:** Frost Elks and Frost Golems no longer attack on sight. They, and Snow Golems, fight back when attacked or when someone tries to catch them.
+- Not checked in game yet.
+
 ### Add-on (v1.548)
 
 - **Lapis in treasure:** Mob Tower, Base, Nether Tower and End stronghold treasure can now hold Lapis Lazuli for the Enchantress (more in the Nether and the End).
