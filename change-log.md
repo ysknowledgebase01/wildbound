@@ -13,6 +13,12 @@ Each day has up to three parts:
 
 ## 2026-11-13
 
+### Add-on (v1.540)
+
+- **Gear held the right way:** set swords, the cleaver, the dagger and the hammers now hold their edge or head facing down, and in first person every set weapon points away from you with the handle in your hand.
+- **Off-hand gear shows:** set shields and other off-hand pieces are now drawn when you hold them.
+- Not checked in game yet.
+
 ### Add-on (v1.539)
 
 - **Better balls in treasure, now random:** tower and base treasure gives 12 Ember Balls, 6 Nether Balls, or no balls, never both.
