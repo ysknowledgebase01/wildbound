@@ -13,6 +13,12 @@ Each day has up to three parts:
 
 ## 2026-11-14
 
+### Add-on (v1.552)
+
+- **Haunted ships get built:** the admin option to call a haunted ship works again, and a ship's stretch of ocean now stays loaded while it is being built, so ships no longer get stuck half-planned.
+- **More ways to find a ship:** old towers that are rebuilt as Sea Bases can now become a haunted ship too.
+- Not checked in game yet.
+
 ### Add-on (v1.551)
 
 - **Haunted ships appear with Sea Bases:** about one in ten Sea Base spots now holds a haunted ship instead.
