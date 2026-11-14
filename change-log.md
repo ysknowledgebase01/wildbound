@@ -13,6 +13,13 @@ Each day has up to three parts:
 
 ## 2026-11-14
 
+### Add-on (v1.551)
+
+- **Haunted ships appear with Sea Bases:** about one in ten Sea Base spots now holds a haunted ship instead.
+- **Ships no longer get stuck:** fish, squid and other sea life no longer stop a ship from being built, and kelp, seagrass and coral count as open water.
+- **Fangwild Spear picture:** the Fangwild Spear has its own hand-drawn look.
+- Not checked in game yet.
+
 ### Add-on (v1.550)
 
 - **Haunted ships are easy to find:** open ocean that players sail across (at least 250 blocks from spawn) becomes a possible ship spot, and every new ship picks one of those spots at random. Up to four sail at once, each stays for two days, and ships within 1500 blocks show on your locator bar.
