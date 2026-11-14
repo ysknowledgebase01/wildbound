@@ -21,6 +21,7 @@ Each day has up to three parts:
 ### Website
 
 - **Weapons tab:** the Mob Index has a new Weapons tab with all 13 gear sets: each weapon's attack, element, special move and armor, and which mobs to hunt for its Sigil.
+- **Items tab updated:** Ember and Nether Ball counts and treasure, shards, crystals and cores from the Nether and the End are current. The old Stronghold Core entry is gone. New entries: Sigils, Warp Block, and Lapis Lazuli (where to get it for the Enchantress).
 
 ### Add-on (v1.546)
 
