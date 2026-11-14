@@ -13,6 +13,18 @@ Each day has up to three parts:
 
 ## 2026-11-14
 
+### Add-on (v1.554)
+
+- **Five new gear sets:** Kagerog, High Moon, Vampire, Warden and Creeper, each with a weapon, an off-hand, a helmet, a chestplate and leggings, earned with their own Hunt Points and Sigils like the others.
+- **Their specials:** an ember dash (Kagerog), a leaping moon slam (High Moon), three healing dash-slashes (Vampire), a sonic beam through a whole line of foes (Warden), and a big blast around you that never hurts you or breaks blocks (Creeper).
+- **Creeper Staff:** a tap or a swing throws a mini TNT bomb that blows up where it lands. It never breaks blocks or hurts players or pets.
+- **Hunt lists moved around:** bears and pandas now count for High Moon, creepers and slimes for Creeper, bees and frogs for Kagerog, vampires and bats for Vampire, and wardens and the Wither for Warden. Sunmane now hunts the beast birds.
+- Not checked in game yet.
+
+### Website
+
+- **Weapons tab:** the five new sets, with their stats, specials and hunt lists. The Items tab now counts 18 Sigils.
+
 ### Add-on (v1.553)
 
 - **No more towers under the sea:** a Mob Tower is never built on the sea floor any more, and old towers that ended up under water are taken down and their spot turned into a Sea Base (or now and then a haunted ship) instead of getting a new captain.
