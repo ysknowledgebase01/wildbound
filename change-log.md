@@ -13,6 +13,11 @@ Each day has up to three parts:
 
 ## 2026-11-13
 
+### Add-on (v1.544)
+
+- **Admins can give Hunt Points:** a new admin option gives an online player Hunt Points for one set. Every 100 still gives that set's Sigil.
+- Not checked in game yet.
+
 ### Add-on (v1.543)
 
 - **Set weapons held like a sword:** every set weapon is now held and swung exactly like a normal sword, showing its own picture. The Fangwild Bow works like a normal bow, with its own draw pictures.
