@@ -13,6 +13,19 @@ Each day has up to three parts:
 
 ## 2026-11-13
 
+### Add-on (v1.548)
+
+- **Lapis in treasure:** Mob Tower, Base, Nether Tower and End stronghold treasure can now hold Lapis Lazuli for the Enchantress (more in the Nether and the End).
+- **More mobs count for Hunt Points:** every set's hunt list is much longer, including plain mobs of its theme, for example witches for Hexweaver, snow and frost golems for Everfrost, and piglins for Ironhorn. Plain mobs give 1 point each.
+- **Elites give more Hunt Points:** 2 to 10 by level (was 1 to 5).
+- **Haunted ships closer to spawn:** ships can now appear from 250 blocks out, and towers no longer keep them away.
+- Not checked in game yet.
+
+### Website
+
+- **Weapons tab:** every set's longer hunt list and the new points.
+- **Items tab:** Lapis Lazuli now shows where treasure gives it.
+
 ### Add-on (v1.547)
 
 - **Hunt Points mob list:** on the Quest Master's Hunt Points page, tap a set under 100 points to see every mob that counts for it.
