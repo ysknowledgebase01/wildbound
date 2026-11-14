@@ -13,6 +13,11 @@ Each day has up to three parts:
 
 ## 2026-11-13
 
+### Add-on (v1.541)
+
+- **Gear back in your hand:** set weapons no longer float away from the player's hand. Off-hand set pieces sit on the left hand.
+- Not checked in game yet.
+
 ### Add-on (v1.540)
 
 - **Gear held the right way:** set swords, the cleaver, the dagger and the hammers now hold their edge or head facing down, and in first person every set weapon points away from you with the handle in your hand.
