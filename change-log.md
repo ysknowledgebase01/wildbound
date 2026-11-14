@@ -13,6 +13,13 @@ Each day has up to three parts:
 
 ## 2026-11-13
 
+### Add-on (v1.543)
+
+- **Set weapons held like a sword:** every set weapon is now held and swung exactly like a normal sword, showing its own picture. The Fangwild Bow works like a normal bow, with its own draw pictures.
+- **Hunt Points per set:** each set now has its own hunt. Beating that set's mobs fills only that set (for example, sharks and krakens fill Tidefang). Every 100 points gives that set's Sigil, and the count keeps going. The Quest Master's Hunt Points page shows each set, the mobs to hunt and your progress.
+- **Forging with Sigils:** the Blacksmith forges any piece of a set for one Sigil of that set, plus coins and Raid Shards. Forge Prizes you already had still work for any set.
+- Not checked in game yet.
+
 ### Add-on (v1.542)
 
 - **Mobs are back:** since v1.539 a start-up error switched off most of the add-on, including wild mobs and sending out your caught mobs. Fixed.
