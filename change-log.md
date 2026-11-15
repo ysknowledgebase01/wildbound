@@ -13,6 +13,16 @@ Each day has up to three parts:
 
 ## 2026-11-14
 
+### Add-on (v1.555)
+
+- **Haunted ships float on the open sea:** a ship now sits on top of the water with only its keel under, so even shallow sea works, as long as it is well away from land. Anything in its way, like ice, kelp or wild sea creatures, is cleared first. The boarding ladders reach the waterline, and fish, squid, sharks and crabs near a player now mark places where a ship can appear. The admin option to call a ship uses the same rules.
+- **Wild Wardens hit back harder:** a wild Warden, and every mob that takes a Warden's place, has double health and more attack.
+- **Arch Warden and Goliath are rare catches:** an Arch Warden is now as hard to catch as a Megalodon, and a Goliath twice as hard.
+- **More Hunt Points from wild bosses:** a Warden, a Wither or an Elder Guardian now gives boss points (25 at Lv.40 or higher) instead of 1.
+- **Wild mobs get tougher past Lv.15:** every level above 15 adds health and attack, twice as fast above Lv.30, so a Lv.40 wild mob has about twice the health it had.
+- **Peaceful wild mobs fight back from Lv.15:** wild animals at Lv.15 or higher attack players and caught mobs nearby. Animals inside a claim, pets, leashed, ridden, named and baby animals, villagers and sea creatures stay peaceful.
+- Not checked in game yet.
+
 ### Add-on (v1.554)
 
 - **Five new gear sets:** Kagerog, High Moon, Vampire, Warden and Creeper, each with a weapon, an off-hand, a helmet, a chestplate and leggings, earned with their own Hunt Points and Sigils like the others.
