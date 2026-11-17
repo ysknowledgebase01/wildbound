@@ -11,6 +11,15 @@ Each day has up to three parts:
 
 ---
 
+## 2026-11-17
+
+### Add-on (v1.556)
+
+- **Mine Scanner:** a new handheld scanner at the Boutique (Rare Gear, 80 coins). Give it a quick tap to choose what to find: Diamond, Emerald, Ancient Debris, Gold, Iron, Lapis, Redstone or Amethyst. It remembers your choice.
+- **Hold it down to scan** 48 blocks all around you, up and down too. The 8 nearest finds show as diamonds on your compass bar, in the ore's colour, and while you hold the scanner the bar above your hotbar says how far away the nearest one is and how far up or down. A find disappears once you dig it out. The scanner never breaks blocks, so holding it against a wall scans too.
+- **The Boutique buys gems and ores:** a new Sell Gems & Ores button pays more than the Shop, for example 8 coins for a Diamond and 25 for Ancient Debris or Netherite Scrap.
+- Not checked in game yet.
+
 ## 2026-11-14
 
 ### Add-on (v1.555)
