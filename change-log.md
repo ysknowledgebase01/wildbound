@@ -13,6 +13,14 @@ Each day has up to three parts:
 
 ## 2026-11-17
 
+### Add-on (v1.557)
+
+- **Riding feels like walking:** a mob you ride now turns with you and faces where you look, and it no longer looks around or wanders off course under you.
+- **Mounts step up blocks:** a mob you ride climbs a one-block step on its own, without a jump.
+- **Each kind rides at its own speed:** horses and elk are the fastest, then hunters and riding beasts like wolves, lions, foxes, goats, camels and llamas, then most others, and heavy mobs like golems, bears and wardens are the slowest. Fast kinds such as the Kirin still outrun the rest of their family. Levels make a mob you ride a little faster, but less than before, so it stays easy to steer.
+- **Toadhan and Kagerog stay on course:** they no longer turn and chase enemies while you ride them. They still hit an enemy right in front of them, and their special move goes where you look.
+- Not checked in game yet.
+
 ### Add-on (v1.556)
 
 - **Mine Scanner:** a new handheld scanner at the Boutique (Rare Gear, 80 coins). Give it a quick tap to choose what to find: Diamond, Emerald, Ancient Debris, Gold, Iron, Lapis, Redstone or Amethyst. It remembers your choice.
