@@ -13,6 +13,15 @@ Each day has up to three parts:
 
 ## 2026-11-17
 
+### Add-on (v1.558)
+
+- **Swim with the stick:** a sea mob you ride now swims forward when you push forward, backs up slowly when you pull back, and stops when you let go. Look up or down to change depth, and jump to rise. It faces where you look.
+- **More mobs swim with you:** squid, glow squid, guardians, the Elder Guardian, turtles, axolotls, fish, frogs and drowned now carry you through the water too.
+- **Each kind swims at its own speed:** dolphins are the fastest, then sharks and the Sea Horse, then most others, and turtles and the Elder Guardian are the slowest. The giant sharks are a little slower than a plain shark.
+- **Fly with the stick:** in the air, a flying mob you ride goes where you look when you push forward and hovers when you let go. Jump and looking down still take you up and down. It faces where you look.
+- **Each kind flies at its own speed:** drakes and dragons are the fastest, then phantoms and bats, then most others, and ghasts, the Wither and the flying weapons are the slowest.
+- Not checked in game yet.
+
 ### Add-on (v1.557)
 
 - **Riding feels like walking:** a mob you ride now turns with you and faces where you look, and it no longer looks around or wanders off course under you.
