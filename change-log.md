@@ -11,6 +11,18 @@ Each day has up to three parts:
 
 ---
 
+## 2026-11-19
+
+### Add-on (v1.559)
+
+- **Catch Log:** the game now remembers every kind of mob you have caught, got from a mix or been handed, and every kind you have only met in a fight. Mobs you had before this update are filled in from the server's records where they could be found.
+- **The Library:** a new town building with a Librarian. It shows how many kinds you have found, group by group. Kinds you have never met show as ???. Once you or your caught mob has fought one, its page shows where to find it and how to mix it.
+- **Library quests:** prizes for having 10, 25, 50, 75, 100, 150 and 200 kinds and for every kind, for catching 10 of one kind, for completing a whole family or group, for your first Boss, Legend and Mythic, and for catching 5 mobs in the Paradise. Some prizes are Paradise tickets that let you open a Paradise for free.
+- **More than one portal:** the Portal Master can now keep up to three portals open at once, each to its own arena. Walk into the portal and pick where to go: any open portal, whoever opened it, or the Training Arena. Only one Boss portal can be open at a time.
+- **Caught Mob Paradise:** pay the Portal Master to open a portal for an hour to 10 to 15 mobs picked from your own Catch Log. Meadow (wild and special mobs, Lv.40, 30 coins), Grove (bosses, kings and overlords, Lv.60, 60 coins) or Summit (legends and mythics, Lv.75, 120 coins). Every mob there is hostile, even the usually friendly ones, and hard to catch: at most 20%, 8% or 2% when nearly beaten. Anything you catch there comes in at Lv.1. Friends can come in too, but each can only catch kinds already in their own Catch Log. Paradise mobs drop nothing and give no Hunt Points. Clear them all and step out, and a new set waits for the next visit until the hour is up.
+- **Training Arena:** free and always open through the portal. Hit the Training Dummy to start a 60-second round. It never fights back or falls, and shows damage instead of health. Only your own hits and your own caught mob's count for you. Reach Bronze, Silver, Gold or Diamond for a prize the first time and a few coins each day, plus a team bonus when two or more players all reach Silver in one round.
+- Not checked in game yet.
+
 ## 2026-11-17
 
 ### Add-on (v1.558)
