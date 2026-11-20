@@ -13,6 +13,26 @@ Each day has up to three parts:
 
 ## 2026-11-20
 
+### Add-on (v1.563)
+
+- **Gems pay what they're worth:** only the jeweler at the Boutique buys gems and ores now, and prices follow how hard each one is to find. A diamond pays 20 coins (was 8), as much as 40 gold or 80 iron. Gold pays 1 coin for 2 and iron 1 coin for 4. The jeweler now also buys Netherite Ingots, Blocks of Gold, Raw Copper, Nether Quartz and Coal.
+- **The Shop buys used weapons:** swords, axes, bows and crossbows that mobs drop sell for 1 coin each, a Trident for 10, diamond ones for 15 and netherite ones for 30. Only weapons with no enchantment or name, so a good sword is never sold by mistake. The Shop no longer buys gems or ores.
+- **Bigger wallet:** it now holds up to 9999 coins (was 999).
+- **Mixing:** both players now pay half, whoever presses Start. A mix costs 30 coins, a Legend or King 60, a Mythic or Overlord 80.
+- **Prices:** Diamonds cost 30 at the Boutique and Emeralds 10, and the Ender Chest costs 60 everywhere.
+- **Blacksmith:** gear bought at the Shop no longer sells back for half once it's been upgraded.
+- **Fisherman:** he buys up to 30 Raw Cod and Salmon from you an hour. Tropical Fish, Pufferfish and Nautilus Shells always sell.
+- **Mechore:** a new mob, the origin of the mecha kinds. In the Nether, 1 in 10 magma cubes is a Mechore. It walks on magma and shoots spinning gears.
+- **The mecha line:** mix a Mechore with a Lv.5 Spider for a Steam Walker, a Lv.5 Shardion for a Troloc, a Lv.20 Anglerfish for a Sentinel, or a Lv.20 Chrome Golem for a Mecha Golem. The old recipes still work.
+- **Mecha Golem** (Legend): a steam soldier with huge fists. It punches, slams the ground around it, and fires its own fist at foes far away.
+- **One mecha family:** Mechore, Mecha Golem, Steam Walker, Gargantua, Troloc, Locopode and Sentinel now count as one family, Mecha.
+- Not checked in game yet.
+
+### Website
+
+- **Shops tab:** the new prices, the jeweler's list of gems and ores, the Shop's used-weapon list, and the 9999-coin wallet.
+- **Mob Index:** Mechore and Mecha Golem, with their mixes, stats and full-body pictures; the new Mechore recipes on Steam Walker, Troloc and Sentinel; the mecha kinds listed as one Mecha family.
+
 ### Add-on (v1.562)
 
 - **Haunted ships stay and come back:** ships no longer sail away. Their crew and treasure return 30 minutes after the captain falls, like towers. Ships now also get built out at sea even after the player who found the spot has sailed on.
