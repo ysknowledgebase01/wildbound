@@ -13,6 +13,18 @@ Each day has up to three parts:
 
 ## 2026-11-19
 
+### Add-on (v1.560)
+
+- **Troloc and Locopode:** two new creatures that roll on wheels like mine carts. Underground in the dark, five or more rails close together draw them in. Abandoned mines have rails, and you can lay your own.
+- **Troloc** (Elite, Lv.8 to 15): 3 in 10 zombies and skeletons that appear near those rails come as a Troloc, and rails you laid can draw one when you come back after a while. It stays calm until you attack it or try to catch it, then it charges, bites and throws rocks. Mix: Skeleton Horse + Spider, both Lv.5.
+- **Locopode** (Legend, Lv.30 to 40): now and then one comes instead of a Troloc. It attacks on sight with a charge, a bite, homing gem missiles and a spin that hits everything around it. Very hard to catch. Mix: four Lv.12 Troloc, or two Lv.20 Troloc.
+- **Recipe book:** the Mob Ball, Friend Wing, Claim Post, Raid Monolith and Ender Monolith now show in the recipe book, so you can see how to craft them.
+- Not checked in game yet.
+
+### Website
+
+- **Mob Index:** Troloc and Locopode, with their mixes, stats and full-body pictures.
+
 ### Add-on (v1.559)
 
 - **Catch Log:** the game now remembers every kind of mob you have caught, got from a mix or been handed, and every kind you have only met in a fight. Mobs you had before this update are filled in from the server's records where they could be found.
