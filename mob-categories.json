@@ -91,13 +91,17 @@
     "type": "Void",
     "family": "Golem"
   },
+  "mecha_golem": {
+    "type": "Metal",
+    "family": "Mecha"
+  },
   "sentinel": {
     "type": "Metal",
-    "family": "Fish"
+    "family": "Mecha"
   },
   "locopode": {
     "type": "Metal",
-    "family": "Centipede"
+    "family": "Mecha"
   },
   "mage_knight": {
     "type": "Magic",
@@ -117,7 +121,7 @@
   },
   "gargantua": {
     "type": "Metal",
-    "family": "Spider"
+    "family": "Mecha"
   },
   "kagerog": {
     "type": "Soldier",
@@ -381,7 +385,7 @@
   },
   "troloc": {
     "type": "Metal",
-    "family": "Centipede"
+    "family": "Mecha"
   },
   "gilded_hoglin": {
     "type": "Metal",
@@ -429,7 +433,7 @@
   },
   "steam_walker": {
     "type": "Metal",
-    "family": "Spider"
+    "family": "Mecha"
   },
   "iron_turtle": {
     "type": "Metal",
@@ -490,6 +494,10 @@
   "sea_horse": {
     "type": "Water",
     "family": "Horse"
+  },
+  "mechore": {
+    "type": "Metal",
+    "family": "Mecha"
   },
   "apprentice_mage": {
     "type": "Magic",
