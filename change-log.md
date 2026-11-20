@@ -11,6 +11,18 @@ Each day has up to three parts:
 
 ---
 
+## 2026-11-20
+
+### Add-on (v1.562)
+
+- **Haunted ships stay and come back:** ships no longer sail away. Their crew and treasure return 30 minutes after the captain falls, like towers. Ships now also get built out at sea even after the player who found the spot has sailed on.
+- **Three parts to every ship:** first the deck crew, then the hold (stronger guards and treasure), then the captain's cabin (the captain, two bosses and the best treasure). Beating each part opens the next door. Every player gets the same treasure.
+- **How many are left:** after each kill, everyone nearby sees how many are left. A locked door says who is left and how far away. Crew that fall off or get stuck are brought back to their posts, so a door can always be opened.
+- **Tougher crews:** crew are Lv.40 and up, the two bosses Lv.50 and the captain Lv.60.
+- **Cursed Castle:** admins can now build a tall Cursed Castle on land (it levels the ground around it). It is fought the same way: the courtyard, then the great hall, then the throne room with its Lord and two champions.
+- **Recipe Index:** the row above the mob pictures now has First, Prev, Next and Last buttons to turn pages (it showed four copies of the first mob before). Back is the arrow at the start of the icon row.
+- Not checked in game yet.
+
 ## 2026-11-19
 
 ### Add-on (v1.561)
