@@ -13,6 +13,11 @@ Each day has up to three parts:
 
 ## 2026-11-20
 
+### Add-on (v1.565)
+
+- **Golden Pig and Chrome Slime are much tougher:** in the wild they now take 12 and 16 hits to beat (were 6 and 8), more hits miss, and a lucky hit that finishes one at once is rarer. Caught, they are tanks: much more health, very high defence and Chrome Body (no single hit takes more than 8% of their health). The Golden Pig's hits set foes on fire and the Chrome Slime's poison them, so they slowly wear even big bosses down while taking hit after hit.
+- Not checked in game yet.
+
 ### Add-on (v1.564)
 
 - **Enemies past Lv.40 are much stronger:** every level past 40 now adds a lot of health and attack, and a little defence. A fully built Lv.40 mob handles Lv.50 comfortably, needs a heal now and then by Lv.55-60, finds Lv.60-70 tough, and doesn't last long against Lv.70 and up. Something to work toward.
