@@ -13,6 +13,12 @@ Each day has up to three parts:
 
 ## 2026-11-20
 
+### Add-on (v1.566)
+
+- **Ship and Cursed Castle treasure chests open now:** once a stage is beaten, tapping its chest opens it with your own share inside, the same as tower chests. Before, the chest said to take what you want but never opened.
+- **Their chests face into the room:** chests in the ship's hold and cabin and the castle's hall and throne room now face the way you come in, not the wall. Chests already built turn round by themselves.
+- Not checked in game yet.
+
 ### Add-on (v1.565)
 
 - **Golden Pig and Chrome Slime are much tougher:** in the wild they now take 12 and 16 hits to beat (were 6 and 8), more hits miss, and a lucky hit that finishes one at once is rarer. Caught, they are tanks: much more health, very high defence and Chrome Body (no single hit takes more than 8% of their health). The Golden Pig's hits set foes on fire and the Chrome Slime's poison them, so they slowly wear even big bosses down while taking hit after hit.
