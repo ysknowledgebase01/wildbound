@@ -240,5 +240,7 @@
   "steam_walker": "previews/steam_walker.png",
   "crab_guard": "previews/crab_guard.png",
   "mage_knight": "previews/mage_knight.png",
-  "nether_guard": "previews/nether_guard.png"
+  "nether_guard": "previews/nether_guard.png",
+  "troloc": "previews/troloc.png",
+  "locopode": "previews/locopode.png"
 }

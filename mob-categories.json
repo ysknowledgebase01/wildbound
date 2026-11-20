@@ -31,13 +31,13 @@
     "type": "Normal",
     "family": "Dragon"
   },
-  "dreadlord": {
-    "type": "Fire",
-    "family": "Demon"
-  },
   "ender_centaur": {
     "type": "Void",
     "family": "Centaur"
+  },
+  "dreadlord": {
+    "type": "Fire",
+    "family": "Demon"
   },
   "brutaurus": {
     "type": "Normal",
@@ -83,22 +83,6 @@
     "type": "Frost",
     "family": "Dragon"
   },
-  "dragon_knight": {
-    "type": "Normal",
-    "family": "Knight"
-  },
-  "arch_warden": {
-    "type": "Normal",
-    "family": "Warden"
-  },
-  "dark_knight": {
-    "type": "Normal",
-    "family": "Knight"
-  },
-  "noman": {
-    "type": "Frost",
-    "family": "Golem"
-  },
   "dark_stallion": {
     "type": "Dark",
     "family": "Horse"
@@ -110,6 +94,10 @@
   "sentinel": {
     "type": "Metal",
     "family": "Fish"
+  },
+  "locopode": {
+    "type": "Metal",
+    "family": "Centipede"
   },
   "mage_knight": {
     "type": "Magic",
@@ -158,6 +146,22 @@
   "nether_guard": {
     "type": "Fire",
     "family": "Crab"
+  },
+  "dark_knight": {
+    "type": "Normal",
+    "family": "Knight"
+  },
+  "dragon_knight": {
+    "type": "Normal",
+    "family": "Knight"
+  },
+  "noman": {
+    "type": "Frost",
+    "family": "Golem"
+  },
+  "arch_warden": {
+    "type": "Normal",
+    "family": "Warden"
   },
   "zombie_overlord": {
     "type": "Undead",
@@ -374,6 +378,10 @@
   "storm_golem": {
     "type": "Storm",
     "family": "Golem"
+  },
+  "troloc": {
+    "type": "Metal",
+    "family": "Centipede"
   },
   "gilded_hoglin": {
     "type": "Metal",
