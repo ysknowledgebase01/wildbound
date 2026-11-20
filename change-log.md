@@ -13,6 +13,22 @@ Each day has up to three parts:
 
 ## 2026-11-20
 
+### Add-on (v1.564)
+
+- **Enemies past Lv.40 are much stronger:** every level past 40 now adds a lot of health and attack, and a little defence. A fully built Lv.40 mob handles Lv.50 comfortably, needs a heal now and then by Lv.55-60, finds Lv.60-70 tough, and doesn't last long against Lv.70 and up. Something to work toward.
+- **Wild mobs go up to Lv.60:** the farther from world spawn, the stronger they get, now to Lv.60 (about 2,400 blocks out in the Overworld, 900 in the Nether, 2,000 in the End). Wild mobs from Lv.31 to 40 are tougher too.
+- **More rare spawns far out:** past Lv.40, elites and special mobs turn up more often. From Lv.45 a plain mob can come out as a boss of its kind, and from Lv.50, very rarely, as its King (never more than one wild King at a time).
+- **Defence matters more:** defence now counts fully, and a mob whose defence is far above the attacker's takes only a sliver from each hit instead of the hit going through. Golems and mecha mobs have much more defence.
+- **New body traits:** Chrome Body (Chrome Golem, Sentinel, Locopode, Mecha Golem, Troloc) gives 2.5 times the defence, and no single hit takes more than 8% of its health. Diamond Body is ready for the diamond mobs. Metal Body (King Chrome Slime) now makes most hits do only 1 or 2, with a rare perfect hit that lands more often from stronger foes.
+- **Catching:** chances keep falling past Lv.40. Anything caught below Lv.20 comes in at Lv.1, and anything Lv.20 or above at Lv.20, not yet awakened.
+- **Kill XP:** tough mobs pay more for how hard they are to beat, but one kill never gives more than a quarter of a level.
+- **Levels:** Raid Monolith bosses Lv.45-60, the Ender Raid King Lv.60 (was 80), the Legend Portal boss Lv.55 and the Mythic one Lv.65 (were 70 and 90). Towers follow distance up to Lv.60. End stronghold guards go from Lv.50 near the middle to Lv.65 on the outer islands, with captains 5 levels above them. A wild Warden comes in 8 levels above your strongest mob nearby (was 12).
+- Not checked in game yet.
+
+### Website
+
+- **Mob Index:** new defence numbers for the golems and mecha mobs, and the fight rules explained for the new defence and body traits.
+
 ### Add-on (v1.563)
 
 - **Gems pay what they're worth:** only the jeweler at the Boutique buys gems and ores now, and prices follow how hard each one is to find. A diamond pays 20 coins (was 8), as much as 40 gold or 80 iron. Gold pays 1 coin for 2 and iron 1 coin for 4. The jeweler now also buys Netherite Ingots, Blocks of Gold, Raw Copper, Nether Quartz and Coal.
