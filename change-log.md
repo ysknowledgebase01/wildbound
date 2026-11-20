@@ -17,6 +17,7 @@ Each day has up to three parts:
 
 - **Training Dummy fixed:** it no longer falls when a caught mob hits it, so it can't be farmed for XP. Hits now knock it back, and it walks back to its spot.
 - **No XP in the Training Arena or the Caught Mob Paradise:** beating or catching a mob there gives no XP to you or your caught mobs. Training still pays its level prizes.
+- **Recipe Index tidied:** the page buttons sit above the picture grid, your own mobs no longer have a frame, and a mob's page shows its picture first, with its recipes and what it mixes into as faces.
 - Not checked in game yet.
 
 ### Add-on (v1.560)
