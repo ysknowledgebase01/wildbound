@@ -13,6 +13,12 @@ Each day has up to three parts:
 
 ## 2026-11-19
 
+### Add-on (v1.561)
+
+- **Training Dummy fixed:** it no longer falls when a caught mob hits it, so it can't be farmed for XP. Hits now knock it back, and it walks back to its spot.
+- **No XP in the Training Arena or the Caught Mob Paradise:** beating or catching a mob there gives no XP to you or your caught mobs. Training still pays its level prizes.
+- Not checked in game yet.
+
 ### Add-on (v1.560)
 
 - **Troloc and Locopode:** two new creatures that roll on wheels like mine carts. Underground in the dark, five or more rails close together draw them in. Abandoned mines have rails, and you can lay your own.
