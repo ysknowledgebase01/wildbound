@@ -13,6 +13,15 @@ Each day has up to three parts:
 
 ## 2026-11-20
 
+### Add-on (v1.567)
+
+- **Titanius:** a new Mythic, a giant fighting machine built to stand up to Goliath. Put one Gargantua, Sentinel, Locopode and Mecha Golem, all Lv.40, together in one crafting grid (or the Mix Boxes) to make it. It is the first mix that takes four different mobs.
+- **Its moves:** a barrage of six homing missiles from its shoulder pods at range, a head-down charge that runs foes over, and a double rocket punch up close: the right fist flies, then the left, and both come back to its arms.
+- **Its stats:** a little more health than Goliath and much more defence, with a little less attack to make up for its three attack moves. Its Titan Engine gives it Resistance I, launches foes, marks them and hits bosses harder.
+- **Recipe Index and Mix Book:** they show mixes of four different mobs, with all four shown in the recipe.
+- Like every Mythic, Titanius and an Ender King, both Lv.40, also make the Ender Overlord.
+- Not checked in game yet.
+
 ### Add-on (v1.566)
 
 - **Ship and Cursed Castle treasure chests open now:** once a stage is beaten, tapping its chest opens it with your own share inside, the same as tower chests. Before, the chest said to take what you want but never opened.
@@ -38,6 +47,7 @@ Each day has up to three parts:
 
 ### Website
 
+- **Mob Index:** Titanius added, with its picture, stats by level and its four-mob recipe. Gargantua, Sentinel, Locopode and Mecha Golem now link to it.
 - **Mob Index:** new defence numbers for the golems and mecha mobs, and the fight rules explained for the new defence and body traits.
 
 ### Add-on (v1.563)
