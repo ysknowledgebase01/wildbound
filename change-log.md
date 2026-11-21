@@ -13,6 +13,16 @@ Each day has up to three parts:
 
 ## 2026-11-20
 
+### Add-on (v1.571)
+
+- **No more waiting for someone to walk away from a treasure chest:** in towers, strongholds, haunted ships and the Cursed Castle, tap a chest a friend is using and it becomes yours. Their screen closes and what they left stays theirs. Tap once more to see your own treasure.
+- **The haunted ship's captain's cabin has its three treasure chests again:** if one is missing, the ship puts it back.
+- **The Ender Dragon fights much harder:** a purple ring pulses from its body every 1.5 seconds, hitting, weakening and pushing back everything close by, even while it hovers. Further off, it glows as it charges for a second, then fires a thick dark beam straight through everyone in line. Its old fire volley is gone.
+- **The Elder Dragon is stronger still:** its frost ring is wider and slows what it hits, and every fourth pulse is a Blizzard Nova that throws everyone far back. Its charged frost beam sweeps sideways across a group, hitting each one once.
+- **The Elder Overlord** pulses a wider, stronger golden ring the same way, and fires its Judgment Beam more than twice as often, with a push. It no longer uses its volley.
+- **Golems, mechanical mobs and other heavy mobs can't be knocked back any more,** wild or caught: every golem except the Snow and Copper Golem, every mechanical mob (Mechore, Mecha Golem, Sentinel, Troloc, Locopode, Steam Walker, Gargantua, Titanius), and the Arch Warden, Goliath, Iron Turtle, King Chrome Slime, Siege Ravager, Minotaur and Brutaurus.
+- Not checked in game yet.
+
 ### Add-on (v1.570)
 
 - **Set armour is no longer far too strong:** a full forged armour set now protects a little more than netherite, as it was meant to, instead of about four times as much. You will feel hits from mobs near your level again.
