@@ -27,6 +27,10 @@
     "type": "Omen",
     "family": "Warden"
   },
+  "titanius": {
+    "type": "Metal",
+    "family": "Mecha"
+  },
   "dragonlord": {
     "type": "Normal",
     "family": "Dragon"
