@@ -23,6 +23,10 @@
     "type": "Divine",
     "family": "Dragon"
   },
+  "diamond_overlord": {
+    "type": "Metal",
+    "family": "Slime"
+  },
   "goliath": {
     "type": "Omen",
     "family": "Warden"
@@ -247,6 +251,10 @@
     "type": "Poison",
     "family": "Bee"
   },
+  "diamond_king": {
+    "type": "Metal",
+    "family": "Slime"
+  },
   "king_chrome_slime": {
     "type": "Metal",
     "family": "Slime"
@@ -255,6 +263,10 @@
     "type": "Metal",
     "family": "Weapon"
   },
+  "high_moon": {
+    "type": "Wild",
+    "family": "Bear"
+  },
   "abyscleaver": {
     "type": "Metal",
     "family": "Weapon"
@@ -262,10 +274,6 @@
   "siege_ravager": {
     "type": "Normal",
     "family": "Ravager"
-  },
-  "high_moon": {
-    "type": "Wild",
-    "family": "Bear"
   },
   "whale_shark": {
     "type": "Wild",
@@ -363,6 +371,10 @@
     "type": "Soldier",
     "family": "Frog"
   },
+  "lone_hiker": {
+    "type": "Wild",
+    "family": "Bear"
+  },
   "slyfire": {
     "type": "Fire",
     "family": "Fox"
@@ -370,6 +382,18 @@
   "zombie_shark": {
     "type": "Undead",
     "family": "Shark"
+  },
+  "grizzly": {
+    "type": "Wild",
+    "family": "Bear"
+  },
+  "ember_bear": {
+    "type": "Fire",
+    "family": "Polar Bear"
+  },
+  "void_bear": {
+    "type": "Void",
+    "family": "Polar Bear"
   },
   "fang_guard": {
     "type": "Wild",
@@ -407,21 +431,9 @@
     "type": "Wild",
     "family": "Lion"
   },
-  "lone_hiker": {
-    "type": "Wild",
-    "family": "Bear"
-  },
   "wyvern": {
     "type": "Fire",
     "family": "Dragon"
-  },
-  "ember_bear": {
-    "type": "Fire",
-    "family": "Polar Bear"
-  },
-  "void_bear": {
-    "type": "Void",
-    "family": "Polar Bear"
   },
   "shardion": {
     "type": "Poison",
@@ -430,10 +442,6 @@
   "dire_wolf": {
     "type": "Wild",
     "family": "Wolf"
-  },
-  "grizzly": {
-    "type": "Wild",
-    "family": "Bear"
   },
   "crab_guard": {
     "type": "Water",
@@ -675,6 +683,10 @@
     "type": "Metal",
     "family": "Slime"
   },
+  "primogem": {
+    "type": "Metal",
+    "family": "Slime"
+  },
   "golden_pig": {
     "type": "Metal",
     "family": "Pig"
@@ -690,6 +702,10 @@
   "iron_golem": {
     "type": "Metal",
     "family": "Golem"
+  },
+  "polar_bear": {
+    "type": "Frost",
+    "family": "Polar Bear"
   },
   "ravager": {
     "type": "Normal",
@@ -762,10 +778,6 @@
   "zombie_horse": {
     "type": "Undead",
     "family": "Zombie Horse"
-  },
-  "polar_bear": {
-    "type": "Frost",
-    "family": "Polar Bear"
   },
   "guardian": {
     "type": "Normal",

@@ -13,6 +13,15 @@ Each day has up to three parts:
 
 ## 2026-11-21
 
+### Add-on (v1.574)
+
+- **New treasure mob: Primogem:** a little lump of rough stone with an uncut diamond face. It hops about like a slime and runs from you, and it is very hard to beat: 24 hits, where a Chrome Slime takes 16. Beating it gives a pile of XP to your mobs nearby and some to you, and it drops diamonds. It only turns up now and then underground, beside diamond ore that is open to the air, in the dark.
+- **New King: Diamond King:** a crowned cube of cut diamond in a gold setting. Mix Primogem Lv.20 with King Chrome Slime Lv.20. About the same health as the King Chrome Slime but tougher and much harder to hit. It shoots a fan of diamond shards, hops onto its foe to crush everything close, and slams up close.
+- **New Mythic of the God class: Diamond Overlord:** a great diamond locked inside three dark metal rings, crowned, with a dark aura, broken shards and small diamond swords circling it. Mix Diamond King Lv.40 with Slime Overlord Lv.40. It floats, has the highest defence of any Mythic, flings storms of diamond swords, fires a withering beam, and bursts its dark aura out to hit and throw back every foe around it. At Lv.20 it has 1500 health, 73 attack and 190 defence.
+- Its signature, **Diamond Dominion**, gives it Resistance II, marks and saps foes, and deals extra damage to bosses.
+- The Ender Overlord can now also be mixed from the Ender King and the Diamond Overlord, both Lv.40, like every other Mythic.
+- Not checked in game yet.
+
 ### Add-on (v1.573)
 
 - **Bears are much stronger:** they now beat lions of the same level. At Lv.20 a Polar Bear has 363 health and 59 attack (was 215 and 50), a Grizzly 468 and 63, an Ember Bear or Void Bear 457 and 61, a Lone Hiker 500 and 65, and High Moon 679 and 75. A Wild Lion has 426 and 57.
@@ -31,6 +40,7 @@ Each day has up to three parts:
 
 ### Website
 
+- Primogem, the Diamond King and the Diamond Overlord are in the Mob Index, with their pictures, stats and mixes. The King Chrome Slime, Slime Overlord and Ender Overlord rows show the new mixes.
 - Eclipso is in the Mob Index, with its picture, stats and both mixes. High Moon, Kagerog and Shadow Hopper now show what they mix into.
 
 ## 2026-11-20
