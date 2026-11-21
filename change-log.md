@@ -13,6 +13,14 @@ Each day has up to three parts:
 
 ## 2026-11-20
 
+### Add-on (v1.568)
+
+- **Ship and Cursed Castle chests now really turn to face into the room**, including the ones already built. The last update meant to do this but didn't.
+- **You can build and clear right up to the Cursed Castle:** only the castle itself is protected now, so trees and ground next to it can be changed.
+- **Lv.40 bosses are a real fight now:** raid bosses, tower, ship and Cursed Castle crews, End guards, portal bosses, bounties and wild bosses get much stronger from Lv.36 on. At Lv.40 they have almost 6 times the health and over 3 times the attack they had, so a castle full of Lv.40 elites is no longer something one strong mob clears alone. Past Lv.40 they keep climbing, but more gently, so Lv.50-80 stay about as hard as before.
+- **Wild mobs past Lv.40 are tougher too:** they get more of the extra power past Lv.40 than before.
+- Not checked in game yet.
+
 ### Add-on (v1.567)
 
 - **Titanius:** a new Mythic, a giant fighting machine built to stand up to Goliath. Put one Gargantua, Sentinel, Locopode and Mecha Golem, all Lv.40, together in one crafting grid (or the Mix Boxes) to make it. It is the first mix that takes four different mobs.
