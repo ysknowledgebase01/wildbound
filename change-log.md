@@ -13,6 +13,19 @@ Each day has up to three parts:
 
 ## 2026-11-20
 
+### Add-on (v1.569)
+
+- **Caught Mob Paradise is easier:** Meadow mobs are now Lv.30 (were Lv.40), Grove Lv.40 (were Lv.60) and Summit Lv.50 (were Lv.75). Prices and catch chances are the same.
+- **Troloc have their own home:** they come to dark places underground where five or more rails lie close together, like old mines, while you are nearby. They no longer take the place of zombies or skeletons. Now and then one is a Locopode, as before.
+- **Shardion have their own home too:** they come to dark places underground beside diamond, emerald, lapis or amethyst that is open to the air, like a cave wall or a geode. They no longer come from spiders.
+- **Troloc, Locopode, Steam Walker, Mechore and the other big mechanical mobs stay around:** before, they vanished as soon as no player was close, often before anyone saw them. Now they stay as long as other wild mobs do.
+- **Lions leave monsters alone:** wild lions and lion cubs hunt animals and villagers, but no longer spiders, zombies or the big special mobs.
+- **More spiders:** only 1 in 20 spiders turns out to be a Snakeling (was 1 in 5). Zombies, skeletons and creepers are unchanged.
+- **Fewer frogs and rabbits:** frogs no longer appear on open ground in the rain, only at ponds and water. Extra rabbit groups come a quarter as often, and only while fewer than two rabbits are nearby. Hopfu come with these groups, so they are rarer too.
+- **Locopode mix is harder:** four Lv.20 Troloc, or two Lv.30 Troloc (were Lv.12 and Lv.20).
+- **Steam Walker in the Nether:** 3 in 10 striders are Steam Walkers (at most three near each other). Steam Walkers walk across lava like striders, without being hurt by lava or fire, wild or caught.
+- Not checked in game yet.
+
 ### Add-on (v1.568)
 
 - **Ship and Cursed Castle chests now really turn to face into the room**, including the ones already built. The last update meant to do this but didn't.
@@ -55,6 +68,7 @@ Each day has up to three parts:
 
 ### Website
 
+- **Mob Index:** new Locopode recipes, and where to find Troloc, Shardion, Snakeling and Steam Walker.
 - **Mob Index:** Titanius added, with its picture, stats by level and its four-mob recipe. Gargantua, Sentinel, Locopode and Mecha Golem now link to it.
 - **Mob Index:** new defence numbers for the golems and mecha mobs, and the fight rules explained for the new defence and body traits.
 
