@@ -11,6 +11,20 @@ Each day has up to three parts:
 
 ---
 
+## 2026-11-21
+
+### Add-on (v1.572)
+
+- **New Legend: Eclipso, the moon warlord:** High Moon's Legend form, a towering armoured bear with a long black beard and a great moon blade on a pole. Mix High Moon Lv.30 with Kagerog Lv.30, or High Moon Lv.30 with Shadow Hopper Lv.30.
+- **How it fights:** from far off it swings its blade and throws slashing moons, up to three at a time, each at a different foe when it can. In the middle distance it charges with the blade levelled. Up close it chops and sweeps the blade round, and when foes crowd it, it spins and bursts out a ring of moonlight that throws everyone around it back.
+- **Built to last:** high health, attack and defence, but it rarely dodges. At Lv.20 it has 900 health, 82 attack and 70 defence.
+- Its signature, **Moonfall Blade**, marks foes, lands more critical hits and deals extra damage to bosses.
+- Not checked in game yet.
+
+### Website
+
+- Eclipso is in the Mob Index, with its picture, stats and both mixes. High Moon, Kagerog and Shadow Hopper now show what they mix into.
+
 ## 2026-11-20
 
 ### Add-on (v1.571)

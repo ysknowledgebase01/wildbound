@@ -91,6 +91,10 @@
     "type": "Dark",
     "family": "Horse"
   },
+  "eclipso": {
+    "type": "Wild",
+    "family": "Bear"
+  },
   "ender_golem": {
     "type": "Void",
     "family": "Golem"
