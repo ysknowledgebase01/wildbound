@@ -13,6 +13,14 @@ Each day has up to three parts:
 
 ## 2026-11-21
 
+### Add-on (v1.573)
+
+- **Bears are much stronger:** they now beat lions of the same level. At Lv.20 a Polar Bear has 363 health and 59 attack (was 215 and 50), a Grizzly 468 and 63, an Ember Bear or Void Bear 457 and 61, a Lone Hiker 500 and 65, and High Moon 679 and 75. A Wild Lion has 426 and 57.
+- **Bears hunt like lions:** wild Polar Bears, Grizzlies, Ember Bears and Void Bears go after players, caught mobs, animals and villagers they see, and run almost as fast as a lion. Like lions, they leave monsters and other bears alone. Grizzlies are never lazy or timid any more.
+- **Pandas and Grizzlies no longer fly off:** their roll threw them through the air, so they flew about and stopped fighting. No panda rolls now, wild or caught.
+- **Lone Hikers have their own home:** at night, one may come to a wood of five or more trees, out of sight. There is never more than one in a wide area.
+- Not checked in game yet.
+
 ### Add-on (v1.572)
 
 - **New Legend: Eclipso, the moon warlord:** High Moon's Legend form, a towering armoured bear with a long black beard and a great moon blade on a pole. Mix High Moon Lv.30 with Kagerog Lv.30, or High Moon Lv.30 with Shadow Hopper Lv.30.
