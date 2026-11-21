@@ -13,6 +13,12 @@ Each day has up to three parts:
 
 ## 2026-11-20
 
+### Add-on (v1.570)
+
+- **Set armour is no longer far too strong:** a full forged armour set now protects a little more than netherite, as it was meant to, instead of about four times as much. You will feel hits from mobs near your level again.
+- **Steam Walkers really turn up in the Nether now:** 3 in 10 wild striders become Steam Walkers, changed out of sight, so you will meet them among strider herds.
+- Not checked in game yet.
+
 ### Add-on (v1.569)
 
 - **Caught Mob Paradise is easier:** Meadow mobs are now Lv.30 (were Lv.40), Grove Lv.40 (were Lv.60) and Summit Lv.50 (were Lv.75). Prices and catch chances are the same.
