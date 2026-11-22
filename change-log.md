@@ -13,6 +13,15 @@ Each day has up to three parts:
 
 ## 2026-11-22
 
+### Add-on (v1.577)
+
+- **Every mix now adds to the +:** a mix adds up all its parents' + and then +1 for the mix itself, up to +30. Before, a +1 mixed with a +0 still made a +1, so a long line of mixes could end on +1. Now two plain mobs make +1, two of those make +3, and two of those make +7. This works the same in the crafting grid, the mix menu and the Mix Box with a friend. Mobs you already have keep the + they have.
+- Not checked in game yet.
+
+### Website
+
+- The Mob Index's note on + explains the new mix rule.
+
 ### Add-on (v1.576)
 
 - **The diamond kind has less health and more toughness than the chrome kind:** at Lv.20 a Primogem has 64 health and 416 defence (a Chrome Slime 70 and 297), and a Diamond King 38 and 547 (a King Chrome Slime 48 and 476).
