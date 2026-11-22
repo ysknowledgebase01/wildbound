@@ -251,11 +251,11 @@
     "type": "Poison",
     "family": "Bee"
   },
-  "diamond_king": {
+  "king_chrome_slime": {
     "type": "Metal",
     "family": "Slime"
   },
-  "king_chrome_slime": {
+  "diamond_king": {
     "type": "Metal",
     "family": "Slime"
   },
@@ -679,13 +679,13 @@
     "type": "Poison",
     "family": "Snake"
   },
-  "chrome_slime": {
-    "type": "Metal",
-    "family": "Slime"
-  },
   "golden_pig": {
     "type": "Metal",
     "family": "Pig"
+  },
+  "chrome_slime": {
+    "type": "Metal",
+    "family": "Slime"
   },
   "primogem": {
     "type": "Metal",

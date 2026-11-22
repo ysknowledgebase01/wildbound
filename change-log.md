@@ -11,6 +11,17 @@ Each day has up to three parts:
 
 ---
 
+## 2026-11-22
+
+### Add-on (v1.576)
+
+- **The diamond kind has less health and more toughness than the chrome kind:** at Lv.20 a Primogem has 64 health and 416 defence (a Chrome Slime 70 and 297), and a Diamond King 38 and 547 (a King Chrome Slime 48 and 476).
+- **Diamond Overlord:** even less health but huge toughness: 24 health and 1189 defence at Lv.20, 45 and 2720 at Lv.40. Every hit on it still does only 1 or 2 damage, except a rare perfect hit.
+- **Chrome Slime has less health:** 70 at Lv.20 (was 363), to balance its Chrome Body.
+- **Caught slimes now fight with gem magic:** a Chrome Slime fires 2 silver bolts that weaken, a King Chrome Slime fires 4, and a Primogem fires 3 diamond shards that slow. They shoot at foes they can see, up to 20 or 24 blocks away. Wild ones still attack nothing.
+- **Diamond King uses magic too:** its slam and crush hop are replaced by a Prism Ray that goes through every foe in a line and slows them, and a Diamond Nova that hits, slows and pushes back everything close to it. It keeps its fan of diamond shards.
+- Not checked in game yet.
+
 ## 2026-11-21
 
 ### Add-on (v1.575)
