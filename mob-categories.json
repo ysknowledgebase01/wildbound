@@ -23,10 +23,6 @@
     "type": "Divine",
     "family": "Dragon"
   },
-  "diamond_overlord": {
-    "type": "Metal",
-    "family": "Slime"
-  },
   "goliath": {
     "type": "Omen",
     "family": "Warden"
@@ -86,6 +82,10 @@
   "endbringer": {
     "type": "Omen",
     "family": "Reaper"
+  },
+  "diamond_overlord": {
+    "type": "Metal",
+    "family": "Slime"
   },
   "elder_dragon": {
     "type": "Frost",
@@ -683,13 +683,13 @@
     "type": "Metal",
     "family": "Slime"
   },
-  "primogem": {
-    "type": "Metal",
-    "family": "Slime"
-  },
   "golden_pig": {
     "type": "Metal",
     "family": "Pig"
+  },
+  "primogem": {
+    "type": "Metal",
+    "family": "Slime"
   },
   "warden": {
     "type": "Normal",

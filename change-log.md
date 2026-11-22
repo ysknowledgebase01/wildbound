@@ -13,6 +13,15 @@ Each day has up to three parts:
 
 ## 2026-11-21
 
+### Add-on (v1.575)
+
+- **Primogem is easier to find:** it now turns up anywhere in the dark caves at diamond depth (y 16 and below), and more often beside diamond ore that is open to the air. Only one is near you at a time.
+- **Primogem is harder to catch:** it hops away whenever a player comes close, and its catch chance is about half what it was. It now stays 10 minutes before leaving, not 3.
+- **Primogem has less health:** a caught one has 76 health at Lv.20 (was 363), so its Diamond Body no longer makes it almost impossible to beat.
+- **Diamond Overlord reworked like the Diamond King:** low health, Metal Body (every hit on it does only 1 or 2 damage, except a rare perfect hit) and even higher defence. At Lv.40 it has 156 health and 1632 defence.
+- **Treasure mobs in caves can hop away again:** a Golden Pig or Chrome Slime underground used to stay put when hit, because it could only find a landing spot on the surface.
+- Not checked in game yet.
+
 ### Add-on (v1.574)
 
 - **New treasure mob: Primogem:** a little lump of rough stone with an uncut diamond face. It hops about like a slime and runs from you, and it is very hard to beat: 24 hits, where a Chrome Slime takes 16. Beating it gives a pile of XP to your mobs nearby and some to you, and it drops diamonds. It only turns up now and then underground, beside diamond ore that is open to the air, in the dark.
