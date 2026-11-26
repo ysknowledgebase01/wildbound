@@ -11,6 +11,17 @@ Each day has up to three parts:
 
 ---
 
+## 2026-11-25
+
+### Add-on (v1.578)
+
+- **Test feature, admins only for now: become your caught mob.** With the new Mob Wand (Admin Wand, then Get Tools), you can turn into your own Grizzly, Shark or Fire Dragon. Send the mob out, stand close in an open spot and use the wand. To turn back, look straight down and sneak + use.
+- While transformed you look like the mob, see from its height and fight with its attack, defence, agility and health. Damage stays on the mob, and at zero health it faints. Worn armour and held items are hidden.
+- **Attacks:** tap for a short attack, hold and let go for a long one, sneak + use for a special one.
+- The Grizzly walks a little faster, the Shark swims fast and breathes underwater, and the Fire Dragon flies (jump to climb, look down while moving forward to descend).
+- Traits that act on a hit or heal do not work while transformed yet.
+- This may change or be removed. Not checked in game yet.
+
 ## 2026-11-22
 
 ### Add-on (v1.577)
