@@ -13,6 +13,15 @@ Each day has up to three parts:
 
 ## 2026-11-25
 
+### Add-on (v1.579)
+
+- **Better riding seats:** every rideable mob now seats you by its body shape. On upright mobs you sit on the shoulders just behind the head, with your eyes above it. On four-legged mobs you sit in the middle of the back, and on round or flat ones on top. This fixes sinking into the mob, floating above it, sitting at the tail end and having your view blocked.
+- **Steering:** ridden mobs turn with your view straight away and no longer wander, hop or swim off on their own. Swimmers stop when you let go of the stick.
+- **Flying mounts:** push forward to fly where you look. Look up to climb, look down to dive, and jump to rise. Letting go hovers. They now fly at their full speed.
+- **Skill buttons while riding:** when you get on, one button for each of the mob's skills (up to four) appears in your hotbar. Tap one to use that skill. What was in those slots moves to free spaces in your inventory and comes back when you get off. You need enough free inventory space; the mob's own ball keeps its slot.
+- The become-a-mob test from v1.578 is removed.
+- Not checked in game yet.
+
 ### Add-on (v1.578)
 
 - **Test feature, admins only for now: become your caught mob.** With the new Mob Wand (Admin Wand, then Get Tools), you can turn into your own Grizzly, Shark or Fire Dragon. Send the mob out, stand close in an open spot and use the wand. To turn back, look straight down and sneak + use.
