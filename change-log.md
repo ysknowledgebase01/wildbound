@@ -11,6 +11,21 @@ Each day has up to three parts:
 
 ---
 
+## 2026-11-27
+
+### Add-on (v1.580)
+
+- **Boots for every gear set:** each of the 18 sets now has a pair of boots, forged at the Blacksmith for one of the set's Sigils like any other piece. Boots give no armour. Every pair makes you a little faster and has one special of its own, written under its name.
+- **Cinderforge Sabatons** let you walk on lava: it cools into crust under your feet and turns back to lava a few seconds after you step off. **Everfrost Snowtreads** do the same on powder snow, stop freezing, and make you faster on snow and ice. Sneak to sink in. Crust never forms on land you can't build on.
+- **Jumps and moves:** double jump (Wyrmscale), wall kick (Kagerog), air dash with extra speed at night (Vampire), long leap from a sprint (Sunmane), blink a few blocks ahead with sneak + jump (Voidstep), blast jump with sneak + jump (Creeper), ground pound that hits mobs nearby (Ironhorn), wall climb (Gemstalker), short hover while holding jump, with no lightning damage (Chrome Titan), and higher jumps with a slow float down (High Moon). These are off in minigames.
+- **Other specials:** no wither damage and fast on soul sand (Soulreaper), no poison (Hexweaver), fast swimming (Tidefang), super speed (Fangwild), can't be knocked back (Warden), and a light trail that lights up the dark for a few seconds (Foxfire).
+- Full-set bonuses still need only the helmet, chestplate and leggings.
+- Not checked in game yet.
+
+### Website
+
+- The Mob Index Weapons tab lists each set's boots and what they do.
+
 ## 2026-11-25
 
 ### Add-on (v1.579)
